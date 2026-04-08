@@ -1,0 +1,71 @@
+#+TITLE:  Canon EOS Documentation Project
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com
+
+I want to start a project of more fully documenting Canon EOS R series
+of cameras.  I feel like Canon does an excellent job at documenting
+the user interface of their cameras.  The PDF for the Canon EOS R1 is
+1179 pages for example.  But since my background is engineering, the
+product, in this case the user documentation, is never finished and
+can always be improved.
+
+Currently there are many things about this project that I do not
+really know how to do but I do have goals that I would like eventually
+to achieve.
+
+A primary goal is that others will contribute to the project; I can
+not do what I hope this project to achieve by myself.  There is a vast
+amount of knowledge out in the world about these cameras.  I am hoping
+this becomes a large and growing repository of that knowledge.
+
+Another objective is to be able to write the documentation once and
+then have it formatted for various targets such as HTML for the web,
+PDF for hard copy, epub for devices, etc.
+
+The third initial objective is to have a history of changes as they
+are made.  This is basic to software development and I am simply
+assuming that it would be highly desirable for documentation
+development as well.
+
+The last two objectives may be in conflict with the first since the
+last two implies some type of overhead be done for each submission but
+I am going to start here with the clear idea that things may need to
+radically change during the first start of this project.
+
+I am going to use [[https://orgmode.org][Org Mode]] initially.  Org mode is much like [[https://en.wikipedia.org/wiki/Markdown][Markdown]]
+but is more versatile and powerful.  I am going to use [[https://en.wikipedia.org/wiki/Git][Git]] as the
+source code management tool.  And I am going to host it on [[https://github.com][github.com]].
+Why?
+
+Org mode is flat ASCII text that can be edited in any editor although
+a lot of nice features are available when [[https://www.gnu.org/software/emacs/][EMACS]] is used.  Org mode
+documents can be exported to HTML, ASCII, [[https://en.wikipedia.org/wiki/LaTeX][LaTex]], and other formats.
+From LaTex, PDF and [[https://www.w3.org/publishing/epub3/][EPUB]] files can be produced.
+
+A feature of Org mode is that it can link to [[https://en.wikipedia.org/wiki/SVG][SVG]] files.  Canon's
+official HTML pages use SVG files for the ICONS.  These files can be
+download or linked to directly and used in Org documents.  This allows
+the final output to use the same ICONS that Canon uses.  As an example
+of this, here is the red camera ICON of the first menu:
+[[file:svg/icon_tab-shooting_b.svg]].
+
+While using Git is probably not something photographers in general
+know anything about, I assume there will be moderators such as myself
+that will take input from others and put get them into the source.  I
+can't think of any other way other than having some type of trusted
+moderators doing the updating.  Something like a Wiki would be nice
+but I assume that it would quickly get corrupted by malicious people
+and we would end up with moderators in effect anyway.  The other
+stumbling block with a Wiki is my desire to be able to produce other
+formats such as PDF and EPUB.
+
+A git repository on Github can have "Discussions" where people can
+discuss additions and changes or ask general questions.  This would
+make adding to the project about the same as creating a conversation
+in Canon's community forums.  Then a moderator would take the idea and
+add it to the source.
+
+It needs to be made clear that especially right now at the start,
+there are many questions that I am just taking a stab at and I would
+not be surprised if things change a lot during the initial start up
+phase.

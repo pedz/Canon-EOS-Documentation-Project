@@ -1,0 +1,513 @@
+#+TITLE:  Canon R1 Menus
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com
+
+This is just a flat listing of all of the menus in the R1.  I want to
+eventually be able to format this as a simple list that I can put on
+my iPhone.  I can never find the menu that I'm looking for.  With this
+on my phone, I can do a search, find where the menu item is, and then
+go to it on my camera.  To me (sorry if this is a huge failure on my
+part), I can never even get which menu tab to start searching.
+Camera?  Set-up? Customization? Custom Functions? (head slap).
+
+Firmware Version 1.2.0
+
+* Still Photo Shooting
+** Red [[file:svg/icon_tab-shooting_b.svg]] Still Photo Shooting
+*** Tab 1/9 Image quality/size
+**** JPEG/HEIF quality
+**** Img type/size
+**** Cropping/aspect ratio
+*** Tab 2/9 Exposure
+**** Expo. comp. / AEB
+**** ISO speed settings
+**** Anti-flicker shoot.
+**** HF anti-flicker shooting
+**** External Speedlite control
+**** Metering mode
+**** Detect priority AE while AF
+*** Tab 3/9 Color/tone/Dynamic range
+**** Picture Style
+**** Color space
+**** Clarity
+**** HDR shooting (PQ)
+**** Auto Lighting Optimizer
+**** Hightlight tone priority
+*** Tab 4/9 White balance/Quality correction
+**** White balance
+**** Set Custom WB
+**** WB Shift/Brk.
+**** Lens aberration correction
+**** Long exp. noise reduction
+**** High ISO speed NR
+**** Dust Delete Data
+*** Tab 5/9 Various shooting
+**** Multiple exposure
+**** Focus bracketing
+**** Panning Assist
+*** Tab 6/9 Shutter control
+**** Drive mode
+**** Pre-cont. shoot
+**** Interval timer
+**** Bulb timer
+**** Silent shutter function
+**** Shutter mode
+**** Release shutter without card
+*** Tab 7/9 Assist shooting
+**** IS (Image Stabilizer) mode
+**** Customize Quick Controls
+**** Metering timer
+*** Tab 8/9 Assist shooting
+**** Image review
+**** High speed display
+**** Blackout-free display
+**** Viewfinder priority mode
+**** Display simulation
+**** OVF sim. view assist
+**** HDR/C.Log View Assist.
+*** Tab 9/9 Assist shooting
+**** Shooting info. disp.
+**** Display frame rate set.
+**** VF magnification
+**** VF display format
+**** Reverse display
+**** Auto pwr off temp.
+** Purple AF
+*** Tab 1/7 AF operation/area
+**** AF operation
+**** AF area
+**** Whole area tracking Servo AF
+**** Focus mode
+*** Tab 2/7 Subject detection
+**** Subject to detect
+**** Eye detection
+**** Register people priority
+**** Action Priority
+*** Tab 3/7 Servo AF character.
+**** AUTO
+**** M
+**** SP
+*** Tab 4/7 Customize AF operation
+**** Servo 1st image priority
+**** One-Shot AF release prior.
+**** Preview AF
+**** Lens drive when AF impossible
+**** AF-assist beam firing
+*** Tab 5/7 Customized controls
+**** Limit AF areas
+**** Orientation linked AF point
+**** Limit subject to detect
+**** L/R eye detection
+*** Tab 6/7 MF related
+**** MF peaking settings
+**** Focus guide
+**** Lens electronic MF
+*** Tab 7/7 Various settings/Various settings
+**** Register/recall AF-related settings
+**** AF Setting Guide URL
+** Blue Playback
+*** Tab 1/5 File operation
+**** Protect images
+**** Erase images
+**** Rotate stills
+**** Change mov rotate info
+**** Rating
+**** Protect when setting the rating
+*** Tab 2/5 File operation
+**** Still Image copy
+**** Print order
+*** Tab 3/5 Image processig
+**** RAW image processing
+**** In-Camera Upscaling
+**** Resize
+**** Cropping
+**** HEIF -> JPEG conversion
+*** Tab 4/5 Playback method
+**** Slide show
+**** Set image search conditions
+**** View from last seen
+**** Magnification
+**** Blur/Out-of-Focus image detection
+*** Tab 5/5 Various settings
+**** Playback information
+**** Highlight alert
+**** AF point disp.
+**** Playback grid
+**** Movie play count
+**** Memo audio quality
+** Purple Communication Functions
+*** Tab 1/4 Network settings
+**** Network settings
+**** Airplane mode
+**** Bluetooth settings
+**** Camera name
+**** Error details
+**** MAC address
+*** Tab 2/4 Network function
+**** Transfer images to FTP server
+**** Connect to EOS Utility
+**** Upload to image.canon
+**** Sync time between cameras
+**** Connect to smartphoone(tablet)
+**** Connect to Wireless Remote
+*** Tab 3/4 Network function
+**** Camera Control API
+*** Tab 4/4 Various Settings
+**** GPS settings
+**** Choose USB connection app
+**** Save/load comm. settings on card
+**** Reset communication settings
+** Yellow Set-up
+*** Tab 1/6 File/card setting
+**** Record func+card/folder sel.
+**** File numbering
+**** Clip Number
+**** File name
+**** Format card
+**** Auto rotate
+**** Add movie rotate info
+*** Tab 2/6 Country/Area/Guidance/Audio settings
+**** Date/Time/Zone
+**** Language
+**** System frequency
+**** Help text size
+**** Beep
+**** Volume
+**** Audio monitor
+*** Tab 3/6 Customize display
+**** Screen brightness
+**** Viewfinder brightness
+**** Screen/viewfinder color tone
+**** Fine-tune VF color tone
+**** Screen/viewfinder display
+**** UI magnification
+**** HDMI resolution
+*** Tab 4/6 Various settings
+**** Shutter at shutdown
+**** Sensor cleaning
+**** Manage password
+**** Power saving
+*** Tab 5/6 Reset/All settings
+**** Reset camera
+**** Custom shooting mode (C1-C3)
+**** Save/load cam settings on card
+*** Tab 6/6 Various settings
+**** Battery info.
+**** Copyright information
+**** System status display
+**** Show log
+**** Manual/software URL
+**** Certification Logo Display
+**** Firmware
+** Green Control Customization Icon
+*** Tab 1/5 Customized controls when shooting
+**** Customize buttons for shooting
+**** Customize dials/control ring
+**** Dials direction to set Tv/Av
+**** Control ring direction to set Tv/Av
+**** Switch Main dial / Quick control 2 when shooting
+*** Tab 2/5 Customized controls when shooting
+**** Still photo shooting / movie recording switching movie/photo
+**** Smart controller
+**** Touch Shutter
+**** Multi function lock
+*** Tab 3/5 Customized controls when shooting
+**** AF area selection control
+**** Smart controler sensitivity- AF pt select
+**** Focus/control ring
+**** Focus ring rotation
+**** RF lens MF focus ring sensitivity
+*** Tab 4/5 Customized controls when playback
+**** Customize buttons for playback
+**** Image jump with main dial
+**** Img jump v/Hold: Record memo button + Quick control 1
+**** Switch Main dial / Quick control 2 during playback
+*** Tab 5/5 Customized controls/Reset
+**** Eye control
+**** Touch control
+**** Clear all customized controls
+** Orange Custom Functions icon
+*** Tab 1/6 Shooting mode/Exposure
+**** Restrict shooting modes
+**** Exposure level increments
+**** ISO speed setting increments
+**** Speed from metering/ISO Auto
+**** Bracketing auto cancel
+**** Bracketing sequence
+**** Number of bracketed shots
+*** Tab 2/6 Exposure
+**** Safety shift
+**** Same expo. for new aperture
+**** AE lock meter. mode after focus
+**** Restrict metering modes
+**** Metering used in manual exp
+**** Set shutter speed range
+**** Set aperture range
+*** Tab 3/6 Exposure
+**** AE Microadjustment
+**** FE Microadjustment
+*** Tab 4/6 Drive
+**** Continuous shooting speed
+**** Limit continuous shot count
+**** Restrict drive modes
+*** Tab 5/6 Various settings
+**** Add cropping information
+**** Shutter release time lag
+**** Default Erase option
+**** Av setting without lens
+**** Release shutter w/o lens
+**** Retract lens on power off
+**** Add IPTC information
+*** Tab 6/6 Reset
+**** Clear all Custom Func. (C.Fn)
+** Green Star Icon
+*** Tab 1/1 My Menu Management
+**** Add My Menu Tab
+**** Delete all My Menu tabs
+**** Delete all items
+**** Menu display
+
+* Movie Recording
+** Red Still Photo Shooting
+*** Tab 1/10 Image quality/size
+**** Movie rec. size
+**** High Frame Rate
+**** Main rec. format
+**** Movie cropping
+**** Dual shooting (still&movie)
+*** Tab 2/10 Sound-rec. settings
+**** Sound recording
+**** Audio format
+**** Audio settings
+**** Audio Status
+*** Tab 3/10 Exposure
+**** Exposure comp.
+**** ISO speed settings
+**** HF anti-flicker shooting
+**** Movie AV 1/8-stop incr.
+**** Movie Auto slow shutter
+**** Detect prioirty AE while AF
+*** Tab 4/10 Color/tone/Dynamic range
+**** Custom Picture
+**** Picture Style
+**** Clarity
+**** HDR shooting (PQ)
+**** Auto Lighting Optimize
+**** Highlight tone priority
+*** Tab 5/10 While balance/Quality correction
+**** White balance
+**** Set Custom WB
+**** WB correction
+**** Lens aberration correction
+**** High ISO speed NR
+*** Tab 6/10 Various shooting
+**** Pre-recording set.
+*** Tab 7/10 Shutter control/Assist shooting
+**** Movie self-timer
+**** Tally lamp
+**** IS (Image Stabilizer) mode
+**** Movie Auto level
+**** Customize Quick Controls
+**** Metering timer
+*** Tab 8/10 Assist shooting
+**** Metadata
+**** Time code
+**** Viewfinder priority mode
+**** HDR/C.Log View Assist.
+**** False color set.
+**** Zebra settings
+*** Tab 9/10 Assist shooting
+**** Shooting info. disp.
+**** Quick Ctrl screen
+**** VF magnification
+**** VF display format
+**** Reverse display
+*** Tab 10/10 Assist shooting/HDMI
+**** Auto pwr off temp.
+**** Standby; Low res.
+**** Shutdown warning guidance
+**** HDMI display
+**** HDMI RAW otuput
+**** HDMI output range for C. Log
+** Purple AF
+*** Tab 1/6 AF operation/area
+**** Movie Servo AF
+**** AF area
+**** Focus mode
+*** Tab 2/6 Subject detection
+**** Subject to detect
+**** Eye detection
+**** Register people priority
+**** Switching tracked subjects
+*** Tab 3/6 Servo AF character.
+**** Movie Servo AF speed
+**** Movie Servo AF track sens.
+*** Tab 4/6 Customize AF operation
+**** Lens drive when AF impossible
+*** Tab 5/6 Customized controls
+**** Limit AF areas
+**** Limit subject to detect
+**** L/R eye detection
+*** Tab 6/6 MF related
+**** MF peaking settings
+**** Focus guide
+**** Lens electronic MF
+** Blue Playback
+*** Tab 1/5 File operation
+**** Protect images
+**** Erase images
+**** Rotate stills
+**** Change mov rotate info
+**** Rating
+**** Protect when setting the rating
+*** Tab 2/5 File operation
+**** Still Image copy
+**** Print order
+*** Tab 3/5 Image processig
+**** RAW image processing
+**** In-Camera Upscaling
+**** Resize
+**** Cropping
+**** HEIF -> JPEG conversion
+*** Tab 4/5 Playback method
+**** Slide show
+**** Set image search conditions
+**** View from last seen
+**** Magnification
+**** Blur/Out-of-Focus image detection
+*** Tab 5/5 Various settings
+**** Playback information
+**** Highlight alert
+**** AF point disp.
+**** Playback grid
+**** Movie play count
+**** Memo audio quality
+
+** Purple Communication Functions
+*** Tab 1/4 Network settings
+**** Network settings
+**** Airplane mode
+**** Bluetooth settings
+**** Camera name
+**** Error details
+**** MAC address
+*** Tab 2/4 Network function
+**** Transfer images to FTP server
+**** Connect to EOS Utility
+**** Upload to image.canon
+**** Sync time between cameras
+**** Connect to smartphoone(tablet)
+**** Live streaming
+**** Connect to Wireless Remote
+*** Tab 3/4 Network function
+**** Xamera Control API
+*** Tab 4/4 Various Settings
+**** GPS settings
+**** Choose USB connection app
+**** Save/load comm. settings on card
+**** Reset communication settings
+
+** Yellow Set-up
+*** Tab 1/6 File/card setting
+**** Record func+card/folder sel.
+**** File numbering
+**** Clip Number
+**** File name
+**** Format card
+**** Auto rotate
+**** Add movie rotate info
+*** Tab 2/6 Country/Area/Guidance/Audio settings
+**** Date/Time/Zone
+**** Language
+**** System frequency
+**** Help text size
+**** Beep
+**** Volume
+**** Audio monitor
+*** Tab 3/6 Customize display
+**** Screen brightness
+**** Viewfinder brightness
+**** Screen/viewfinder color tone
+**** Fine-tune VF color tone
+**** Screen/viewfinder display
+**** UI magnification
+**** HDMI resolution
+*** Tab 4/6 Various settings
+**** Shutter at shutdown
+**** Sensor cleaning
+**** Manage password
+**** Power saving
+*** Tab 5/6 Reset/All settings
+**** Reset camera
+**** Custom shooting mode (C1-C3)
+**** Save/load cam settings on card
+*** Tab 6/6 Various settings
+**** Battery info.
+**** Copyright information
+**** System status display
+**** Show log
+**** Manual/software URL
+**** Certification Logo Display
+**** Firmware
+** Green Control Customization Icon
+*** Tab 1/5 Customized controls when shooting
+**** Customize buttons for shooting
+**** Shutter btn function for movie
+**** Customize dials/control ring
+**** Dials direction to set Tv/Av
+**** Control ring direction to set Tv/Av
+**** Switch Main dial / Quick control 2 when shooting
+*** Tab 2/5 Customized controls when shooting
+**** Still photo shooting / movie recording switching movie/photo
+**** Smart controller
+**** Multi function lock
+*** Tab 3/5 Customized controls when shooting
+**** AF area selection control
+**** Smart controler sensitivity- AF pt select
+**** Focus/control ring
+**** Focus ring rotation
+**** RF lens MF focus ring sensitivity
+*** Tab 4/5 Customized controls when playback
+**** Customize buttons for playback
+**** Image jump with main dial
+**** Img jump v/Hold: Record memo button + Quick control 1
+**** Switch Main dial / Quick control 2 during playback
+*** Tab 5/5 Customized controls/Reset
+**** Touch control
+**** Clear all customized controls
+** Orange Custom Functions icon
+*** Tab 1/6 Shooting mode/Exposure
+**** Restrict shooting modes
+**** Exposure level increments
+**** ISO speed setting increments
+**** Speed from metering/ISO Auto
+**** Bracketing auto cancel
+**** Bracketing sequence
+**** Number of bracketed shots
+*** Tab 2/6 Exposure
+**** Safety shift
+**** Same expo. for new aperture
+**** AE lock meter. mode after focus
+**** Restrict metering modes
+**** Metering used in manual exp
+**** Set shutter speed range
+**** Set aperture range
+*** Tab 3/6 Exposure
+**** AE Microadjustment
+**** FE Microadjustment
+*** Tab 4/6 Drive
+**** Continuous shooting speed
+**** Limit continuous shot count
+**** Restrict drive modes
+*** Tab 5/6 Various settings
+**** Add cropping information
+**** Shutter release time lag
+**** Default Erase option
+**** Av setting without lens
+**** Release shutter w/o lens
+**** Retract lens on power off
+**** Add IPTC information
+*** Tab 6/6 Reset
+**** Clear all Custom Func. (C.Fn)
+** Green Star Icon
+*** Tab 1/1 My Menu Management
