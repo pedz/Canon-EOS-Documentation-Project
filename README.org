@@ -46,8 +46,7 @@ A feature of Org mode is that it can link to [[https://en.wikipedia.org/wiki/SVG
 official HTML pages use SVG files for the ICONS.  These files can be
 download or linked to directly and used in Org documents.  This allows
 the final output to use the same ICONS that Canon uses.  As an example
-of this, here is the red camera ICON of the first menu:
-[[file:svg/icon_tab-shooting_b.svg]].
+of this, here is the camera ICON of the red camera menu tab: [[file:svg/icon_tab-shooting_r.svg]]
 
 While using Git is probably not something photographers in general
 know anything about, I assume there will be moderators such as myself
