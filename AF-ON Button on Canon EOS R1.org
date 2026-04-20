@@ -1,0 +1,182 @@
+#+TITLE:  AF-ON Button on Canon EOS R1
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com
+
+The [[file:svg/icon_Button_AF_ON_w60.svg]] (AF-ON) button on the R1
+has a half press and a full press setting.  In still shooting mode,
+the button itself can be set to one of seven different settings
+referred to in the manual as [[file:svg/icon_AF_ON_1.svg]] (AF-ON 1) -
+[[file:svg/icon_AF_ON_7.svg]] (AF-ON 7).  In Movie shooting mode in
+one of four settings referred to as [[file:svg/icon_AF_ON_1.svg]]
+(AF-ON 1) - [[file:svg/icon_AF_ON_4.svg]] (AF-ON 4)
+
+For Still Shooting, the seven possible settings are:
+
+ * AF-ON 1 :: Half-press has selections and defaults to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press is disabled
+
+ * AF-ON 2 :: Half-press is disabled; Full-press has selections and
+   defaults to [[file:svg/icon_metering-af-start.svg]] (Metering and AF
+   start)
+
+ * AF-ON 3 :: Half-press set to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press has selections and defaults to Switch ES cont. shooting
+   modes
+
+ * AF-ON 4 :: Half-press set to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press has selections and defaults to Eye Detection AF
+
+ * AF-ON 5 :: Half-press set to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press has selections and defaults to Start/stop whole area AF
+   tracking
+
+ * AF-ON 6 :: Half-press set to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press has selections and defaults to Off
+
+ * AF-ON 7 :: Half-press set to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press has selections and defaults to Off
+
+Not available on full press for photo shooting modes
+[[file:svg/icon_AF_ON_3.svg]] (AF-ON 3) -
+[[file:svg/icon_AF_ON_7.svg]] (AF-ON 7):
+ * From Footnote 5:
+   * AF point selection
+   * Airplane mode
+   * Auto Lighting Optimizer
+   * Communication function
+   * Cycle between the set functions
+   * Dial function settings
+   * Erase button
+   * Eye Detection
+   * Focus guide
+   * Focus mode
+   * Image replay
+   * Info button
+   * ISO speed
+   * LCD panel illumination
+   * LCD panel info switching
+   * Magnify images during playback
+   * Magnify/Reduce button
+   * Manual HF anti-flicker shoot(Tv)
+   * Maximize screen brightness
+   * Menu display
+   * Metering and AF start
+   * Metering start
+   * Movie recording
+   * Peaking
+   * Picture Style
+   * Playback button
+   * Power off
+   * Quick Control screen
+   * Rate button
+   * Record func+card/folder sel.
+   * Register focus preset
+   * Register people priority
+   * screen off
+   * Shooting mode settings
+   * Spot detection
+   * Switch between VF/screen
+   * Switch focus/control ring
+   * White balance selection
+ * From Footnote 7
+   * Action Priority
+   * Create folder
+   * Cropping/aspect ratio
+   * Depth-of-field preview
+   * Display frame rate set
+   * Drive mode
+   * Eye control
+   * Flash function settings
+   * Image size selection
+   * Moving AF point, start AF by eye ctrl
+   * One-touch image quality (hold)
+   * One-touch image quality setting
+   * OVF sim. view assist
+   * Quick flash group control
+   * Recom. Tv for HF anti-flicker shoot
+   * Reset selected item in Fv mode
+   * Reset Tv/Av/Exp. Comp./ISO in Fv mode
+   * Silent shutter function
+   * Switch between crop/aspect
+   * Touch Shutter
+   * WB Shift/Bkt.
+
+For Movie Shooting, the four possible settings are:
+
+ * AF-ON 1 :: Half-press has selections and defaults to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press is disabled
+
+ * AF-ON 2 :: Half-press is disabled; Full-press has selections and
+   defaults to [[file:svg/icon_metering-af-start.svg]] (Metering and
+   AF start)
+
+ * AF-ON 3 :: Half-press set to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press has selections and defaults to Magnify/Reduce
+
+ * AF-ON 4 :: Half-press set to
+   [[file:svg/icon_metering-af-start.svg]] (Metering and AF start);
+   Full-press has selections and defaults to Off
+
+Not available on full press for movie shooting modes
+[[file:svg/icon_AF_ON_3.svg]] (AF-ON 3) and
+[[file:svg/icon_AF_ON_3.svg]] (AF-ON 4):
+ * From Footnote 5:
+   * AF point selection
+   * Airplane mode
+   * Auto Lighting Optimizer
+   * Communication function
+   * Cycle between the set functions
+   * Dial function settings
+   * Erase button
+   * Eye Detection
+   * Focus guide
+   * Focus mode
+   * Image replay
+   * Info button
+   * ISO speed
+   * LCD panel illumination
+   * LCD panel info switching
+   * Magnify images during playback
+   * Magnify/Reduce button
+   * Manual HF anti-flicker shoot(Tv)
+   * Maximize screen brightness
+   * Menu display
+   * Metering and AF start
+   * Metering start
+   * Movie recording
+   * Peaking
+   * Picture Style
+   * Playback button
+   * Power off
+   * Quick Control screen
+   * Rate button
+   * Record func+card/folder sel.
+   * Register focus preset
+   * Register people priority
+   * screen off
+   * Shooting mode settings
+   * Spot detection
+   * Switch between VF/screen
+   * Switch focus/control ring
+   * White balance selection
+
+ * From Footnote 6
+   * Audio Status
+   * Custom Picture
+   * False color
+   * Movie self-timer
+   * Pause Movie Servo AF
+   * Pre-recording
+   * Set AF point to center
+   * Standby: Low res.
+   * Start/stop whole area AF tracking
+   * Subj. detect. AF
+   * WB correction

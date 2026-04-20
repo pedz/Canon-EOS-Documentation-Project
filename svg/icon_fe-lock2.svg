@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_fe-lock2</title>
+  <path d="M0.75,0.5h7V3H3.25V6.47h4V8.95h-4V15.5H0.75V0.5Zm9,0h7.45V3h-5V6.48h4.46V8.94H12.25v4h5V15.5H9.76V0.5Zm9.94,0h2.52V13h5V15.5H19.7V0.5Z"/>
+  <rect class="cls-1" width="28" height="16"/>
+</svg>

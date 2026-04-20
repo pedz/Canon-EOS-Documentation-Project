@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_image-size</title>
+  <path d="M10.05,2.56H8V3.68h2V5.75H8V6.88h2V8.94H8v1.13h2v2.07H8v1.29H10V15.5H8L0.47,8,8,0.51h2.07V2.56Zm3.29,3.2H11.27V3.68h2.07V5.75Zm0,3.18H11.27V6.88h2.07V8.94Zm0,3.2H11.27V10.06h2.07v2.07Zm3.18-3.2H14.47V6.88h2.06V8.94Z"/>
+  <rect class="cls-1" width="17" height="16"/>
+</svg>

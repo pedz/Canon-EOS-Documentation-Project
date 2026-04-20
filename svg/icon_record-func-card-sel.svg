@@ -1,0 +1,18 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="25" height="16" viewBox="0 0 25 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_record-func-card-sel</title>
+  <g>
+    <polygon points="4.29 3.67 7.46 0.5 10.63 3.67 4.29 3.67"/>
+    <polygon points="0.68 1.11 5.12 1.11 3.84 2.39 1.95 2.39 1.95 14.21 8.72 14.21 8.72 15.5 0.67 15.5 0.68 1.11"/>
+    <polygon points="14.21 1.11 9.8 1.11 11.08 2.39 12.94 2.39 12.94 3.66 14.21 3.66 14.21 1.11"/>
+    <polyline points="17.17 6.61 24.33 6.61 24.33 15.49 10 15.49 10 6.61 11.58 4.91 15.55 4.91 17.17 6.61"/>
+    <path d="M17.17,6.61"/>
+  </g>
+  <rect class="cls-1" width="25" height="16"/>
+</svg>

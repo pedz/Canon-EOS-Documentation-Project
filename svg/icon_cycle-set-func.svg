@@ -1,0 +1,17 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_cycle-set-func</title>
+  <g>
+    <rect x="3.41" y="9.36" width="5.68" height="3.7"/>
+    <rect x="15.13" y="9.36" width="5.68" height="3.7"/>
+    <polygon points="14.04 11.24 12.08 9.61 12.08 10.85 9.96 10.85 9.96 11.69 12.08 11.69 12.08 12.93 14.04 11.24"/>
+    <path d="M22.55,0.5H0.9v15H23.1V0.5H22.55ZM22,1.61V14.39H2V1.61H22Z"/>
+  </g>
+  <rect class="cls-1" width="24" height="16"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_func-exp</title>
+  <g>
+    <path d="M15.91,15.5h-15V0.5h15v15ZM14.68,1.72v0H2.11V14.28h0ZM9.06,6.44H6.85V8.66H5.08V6.44H2.86V4.67H5.08V2.46H6.85V4.67H9.06V6.44Zm5.34,5.83V10.41H8v1.86h6.42Z"/>
+    <path d="M25,2.27H20.66V3.7H25V2.27Zm2.1,10H18.56v1.43h8.56V12.3Zm-2.1-5V5.1H20.66V7.28h-2.1l4.28,4.63,4.28-4.63H25Z"/>
+  </g>
+  <rect class="cls-1" width="28" height="16"/>
+</svg>

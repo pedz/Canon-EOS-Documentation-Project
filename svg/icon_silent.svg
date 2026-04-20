@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.2" height="16" viewBox="0 0 20.2 16">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.6px;
+      }
+    </style>
+  </defs>
+  <g id="frame">
+    <rect class="cls-1" width="20.2" height="16"/>
+  </g>
+  <g id="icon">
+    <g>
+      <g>
+        <path class="cls-2" d="M19.4,13.55a1.59,1.59,0,0,1-1.59,1.59H2.4A1.6,1.6,0,0,1,.8,13.55V2.4A1.6,1.6,0,0,1,2.4.81H17.81A1.59,1.59,0,0,1,19.4,2.4h0Z"/>
+        <path class="cls-3" d="M19.4,13.55a1.59,1.59,0,0,1-1.59,1.59H2.4A1.6,1.6,0,0,1,.8,13.55V2.4A1.6,1.6,0,0,1,2.4.81H17.81A1.59,1.59,0,0,1,19.4,2.4h0Z"/>
+      </g>
+      <polygon points="9.79 5.91 6.83 5.91 6.83 10.04 9.76 10.04 13.38 13.29 13.38 2.65 9.79 5.91"/>
+      <polyline points="14.01 9.91 19.56 14.17 18.66 15.36 14.01 11.69"/>
+      <polyline points="6.19 5.77 0.64 1.55 1.54 0.36 6.19 3.91"/>
+    </g>
+  </g>
+</svg>

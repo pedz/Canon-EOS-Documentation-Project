@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_ae-lock-hold</title>
+  <path d="M16.16,8.69H10.37l2.89,5-1.83,1.07-2.89-5-2.92,5L3.8,13.7l2.89-5H0.9V6.57H6.7l-2.89-5,1.84-1,2.9,5,2.87-5,1.84,1-2.89,5h5.8V8.69Zm8.14-2.23v3.62h-4V6.46H18.47v9h1.81V11.88h4V15.5H26.1v-9H24.29Z"/>
+  <rect class="cls-1" width="27" height="16"/>
+</svg>
