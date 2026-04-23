@@ -9,9 +9,10 @@ all??? of these over time.
 
   * [[file:svg/icon_metering-af-start.svg]]: Metering and AF start ::
     One of the four options shutter button half press is able to do.
-    Note that metering is active all the time no matter how the
-    shutter button is programmed without it even being half pressed.
-    Starts the auto focus process.
+    When the shutter button is half pressed, AE metering and AF are
+    both started and continue until the button is either released or
+    fully depressed which takes a photo.  If the button is released,
+    AE continues for another eight seconds but AF stops.
   * [[file:svg/icon_af-off.svg]]: AF stop ::
   * [[file:svg/icon_af-frame-button.svg]]: AF point selection ::
   * [[file:svg/icon_direct_af-point.svg]]: Direct AF point selection ::
@@ -25,12 +26,32 @@ all??? of these over time.
   * [[file:svg/icon_oneshot-servo.svg]]: One-Shot AF *[[file:svg/icon_arrows-left-right.svg]] Servo AF ::
   * [[file:svg/icon_Metering_Afstart_GAZEconfirm.svg]]: Moving AF pt, meter., AF by eye ctrl ::
     One of the four options shutter button half press is able to do.
-    Note that metering is active all the time no matter how the
-    shutter button is programmed without it even being half pressed.
-    Start AF process and move AF point via eye control.
+    Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
+    Control Customization tab 4 must be on.  When the shutter button
+    is half pressed, AE metering and AF with eye control are both
+    started and continue until the button is either released or fully
+    depressed which takes a photo.  If the button is released, AE
+    continues for another eight seconds but AF stops.  The AF area is
+    moved to where the eye control is at the moment the shutter button
+    is half pressed.  Keeping it half pressed does not allow the AF
+    area to move around with the eye.  When Eye control is off, this
+    setting appears to work the same as Metering and AF start.
   * [[file:svg/icon_Nac2_confirm.svg]]: Move AF point by eye control ::
+    Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
+    Control Customization tab 4 must be on.  
+    At the moment the button is pressed, the AF area is moved to where
+    the eye control pointer is.  Neither AF nor AE are started.
   * [[file:svg/icon_Nac2_confirm_and_AF.svg]]: Moving AF point, start AF by eye ctrl ::
+    Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
+    Control Customization tab 4 must be on.  At the moment the button
+    is pressed, the AF area is moved to where the eye control pointer
+    is.  Both AE and AF are started and continue while the button is
+    held down.  AE continues for eight seconds after the button is
+    released.
   * [[file:svg/icon_Nac2_function.svg]]: Eye control ::
+    Eye control is toggled on and off with each push of the button.
+    This is the same settings as in the green
+    [[file:svg/icon_Menu_Tab_Assign.svg]] Control Customization tab 4.
   * [[file:svg/icon_Tracking_select_afon.svg]]: AF on detected subject ::
   * [[file:svg/icon_eyes_af.svg]]: Eye Detection AF ::
     This single button engages the auto focus system but also selects
@@ -54,18 +75,21 @@ all??? of these over time.
   * [[file:svg/icon_ae-lock-af-stop.svg]]: AE lock, AF stop ::
   * [[file:svg/icon_metering-evaluative.svg]]: Metering start ::
     One of the four options shutter button half press is able to do.
-    Note that metering is active all the time no matter how the
-    shutter button is programmed without it even being half pressed.
-    Thus, half pressing the shutter button when it is programmed in to
-    this settings does nothing.
+    When the shutter button is half pressed (and held that way),
+    metering starts and continues until the button is fully released
+    or fully depressed.  When the button is released, AE continues for
+    another eight seconds.
   * [[file:svg/icon_ae-lock.svg]]: AE lock ::
   * [[file:svg/icon_ae-lock-hold.svg]]: AE lock (hold) ::
   * [[file:svg/icon_ae-lock.svg]]: AE lock (while button pressed) ::
     One of the four options shutter button half press is able to do.
-    Note that metering is active all the time no matter how the
-    shutter button is programmed without it even being half pressed.
-    When the shutter button is half pressed and it is programmed to
-    this setting, Auto exposure is locked.
+    The best way to think of this "metering start and AE lock".  When
+    any button with "metering start" is momentarily pressed, it starts
+    an eight second timer where the AE engine is running.  After eight
+    seconds, it stops.  When the shutter button half press function is
+    set to AE lock (while button pressed), touching the shutter button
+    starts AE.  Half pressing and holding the shutter button (as well
+    as taking the image) will cause AE to lock.
   * [[file:svg/icon_ael-fel.svg]]: AE lock/FE lock ::
   * [[file:svg/icon_AE_lock_OFF.svg]]: Release AE Lock ::
   * [[file:svg/icon_func-exp.svg]]: Expo comp (hold btn, turn *[[file:svg/icon_dial_bk.svg]]) ::
