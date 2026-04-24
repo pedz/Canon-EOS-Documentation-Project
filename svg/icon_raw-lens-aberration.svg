@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="26" height="16" viewBox="0 0 26 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_raw-lens-aberration</title>
+  <path d="M2.3,15.5H0.73V0.5H2.3v15Zm4.85-15H3.95v15h3.2V0.5ZM20.49,2.17L19,1H15.2V15H19l1.48-1.13H22.1V2.17H20.49Zm4.78,1.59H23.69v8.47h1.58V3.76Zm-11.7,3.4H8.75V8.79h4.81V7.17Zm0-2.13H8.75V6.12h4.81V5Zm0-2.11H8.75V4h4.81V2.92Zm0,6.91H8.75v1.09h4.81V9.83Zm0,2.11H8.75V13h4.81V11.95Zm0,2.18H8.75v0.82h4.81V14.12ZM13.56,1H8.75V1.85h4.81V1Zm5.56,10.14H16.77V4.82h2.35v6.35Z"/>
+  <rect class="cls-1" width="26" height="16"/>
+</svg>

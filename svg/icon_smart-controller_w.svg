@@ -1,0 +1,22 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_smart-controller_w</title>
+  <g>
+    <path class="cls-1" d="M8,6.63A1.37,1.37,0,1,1,6.63,8h0A1.37,1.37,0,0,1,8,6.63m0-.86A2.22,2.22,0,1,0,10.22,8,2.22,2.22,0,0,0,8,5.77H8Z"/>
+    <polygon class="cls-1" points="3.43 5.07 0.5 8 3.43 10.93 3.43 8.76 4.83 8.76 4.83 7.24 3.43 7.24 3.43 5.07"/>
+    <polygon class="cls-1" points="15.5 8 12.57 5.07 12.57 7.24 11.17 7.24 11.17 8.76 12.57 8.76 12.57 10.93 15.5 8"/>
+    <polygon class="cls-1" points="5.07 3.43 7.24 3.43 7.24 4.83 8.76 4.83 8.76 3.43 10.93 3.43 8 0.5 5.07 3.43"/>
+    <polygon class="cls-1" points="8.76 11.17 7.24 11.17 7.24 12.57 5.07 12.57 8 15.5 10.93 12.57 8.76 12.57 8.76 11.17"/>
+  </g>
+  <rect class="cls-2" width="16" height="16"/>
+</svg>

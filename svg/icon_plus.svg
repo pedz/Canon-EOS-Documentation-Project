@@ -1,0 +1,14 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_plus</title>
+  <g>
+    <polygon points="15 6.25 8.75 6.25 8.75 0 6.25 0 6.25 6.25 0 6.25 0 8.75 6.25 8.75 6.25 15 8.75 15 8.75 8.75 15 8.75 15 6.25"/>
+    <rect class="cls-1" width="15" height="15"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="39" height="16" viewBox="0 0 39 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_network-lamp</title>
+  <path d="M9,15.5H1v-15H3.06V13.65H9V15.5Zm15.74,0H22.54l-1.45-3.76h-7L12.64,15.5H10.5l6.08-15h2.16ZM20.44,10L17.59,2.51,14.74,10h5.69ZM38,15.5H35.37L28.91,3.17H28.85V15.5h-2V0.5H29.6l6.29,12.09h0.05V0.5H38v15Z"/>
+  <rect class="cls-1" width="39" height="16"/>
+</svg>

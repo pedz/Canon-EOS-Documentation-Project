@@ -13,17 +13,40 @@ all??? of these over time.
     both started and continue until the button is either released or
     fully depressed which takes a photo.  If the button is released,
     AE continues for another eight seconds but AF stops.
+
   * [[file:svg/icon_af-off.svg]]: AF stop ::
+    When a button is held down that starts AF, focus will be
+    re-achieved as the situation changes.  But if a button set to AF
+    stop is also held down, focusing will stop (as the name
+    implies). This makes the most sense if the shutter button half
+    press is set to one of the two settings that has AF start although
+    there may be other situations as well.
+
   * [[file:svg/icon_af-frame-button.svg]]: AF point selection ::
+    The *AF point selection* function is described in [[file:AF
+    Selection.html][AF Selection]].
+
   * [[file:svg/icon_direct_af-point.svg]]: Direct AF point selection ::
+    This can only be set on the Multi-controller.  When set this way,
+    the eight way movements move the AF area in the direction the
+    controller is moved.
+
   * [[file:svg/icon_AF_frame_direct_metering.svg]]: Direct AF pt sel (during meter) ::
+
   * [[file:svg/icon_point_to_center.svg]]: Set AF point to center ::
+
   * [[file:svg/icon_AF_tracking_start.svg]]: Start/stop whole area AF tracking ::
+
   * [[file:svg/icon_switch-af-point.svg]]: Switch to registered AF point ::
+
   * [[file:svg/icon_switch-af-func.svg]]: Switch to registered AF func. ::
+
   * [[file:svg/icon_direct_af-area.svg]]: Direct AF area selection ::
+
   * [[file:svg/icon_Subject_tracking_direct_select.svg]]: Direct select of sub to detect ::
+
   * [[file:svg/icon_oneshot-servo.svg]]: One-Shot AF *[[file:svg/icon_arrows-left-right.svg]] Servo AF ::
+
   * [[file:svg/icon_Metering_Afstart_GAZEconfirm.svg]]: Moving AF pt, meter., AF by eye ctrl ::
     One of the four options shutter button half press is able to do.
     Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
@@ -36,11 +59,13 @@ all??? of these over time.
     is half pressed.  Keeping it half pressed does not allow the AF
     area to move around with the eye.  When Eye control is off, this
     setting appears to work the same as Metering and AF start.
+
   * [[file:svg/icon_Nac2_confirm.svg]]: Move AF point by eye control ::
     Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
     Control Customization tab 4 must be on.  
     At the moment the button is pressed, the AF area is moved to where
     the eye control pointer is.  Neither AF nor AE are started.
+
   * [[file:svg/icon_Nac2_confirm_and_AF.svg]]: Moving AF point, start AF by eye ctrl ::
     Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
     Control Customization tab 4 must be on.  At the moment the button
@@ -48,39 +73,59 @@ all??? of these over time.
     is.  Both AE and AF are started and continue while the button is
     held down.  AE continues for eight seconds after the button is
     released.
+
   * [[file:svg/icon_Nac2_function.svg]]: Eye control ::
     Eye control is toggled on and off with each push of the button.
     This is the same settings as in the green
     [[file:svg/icon_Menu_Tab_Assign.svg]] Control Customization tab 4.
+
   * [[file:svg/icon_Tracking_select_afon.svg]]: AF on detected subject ::
+
   * [[file:svg/icon_eyes_af.svg]]: Eye Detection AF ::
     This single button engages the auto focus system but also selects
     eye detect as well as whole area AF.
+
   * [[file:svg/icon_Eye_detection_direct_select.svg]]: Eye detection ::
     Each push of this button cycles through the Off, Auto, L Eye, and
     R Eye options enabled in the AF Tab 5 Menu L/R eye detection.
+
   * [[file:svg/icon_Subject_spot_detection.svg]]: Spot detection ::
     Cycles Spot detection off and on with each push of the button when
     Subject to detect is set to Vehicles.
+
   * [[file:svg/icon_Personal_authentication.svg]]: Register people priority ::
+
   * [[file:svg/icon_Action_detect.svg]]: Action Priority ::
+
   * [[file:svg/icon_Af_mf_switch.svg]]: Focus mode ::
+
   * [[file:svg/icon_mf-peaking-set.svg]]: Peaking ::
+
   * [[file:svg/icon_focus-guide.svg]]: Focus guide ::
+
   * [[file:svg/icon_Focus_preset_register.svg]]: Register focus preset ::
+
   * [[file:svg/icon_Focus_preset_call.svg]]: Recall focus preset ::
+
   * [[file:svg/icon_Face_only_direct_select.svg]]: Subj. detect. AF ::
+
   * [[file:svg/icon_continuous-shooting.svg]]: Drive mode ::
+
   * [[file:svg/icon_Drive_mode_change.svg]]: Switch *[[file:svg/icon_Electric_Shutter.svg]] cont. shooting modes ::
+
   * [[file:svg/icon_ae-lock-af-stop.svg]]: AE lock, AF stop ::
+
   * [[file:svg/icon_metering-evaluative.svg]]: Metering start ::
     One of the four options shutter button half press is able to do.
     When the shutter button is half pressed (and held that way),
     metering starts and continues until the button is fully released
     or fully depressed.  When the button is released, AE continues for
     another eight seconds.
+
   * [[file:svg/icon_ae-lock.svg]]: AE lock ::
+
   * [[file:svg/icon_ae-lock-hold.svg]]: AE lock (hold) ::
+
   * [[file:svg/icon_ae-lock.svg]]: AE lock (while button pressed) ::
     One of the four options shutter button half press is able to do.
     The best way to think of this "metering start and AE lock".  When
@@ -90,72 +135,141 @@ all??? of these over time.
     set to AE lock (while button pressed), touching the shutter button
     starts AE.  Half pressing and holding the shutter button (as well
     as taking the image) will cause AE to lock.
+
   * [[file:svg/icon_ael-fel.svg]]: AE lock/FE lock ::
+
   * [[file:svg/icon_AE_lock_OFF.svg]]: Release AE Lock ::
+
   * [[file:svg/icon_func-exp.svg]]: Expo comp (hold btn, turn *[[file:svg/icon_dial_bk.svg]]) ::
+
   * [[file:svg/icon_iso.svg]]: ISO speed ::
+
   * [[file:svg/icon_func-set-iso.svg]]: Set ISO speed(hold btn,turn*[[file:svg/icon_dial_bk.svg]]) ::
+
   * [[file:svg/icon_flash.svg]]: Flash firing ::
+
   * [[file:svg/icon_fe-lock2.svg]]: FE lock ::
+
   * [[file:svg/icon_image-size.svg]]: Image size selection ::
+
   * [[file:svg/icon_one-touch-img-quality.svg]]: One-touch image quality setting ::
+
   * [[file:svg/icon_one-touch-img-quality-h.svg]]: One-touch image quality (hold) ::
+
   * [[file:svg/icon_change-aspect.svg]]: *[[file:svg/icon_still.svg]]Cropping/aspect ratio ::
+
   * [[file:svg/icon_swich-aspect.svg]]: Switch between crop/aspect ::
+
   * [[file:svg/icon_raw-auto-light-opt.svg]]: Auto Lighting Optimizer ::
+
   * [[file:svg/icon_wb.svg]]: White balance selection ::
+
   * [[file:svg/icon_Wb_shift.svg]]: WB Shift/Bkt. ::
+
   * [[file:svg/icon_Wb_shift.svg]]: WB correction ::
+
   * [[file:svg/icon_func-picstyle.svg]]: Picture Style ::
+
   * [[file:svg/icon_record-func-card-sel.svg]]: Record func+card/folder sel. ::
+
   * [[file:svg/icon_False_Color.svg]]: False color ::
+
   * [[file:svg/icon_zebra_select.svg]]: Zebra ::
+
   * [[file:svg/icon_mov.svg]]: Movie recording ::
+
   * [[file:svg/icon_pause-mov-servo.svg]]: Pause Movie Servo AF ::
+
   * [[file:svg/icon_Audio_status.svg]]: Audio Status ::
+
   * [[file:svg/icon_Powerzoom_Tele.svg]]: Cinema zoom (to tele) ::
+
   * [[file:svg/icon_Powerzoom_Wide.svg]]: Cinema zoom (to wide) ::
+
   * [[file:svg/icon_Custum_picture.svg]]: Custom Picture ::
+
   * [[file:svg/icon_PreRecording_setting.svg]]: Pre-recording ::
+
   * [[file:svg/icon_Self_timer.svg]]: Movie self-timer ::
+
   * [[file:svg/icon_Relax_temp_rise_setting_on.svg]]: Standby: Low res. ::
+
   * [[file:svg/icon_flash-func-settings.svg]]: Flash function settings ::
+
   * [[file:svg/icon_External_flash_Gr.svg]]: Quick flash group control ::
+
   * [[file:svg/icon_func-dial.svg]]: Dial function settings ::
+
   * [[file:svg/icon_cycle-set-func.svg]]: Cycle between the set functions ::
+
   * [[file:svg/icon_func-brightness.svg]]: Maximize screen brightness (temp) ::
+
   * [[file:svg/icon_power_off.svg]]: Power off ::
+
   * [[file:svg/icon_func-display-off.svg]]: Screen off ::
+
   * [[file:svg/icon_unlock-btn-pressed.svg]]: Unlock while button pressed ::
+
   * [[file:svg/icon_btn-illum-panel-info.svg]]: Short press: LCD illumination - Long press: LCD info switching ::
+
   * [[file:svg/icon_btn-panel-illum-info.svg]]: Short press: LCD info switching - Long press: LCD illumination ::
+
   * [[file:svg/icon_panel-illum.svg]]: LCD panel illumination ::
+
   * [[file:svg/icon_btn-panel-illum-info2.svg]]: LCD panel info switching ::
+
   * [[file:svg/icon_mode.svg]]: Shooting mode settings ::
+
   * [[file:svg/icon_mode-c.svg]]: Switch to Custom shooting mode ::
+
   * [[file:svg/icon_silent.svg]]: Silent shutter function ::
+
   * [[file:svg/icon_Focus_control_switch.svg]]: Switch focus/control ring ::
+
   * [[file:svg/icon_func-depth.svg]]: Depth-of-field preview ::
+
   * [[file:svg/icon_func-reset1.svg]]: Reset selected item in Fv mode ::
+
   * [[file:svg/icon_func-reset2.svg]]: Reset Tv/Av/* [[file:svg/icon_exp-com.svg]]/ISO in Fv mode ::
+
   * [[file:svg/icon_btn_quick.svg]]: Quick Control screen ::
+
   * [[file:svg/icon_magnify.svg]]: Magnify/Reduce ::
+
   * [[file:svg/icon_playback.svg]]: Image replay ::
+
   * [[file:svg/icon_play_magnified.svg]]: Magnify images during playback ::
+
   * [[file:svg/icon_regi-recall-func.svg]]: Register/recall shooting func ::
+
   * [[file:svg/icon_menu.svg]]: Menu display ::
+
   * [[file:svg/icon_Tv_step.svg]]: Manual HF anti-flicker shoot(Tv) ::
+
   * [[file:svg/icon_Tv_recommendation.svg]]: Recom. Tv for HF anti-flicker shoot ::
+
   * [[file:svg/icon_ts-enable.svg]]: Touch Shutter ::
+
   * [[file:svg/icon_OVF_View_Assist.svg]]: OVF sim. view assist ::
+
   * [[file:svg/icon_View_fps.svg]]: *[[file:svg/icon_display_slash_finder.svg]] Display frame rate set. ::
+
   * [[file:svg/icon_data-transfer.svg]]: Communication function ::
+
   * [[file:svg/icon_airplane_mode.svg]]: Airplane mode ::
+
   * [[file:svg/icon_new-folder.svg]]: Create folder ::
+
   * [[file:svg/icon_func-switch-vf-screen.svg]]: Switch between VF/screen ::
+
   * [[file:svg/icon_btn-magnify.svg]]: Magnify/Reduce button ::
+
   * [[file:svg/icon_btn-playback.svg]]: Playback button ::
+
   * [[file:svg/icon_info_monitor.svg]]: Info button ::
+
   * [[file:svg/icon_btn-erase.svg]]: Erase button ::
+
   * [[file:svg/icon_rate_monitor.svg]]: Rating button ::
+
   * [[file:svg/icon_le-mf-d.svg]]: No function (disabled) ::

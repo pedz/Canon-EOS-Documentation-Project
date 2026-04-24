@@ -1,0 +1,32 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="33" height="16" viewBox="0 0 33 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_raw-bright-adjust</title>
+  <g>
+    <rect x="17.17" y="11.24" width="5.91" height="1.13"/>
+    <polygon points="23.09 6.06 20.69 6.06 20.69 3.67 19.57 3.67 19.57 6.06 17.17 6.06 17.17 7.19 19.57 7.19 19.57 9.58 20.69 9.58 20.69 7.19 23.09 7.19 23.09 6.06"/>
+    <path d="M31,8q0,3.56-1.21,4.82a1.07,1.07,0,0,1-1.66,0Q26.93,11.6,26.93,8t1.21-4.75a1.07,1.07,0,0,1,1.66,0Q31,4.54,31,8ZM25.46,8q0,4,1.53,5.54a2.57,2.57,0,0,0,4,0Q32.47,12,32.47,8T30.94,2.56a2.58,2.58,0,0,0-4,0Q25.46,4.14,25.46,8Z"/>
+    <circle cx="8.03" cy="8" r="3.69"/>
+    <g>
+      <rect x="7.34" y="13.21" width="1.37" height="2.29"/>
+      <line x1="8.03" y1="8" x2="8.03" y2="8"/>
+      <rect x="7.34" y="0.5" width="1.37" height="2.29"/>
+      <rect x="0.53" y="7.31" width="2.29" height="1.37"/>
+      <line x1="8.03" y1="8" x2="8.03" y2="8"/>
+      <rect x="13.24" y="7.31" width="2.29" height="1.37"/>
+      <line x1="8.03" y1="8" x2="8.03" y2="8"/>
+      <rect x="11.83" y="11.34" width="1.37" height="2.29" transform="translate(-5.17 12.49) rotate(-44.93)"/>
+      <rect x="2.85" y="2.36" width="1.37" height="2.29" transform="translate(-1.44 3.53) rotate(-44.99)"/>
+      <line x1="8.03" y1="8" x2="8.03" y2="8"/>
+      <rect x="2.39" y="11.8" width="2.29" height="1.38" transform="translate(-7.79 6.15) rotate(-44.96)"/>
+      <rect x="11.38" y="2.82" width="2.29" height="1.37" transform="translate(1.19 9.88) rotate(-45)"/>
+      <line x1="8.03" y1="8" x2="8.03" y2="8"/>
+    </g>
+  </g>
+  <rect class="cls-1" width="33" height="16"/>
+</svg>

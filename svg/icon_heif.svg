@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="36" height="16" viewBox="0 0 36 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_heif</title>
+  <path d="M33.21,0.5H2.79A2.29,2.29,0,0,0,.5,2.79V13.21A2.29,2.29,0,0,0,2.79,15.5H33.21a2.29,2.29,0,0,0,2.29-2.29V2.79A2.29,2.29,0,0,0,33.21.5ZM11.88,13.18H9.8V8.64H5.65v4.54H3.57V2.82H5.65V7H9.8V2.82h2.08V13.18Zm8.55,0H14.29V2.82H20.4V4.45h-4V7h3.69V8.64H16.37v2.91h4.07v1.63Zm4,0H22.37V2.82h2.08V13.18Zm8-8.72H28.75V7h3.5V8.64h-3.5v4.54H26.67V2.82h5.76V4.45Z"/>
+  <rect class="cls-1" width="36" height="16"/>
+</svg>

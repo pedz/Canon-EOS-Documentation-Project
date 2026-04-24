@@ -1,0 +1,19 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="39" height="16" viewBox="0 0 39 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_timelag_standard</title>
+  <g>
+    <rect x="0.88" y="0.5" width="2.57" height="15"/>
+    <path class="cls-1" d="M18.88,0.5v15H38.12V0.5H18.88ZM35.63,13H21.38V3H35.63V13Z"/>
+  </g>
+  <rect class="cls-2" width="39" height="16"/>
+</svg>

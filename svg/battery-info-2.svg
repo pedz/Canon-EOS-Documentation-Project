@@ -1,0 +1,31 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="57" height="16" viewBox="0 0 57 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: gray;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>battery-info-2</title>
+  <g>
+    <g>
+      <path class="cls-1" d="M56.5,8a3.87,3.87,0,0,1-3.86,3.86H46.47a3.86,3.86,0,1,1,0-7.72h6.17A3.87,3.87,0,0,1,56.5,8Z"/>
+      <path class="cls-2" d="M35.72,8a3.87,3.87,0,0,1-3.86,3.86H25.69a3.86,3.86,0,1,1,0-7.72h6.17A3.87,3.87,0,0,1,35.72,8Z"/>
+      <path class="cls-2" d="M14.39,8a3.87,3.87,0,0,1-3.86,3.86H4.36a3.86,3.86,0,1,1,0-7.72h6.17A3.87,3.87,0,0,1,14.39,8Z"/>
+    </g>
+    <rect class="cls-3" x="0.5" width="56" height="16"/>
+  </g>
+</svg>

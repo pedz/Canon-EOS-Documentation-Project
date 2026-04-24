@@ -1,0 +1,14 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="25.33" height="16" viewBox="0 0 25.33 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_sepa-pt-only</title>
+  <g>
+    <rect class="cls-1" width="25.33" height="16"/>
+    <path d="M2.5,12H5.76V8.69H2.5V12ZM3.32,9.51H4.93v1.61H3.32V9.51ZM15.67,1V15H25V1H15.67Zm8.61,13.21H16.49V1.79h7.79V14.22ZM22,6.36H18.76V9.63H22V6.36ZM21.2,8.8H19.58V7.19H21.2V8.8ZM0.28,15h14V5.71h-14V15ZM1,6.48H13.51v7.79H1V6.48Z"/>
+  </g>
+</svg>

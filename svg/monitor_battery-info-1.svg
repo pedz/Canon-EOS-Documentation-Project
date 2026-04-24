@@ -1,0 +1,29 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="41" height="15" viewBox="0 0 41 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>monitor_battery-info-1</title>
+  <g>
+    <rect class="cls-1" x="0.74" y="1" width="9" height="13"/>
+    <rect class="cls-2" x="31.26" y="1" width="9" height="13"/>
+    <rect class="cls-2" x="16" y="1" width="9" height="13"/>
+  </g>
+  <rect class="cls-3" width="41" height="15"/>
+</svg>

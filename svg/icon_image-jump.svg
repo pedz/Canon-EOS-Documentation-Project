@@ -1,0 +1,10 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16.94" height="16" viewBox="0 0 16.94 16">
+  <g>
+    <g>
+      <path d="M16.94,2.71,14.23,0V1.82H6.16A6.16,6.16,0,0,0,0,8V9.54H1.78V8A4.38,4.38,0,0,1,6.16,3.61h8.07V5.42Z"/>
+      <rect y="14.44" width="1.78" height="1.56"/>
+      <rect y="11.17" width="1.78" height="1.63"/>
+    </g>
+    <path d="M4.85,7.78H15.32v8.07H4.85ZM14,8.91H6.18v5.81H14Z"/>
+  </g>
+</svg>

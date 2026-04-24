@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="21" height="16" viewBox="0 0 21 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_ratingmark2</title>
+  <rect class="cls-1" width="21" height="16"/>
+  <path d="M6.73,15.5H0.84V0.5H6.73V1.56H1.9V14.44H6.73V15.5ZM9.19,7.43L7.6,8.54l0.59,1.93L6.44,9.41,4.71,10.47,5.3,8.54,3.71,7.41l2,0L6.46,5.53,7.17,7.37Zm8.1,0L15.7,8.54l0.59,1.93L14.56,9.41l-1.75,1.06L13.4,8.54,11.81,7.43l2-.05,0.73-1.84,0.73,1.84Zm2.86,8.09H14.27V14.44H19.1V1.56H14.27V0.5h5.89v15Z"/>
+</svg>

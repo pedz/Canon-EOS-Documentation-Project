@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_pause</title>
+  <path d="M4.79,0.5v15h-4V0.5h4Zm2.34,15h4V0.5h-4v15Z"/>
+  <rect class="cls-1" width="12" height="16"/>
+</svg>

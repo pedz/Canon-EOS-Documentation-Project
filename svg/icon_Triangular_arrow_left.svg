@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="base">
+    <rect class="cls-1" width="9" height="16"/>
+  </g>
+  <g id="icon">
+    <polygon points="0.75 8 8.25 15.5 8.25 0.5 0.75 8"/>
+  </g>
+</svg>

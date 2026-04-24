@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_computer</title>
+  <path d="M18.44,15.5H0.56l1.82-3.39H16.5Zm-1.92-4.56H2.45V0.5H16.52V10.94Zm0,3.44-0.38-.68-0.26-.45H3.07l-0.26.46-0.35.66h14ZM15.36,9.8V1.62H3.6V9.8H15.36Z"/>
+  <rect class="cls-1" width="19" height="16"/>
+</svg>

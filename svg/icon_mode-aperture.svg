@@ -1,0 +1,15 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_mode-aperture</title>
+  <g>
+    <path d="M15.68,15.5H12.41l-1.29-3.39h-6L3.9,15.5H0.64l5.72-15H9.66ZM10.15,9.58L8,4,6,9.58h4.13Z"/>
+    <path d="M19.47,15.5L15.1,4.63h3l2,5.55L20.75,12c0.16-.47.25-0.78,0.29-0.93q0.14-.46.3-0.92L23.4,4.63h3L22.06,15.5H19.47Z"/>
+  </g>
+  <rect class="cls-1" width="27" height="16"/>
+</svg>

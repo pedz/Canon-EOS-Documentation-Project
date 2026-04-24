@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="26" height="16" viewBox="0 0 26 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_dial-normal</title>
+  <path d="M8.82,3.84H0.91V5.5H8.82V3.84Zm12.95,0V0.5H20.1V3.84H16.77V5.49H20.1V8.83h1.67V5.5h3.32V3.82H21.77ZM13,7.87a8.39,8.39,0,0,0-8.25,7.62H6.29A6.86,6.86,0,0,1,13,9.56a6.85,6.85,0,0,1,6.72,5.92l1.54,0A8.39,8.39,0,0,0,13,7.87Z"/>
+  <rect class="cls-1" width="26" height="16"/>
+</svg>

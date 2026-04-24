@@ -1,0 +1,16 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_bluetooth</title>
+  <g>
+    <polyline points="7.12 11.8 8.39 10.55 7.12 9.31 7.12 11.8"/>
+    <polyline points="7.12 4.2 7.12 6.68 8.39 5.44 7.12 4.2"/>
+    <path d="M6.5,0.5C3.16,0.5.85,2.05,0.85,8s2.31,7.5,5.66,7.5,5.65-1.56,5.65-7.5S9.85,0.5,6.5.5ZM10,10.56L6,14.45V9.33L3.82,11.47,3,10.69,5.77,8,3,5.31l0.79-.78L6,6.67V1.55l4,3.88L7.35,8Z"/>
+  </g>
+  <rect class="cls-1" width="13" height="16"/>
+</svg>

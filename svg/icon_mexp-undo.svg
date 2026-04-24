@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_mexp-undo</title>
+  <path d="M16.1,15.5H4v-3h-3V3.11H7.16l1,1H1.92v7.31H4V6.16H10.2l1.26,1.26V6.16H13v6.31H5v2H15.08V8.32h1V15.5ZM15.56,7.62H13.71V4.85a0.81,0.81,0,0,0-.23-0.59A0.77,0.77,0,0,0,12.9,4H10.74v1.7L8.12,3.11,10.74,0.5V2.18H12.9a2.55,2.55,0,0,1,1,.21,2.68,2.68,0,0,1,1.41,1.42,2.6,2.6,0,0,1,.21,1V7.62Z"/>
+  <rect class="cls-1" width="17" height="16"/>
+</svg>

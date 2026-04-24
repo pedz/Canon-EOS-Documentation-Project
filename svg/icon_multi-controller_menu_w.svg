@@ -1,0 +1,25 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>icon_multi-controller_menu_w</title>
+  <rect class="cls-1" width="16" height="16"/>
+  <g>
+    <polygon class="cls-2" points="6.1 2.3 7.1 2.3 7.1 4.6 8.4 4.6 8.4 2.3 9.4 2.3 7.8 0.4 6.1 2.3"/>
+    <polygon class="cls-2" points="10.5 6.2 12.1 4.6 12.8 5.3 13 2.7 10.5 2.9 11.2 3.6 9.5 5.2 10.5 6.2"/>
+    <polygon class="cls-2" points="5.1 2.9 2.5 2.7 2.7 5.3 3.4 4.6 5 6.2 6 5.2 4.4 3.6 5.1 2.9"/>
+    <polygon class="cls-2" points="4.6 7.3 2.3 7.3 2.3 6.3 0.4 8 2.3 9.7 2.3 8.7 4.6 8.7 4.6 7.3"/>
+    <polygon class="cls-2" points="15.5 8 13.6 6.3 13.6 7.3 11.3 7.3 11.3 8.7 13.6 8.7 13.6 9.7 15.5 8"/>
+    <polygon class="cls-2" points="8.4 11.4 7.1 11.4 7.1 13.7 6.1 13.7 7.8 15.6 9.4 13.7 8.4 13.7 8.4 11.4"/>
+    <polygon class="cls-2" points="12.1 11.4 10.5 9.8 9.5 10.8 11.2 12.4 10.5 13.1 13 13.3 12.8 10.7 12.1 11.4"/>
+    <polygon class="cls-2" points="5 9.8 3.4 11.4 2.7 10.7 2.5 13.3 5.1 13.1 4.4 12.4 6 10.8 5 9.8"/>
+  </g>
+</svg>

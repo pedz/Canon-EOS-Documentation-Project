@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.48" height="16" viewBox="0 0 11.48 16">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_release-priority</title>
+  <g class="cls-1">
+    <g id="レイヤー_1" data-name="レイヤー 1">
+      <g>
+        <path class="cls-2" d="M0.42,4.12V12h10.7V4.12H0.42Zm9.42,6.5H1.7V5.49H9.84v5.14Z"/>
+        <rect class="cls-3" width="11.48" height="16"/>
+      </g>
+    </g>
+  </g>
+</svg>

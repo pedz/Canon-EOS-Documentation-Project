@@ -1,0 +1,16 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="7.76mm" height="5.64mm" viewBox="0 0 22 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: blue;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_playback_b</title>
+  <path class="cls-1" d="M21.44,15.5H.56V.5H21.44Zm-1.29-1.29V1.81H1.87v12.4ZM16.55,8,8.07,11.92V4.1Z" transform="translate(0 0)"/>
+  <rect class="cls-2" width="22" height="16"/>
+</svg>

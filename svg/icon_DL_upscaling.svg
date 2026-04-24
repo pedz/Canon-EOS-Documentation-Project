@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="16" viewBox="0 0 21 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="base">
+    <rect class="cls-1" width="21" height="16"/>
+  </g>
+  <g id="icon">
+    <g>
+      <rect x="9.91" y="0.5" width="1.17" height="15"/>
+      <path d="M12,2.14V3.31h1.53V5H12V6.12h1.53V7.77H12V8.94h1.53v1.64H12v1.17h1.53v1.64H12v1.17h8.32V2.14Zm4.34,11.25H14.72V11.75h1.64Zm0-2.81H14.72V8.94h1.64Zm0-2.81H14.72V6.12h1.64Zm0-2.82H14.72V3.31h1.64Zm2.81,8.44H17.53V11.75h1.64Zm0-2.81H17.53V8.94h1.64Zm0-2.81H17.53V6.12h1.64Zm0-2.82H17.53V3.31h1.64Z"/>
+      <polygon points="8.98 13.39 1.83 13.39 1.83 6.13 8.98 6.13 8.98 4.95 0.66 4.95 0.66 14.56 8.98 14.56 8.98 13.39"/>
+    </g>
+  </g>
+</svg>

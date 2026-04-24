@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="23" height="16" viewBox="0 0 23 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_wb-custom</title>
+  <rect class="cls-1" width="23" height="16"/>
+  <path d="M0.81,8.88l9.65,5.77v1H0.81V8.88Zm1.14,5.64H8L1.95,10.89v3.63ZM14.88,5.58a6.75,6.75,0,0,1,0,4.84,9.26,9.26,0,0,1-6.76,0,7,7,0,0,1,0-4.84A9.24,9.24,0,0,1,14.88,5.58Zm7.31,3.3v6.78H12.55v-1Zm-1.14,2L15,14.52h6.08V10.89Z"/>
+</svg>

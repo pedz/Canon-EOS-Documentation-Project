@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_peripheral-illum</title>
+  <path d="M4.55,9.37h3L6.49,8.3H4.55V9.37Zm6.86-3H8.19L9.24,7.44h2.17V6.37Zm0,3V8.3H10.1l1.05,1.07h0.27ZM4.55,11.3h4.9L8.4,10.24H4.55V11.3Zm0-4.93V7.44H5.64L4.59,6.37h0Zm3.8-4.85V5.23h3.76V10.3l1.17,0.93V4.44l-3.9-3.9H2.92l1,1H8.35Zm-7-1-0.76.75,14,14.23,0.76-.75Zm2.55,14V5.7l-1.1-.93V15.5H13.28l-1.17-1H3.92Z"/>
+  <rect class="cls-1" width="16" height="16"/>
+</svg>

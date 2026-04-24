@@ -1,0 +1,24 @@
+#+TITLE:  Multi-controller
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com
+
+When the Multi-controller is set to *Direct AF point selection*, the
+[[file:svg/icon_info.svg]] button may be pressed to select that the
+Multi-controller does when pushed straight in.  Pushing the
+Multi-controller straight in can perform one of several functions:
+
+  * Switch to center AF point
+  * [[file:svg/icon_metering-af-start.svg]]: Metering and AF start
+  * [[file:svg/icon_AF_tracking_start.svg]]: Start/stop whole area AF tracking
+  * [[file:svg/icon_switch-af-point.svg]]: Switch to registered AF point
+  * [[file:svg/icon_direct_af-area.svg]]: Direct AF area selection
+  * [[file:svg/icon_oneshot-servo.svg]]: One-Shot AF *[[file:svg/icon_arrows-left-right.svg]] Servo AF
+  * Confirm eye control
+  * [[file:svg/icon_Eye_detection_direct_select.svg]]: Eye detection
+  * [[file:svg/icon_mf-peaking-set.svg]]: Peaking
+  * [[file:svg/icon_focus-guide.svg]]: Focus guide
+
+Note that the *Switch to center AF point* appears to be the same as
+the *Set AF point to center* but it has a different icon.  Likewise,
+the *Confirm eye control* appears to be the same as the *Move AF point
+by eye control* function and has the same icon.

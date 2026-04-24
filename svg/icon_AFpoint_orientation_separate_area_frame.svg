@@ -1,0 +1,21 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #251e1c;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="27" height="16"/>
+  <g>
+    <path class="cls-2" d="M13.91,6.56V14H2V6.56H13.91m1-1H.94V15h14V5.53Z"/>
+    <path class="cls-2" d="M25,2V14H17.62V2H25m1-1H16.59V15h9.47V1Z"/>
+    <path class="cls-2" d="M23.59,10.47H19.06V5.94h4.53Zm-3.71-.82h2.88V6.76H19.88Z"/>
+    <path class="cls-2" d="M5.06,12.12H4.65a.41.41,0,0,1-.41-.41V8.82a.41.41,0,0,1,.41-.41h.41V7.59H4.65A1.24,1.24,0,0,0,3.41,8.82v2.89a1.24,1.24,0,0,0,1.24,1.23h.41Z"/>
+    <path class="cls-2" d="M7.53,8.41h.41a.41.41,0,0,1,.41.41v2.89a.41.41,0,0,1-.41.41H7.53v.82h.41a1.24,1.24,0,0,0,1.24-1.23V8.82A1.24,1.24,0,0,0,7.94,7.59H7.53Z"/>
+  </g>
+</svg>

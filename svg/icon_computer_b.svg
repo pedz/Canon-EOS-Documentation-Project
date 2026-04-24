@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: blue;
+      }
+    </style>
+  </defs>
+  <g id="frame">
+    <rect class="cls-1" width="19" height="16"/>
+  </g>
+  <g id="_b">
+    <path class="cls-2" d="M18.44,15.5H.56l1.82-3.39H16.5Zm-1.92-4.56H2.45V.5H16.52Zm0,3.44-.38-.68-.26-.45H3.07l-.26.46-.35.66H16.52ZM15.36,9.8V1.62H3.6V9.8Z"/>
+  </g>
+</svg>

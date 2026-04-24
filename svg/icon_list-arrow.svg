@@ -1,0 +1,16 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gray;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_list-arrow</title>
+  <polygon class="cls-1" points="27 13.5 12.12 4.91 12.12 10.38 0 10.38 0 16.63 12.12 16.63 12.12 22.09 27 13.5"/>
+  <rect class="cls-2" width="27" height="27"/>
+</svg>

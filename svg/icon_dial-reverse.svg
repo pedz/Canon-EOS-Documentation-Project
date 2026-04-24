@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="26" height="16" viewBox="0 0 26 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_dial-reverse</title>
+  <path d="M17.15,3.84V5.5h7.91V3.84H17.15Zm-11.22,5V5.5H9.26V3.83H5.93V0.5H4.27V3.84H0.93V5.49H4.27V8.83H5.94Zm7.06-1a8.39,8.39,0,0,0-8.25,7.62H6.28A6.86,6.86,0,0,1,13,9.57a6.86,6.86,0,0,1,6.72,5.92l1.54,0A8.39,8.39,0,0,0,13,7.87Z"/>
+  <rect class="cls-1" width="26" height="16"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_face-detect</title>
+  <rect class="cls-1" width="15" height="16"/>
+  <g>
+    <path d="M11.11,10a6.58,6.58,0,0,1-7.21,0,6.59,6.59,0,0,0-3,5.52H14.1A6.59,6.59,0,0,0,11.11,10Z"/>
+    <circle cx="7.5" cy="4.46" r="3.96"/>
+  </g>
+</svg>

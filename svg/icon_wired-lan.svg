@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="21" height="16" viewBox="0 0 21 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_wired-lan</title>
+  <path d="M4.61,10.53H1.32v5H9.07v-5H5.75v-2h9.5v2H12v5h7.75v-5H16.4v-2h4.07V7.43H11.1v-2h3.26v-5H6.61v5H10v2H0.53V8.57H4.61v2Zm14,1.15v2.68H13.12V11.68h5.46ZM7.75,4.32V1.64h5.46V4.32H7.75Zm0.17,7.35v2.68H2.47V11.68H7.92Z"/>
+  <rect class="cls-1" width="21" height="16"/>
+</svg>

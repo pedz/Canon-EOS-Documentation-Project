@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="base">
+    <rect id="Flash_mark.ai" class="cls-1" width="16" height="16"/>
+  </g>
+  <g id="icon">
+    <path d="M13.62.5H2.38A1.88,1.88,0,0,0,.5,2.38V13.62A1.88,1.88,0,0,0,2.38,15.5H13.62a1.88,1.88,0,0,0,1.88-1.88V2.38A1.88,1.88,0,0,0,13.62.5ZM9,12.82H7.38V4.93L5.89,6.18,5.33,4.8,7.58,3.06H9Z"/>
+  </g>
+</svg>

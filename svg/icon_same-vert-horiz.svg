@@ -1,0 +1,19 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_same-vert-horiz</title>
+  <g>
+    <path class="cls-1" d="M0.75,0.5v15H23.25V0.5H0.75ZM22.42,14.67H1.62V1.33h20.8V14.67Z"/>
+    <path d="M11,4.69H4.86v6.62h6.62V4.69H11Zm-0.44.88v4.86H5.74V5.57H10.6Z"/>
+  </g>
+  <rect class="cls-2" width="24" height="16"/>
+</svg>
