@@ -1,0 +1,173 @@
+#+TITLE:  AF Focusing
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com
+
+The [[https://www.youtube.com/@PointsInFocus][Points In Focus]] YouTube Channel has a very good video about the
+auto focus engine in [[https://youtu.be/zMyOXdZZC94?si=urCW1KLN2jWfwnhf][Selecting a Subject for Tracking with Servo AF -
+EOS R5 mark II Tip 35]].  All of the ways that the various settings
+affecting auto focus interact is rather involved.  His video steps
+through many of them in a logical manner.  Likewise, I will use this
+space to add revelations about how the auto focus engine works here
+and will likely append to it over time.
+
+There are settings that need to be enumerated:
+
+  1. The ~Whole area tracking Servo AF~ menu item found in tab 1 of
+     the Pink [[file:svg/icon_tab-af.svg]] menu can be set to On or
+     Off.
+
+  2. The ~Subject to detect~ menu item found in tab 2 of the Pink
+     [[file:svg/icon_tab-af.svg]] menu which can be set to Auto,
+     People, Animals, Vehicles, or None.
+
+  3. The [[file:svg/icon_AF_tracking_start.svg]] *Start/stop whole
+     area AF tracking* function that can be assigned to a button.
+
+  4. The AF Area which can be set to Spot AF, 1 point AF, Expand AF
+     area, Expand AF area around, Flexible Zone AF 1, 2, or 3, or
+     Whole area AF.  The AF areas Spot AF, 1 point AF, Expand AF area,
+     and Expand AF area around can have a lock icon or not.
+
+  5. The AF operation can be set to One-Shot AF, Servo AF, or AI
+     Focus.  In all of my testing, I will be using Servo AF.  I may
+     check to see what One-Shot AF does but I seriously doubt if I
+     will ever check out what AI Focus does.
+
+I want to mention that if you fiddle with this a lot, you will notice
+that the camera does not appear to be 100% consistent.  I will try to
+describe what happens the majority of the time but as the video point
+out, "Your Mileage May Vary".
+
+* When an AF area with the lock icon is selected
+
+The simple cases.  If the AF area is set to one of the options
+with the lock icon, the ~Whole area tracking Servo AF~ menu item and
+the ~Subject to detect~ menu items are grayed out and a button with
+the *Start/stop whole area AF tracking* function has no effect.  Thus,
+if you want the camera to focus strictly to what is under the focus
+area, pick one of these areas and you don't need to worry about three
+of the other settings -- they are off.
+
+* When an AF area other than "AF area" without the lock icon is selected
+
+Spot AF without the lock icon is selected for this example.  I will
+refer to it as the "focus area".  With the ~Whole area tracking Servo
+AF~ menu setting to off and I have the shutter half press function set
+to ~Metering and AF start~.  I will refer to this as "the focus
+button" since it is less typing and also more accurate.  And I will
+refer to the button with *Start/stop whole area AF tracking* assigned
+to it as "the tracking button".  When a button is pressed and held
+down, I will call that "pressed".  When a button is pressed and
+released, I will call it "hit".  e.g. "when the track button is hit".
+Last, to change the scene I am panning the camera as it sits on a
+tripod.  This should simulate tracking an object as it moves.
+
+When the focus button pressed, the camera starts to focus and the
+white focus area will turn blue when focus is achieved.  Panning the
+camera will cause what ever is under the blue squared to come into
+focus (assuming it isn't too close, etc).  Releasing the focus button
+causes the blue square to go back to the white area.
+
+With the focus button pressed, if the tracking button is hit, the
+small blue square turns into a larger blue square that is the area
+that the camera is now tracking.  If the camera is panned, the larger
+blue square will track the area.  When the focus button is released,
+*often* (but not always), the small white focus area appears.  Note
+the sequence: press and hold the focus button, press and release the
+tracking button for the larger blue square, release the focus button
+to go back to the white focus area.
+
+If the focus button is pressed and released, while the metering timer
+is still active if the track button is hit, the four corners of a box
+are drawn with double lines around an area close to where the focus
+area was.  I am not 100% sure who this area is determined.  It appears
+to be the area close to the original AF area that is closest to being
+in focus.
+
+While in this state, the area moves as the camera pans.  When the
+focus button is pressed, the double white box turns into a blue box
+when focus is achieved.  The area still moves as the camera pans.
+Hitting the track button a second time reverts back to the original
+state with the original white focus area in the original place which
+turns blue when the focus button is pressed and focus is achieved.
+
+When the track button is hit and the double line box is drawn, this
+state appears to persist until the camera goes back to sleep or until
+the track button is hit a second time.  The metering timer as well as
+the timer to dim the screen can expire but the double line box
+remains.  When the camera goes to sleep however, the state is
+forgotten and when the camera is woken back up, it will be back to the
+normal state with the original focus area in white.
+
+When the ~Whole area tracking Servo AF~ menu item is turned on the
+camera changes behavior.  With the focus button not pressed, the white
+AF area is shown.  When the focus button is pressed, the white area
+changes to a blue area of a different shape.  It can be a single blue
+rectangle or it can be a bunch of blue focus points dancing about the
+screen.  The original area that the blue box covers will be close to
+the original white AF area but it can drift away and end up on any
+part of the screen.  Where ever the blue area ends up, that area will
+be tracked as the camera pans.
+
+If the focus button is pressed, when the track button is hit, the
+camera switches to the original AF area.  Note... this is if the track
+button is hit while the focus button is pressed.  If the track button
+is hit while the metering time is active but the focus button is not
+pressed, then the box drawn with double lines appears.  Again, panning
+the camera while in this state moves the double lined box with the
+pan.
+
+* When AF Area is selected
+
+When the AF area is set to "AF area" and the ~Whole area tracking
+Servo AF~ menu item is turned off, there screen is clear of any focus
+boxes until the focus button is pressed at which point a broken box
+drawn with a single line is shown around the whole screen along with
+the dancing blue focus boxes.  When the focus button is released, the
+screen is cleared of focusing information again.
+
+If the track button is hit while the focus button is pressed, the
+dancing blue boxes change to a single box that moves as the camera is
+panned but is otherwise much more stable than the dancing blue focus
+points.  If the track button is hit a second time, the system goes
+back to the dancing blue focus points.  Note again: focus button
+pressed, then the track button results in this behavior.  The odd
+thing to note is the double white box does *not* appear in this path.
+And, when focus is released and then pressed again, the state of the
+camera is as if the track button had not been pressed.  To rephrase,
+the state does not last until the camera goes to sleep but lasts only
+until the focus button is released.
+
+If the track button is hit while the metering timer is active
+(e.g. the focus button was pressed and released), then the while
+double lined box appears.  A blue focus box is then presented when the
+focus button is pressed.  Hitting the track button again (with the
+focus button still held down) reverts back to the dancing blue focus
+points.
+
+When the ~Whole area tracking Servo AF~ is turned on and the focus
+button is pressed first, a stable larger blue box is presented.  If
+the track button is pressed during this time, the small dancing blue
+points appear.  Pressing the track button a second reverts back to the
+larger single blue area.
+
+Curiously, if the track button is hit before the shutter, the double
+lined box appears.  Pressing the focus button presents the larger
+stable blue focus area.  Hitting the track button while the focus is
+pressed results in the dancing blue points.  But hitting the track
+while the focus is released results in the white double box
+disappearing yet when the focus button is pressed, the single larger
+blue box is presented rather than the dancing blue dots.  It seems a
+little inconsistent here.  Also, this behavior appears to be like this
+rather the camera is woken up from a fresh sleep or if it is during
+the metering timer.
+
+* What about Subject to Detect?
+
+It appears as if the ~Subject to detect~ setting is more or less
+orthogonal to all of the above.  I believe it works to think of all of
+the above as "How to move the focus area in order to find something to
+focus on" while the ~Subject to detect~ has to do with what to focus
+on.  With a ~Subject to detect~ set, priority is given to what that
+subject is with the Auto setting simply meaning that one of the other
+three topics needs to be picked -- which ever is predominant.

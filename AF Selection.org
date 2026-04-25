@@ -13,9 +13,10 @@ selection control~ menu item is set to the main dial, then turning the
 main dial selects the AF area.
 
 During the time that *AF point selection* is active, the
-[[file:svg/icon_info.svg]] button may be pressed for the areas
-that do not have the lock icon to change the state of Whole area
-tracking Servo AF.
+[[file:svg/icon_info.svg]] button may be pressed when one of the areas
+that do not have the lock icon is selected to change the state of
+the ~Whole area tracking Servo AF~ menu item found in tab 1 of the
+Pink [[file:svg/icon_tab-af.svg]] AF menu.
 
 When [[file:svg/icon_AF-area_flexible-zone1.svg]],
 [[file:svg/icon_AF-area_flexible-zone2.svg]], or

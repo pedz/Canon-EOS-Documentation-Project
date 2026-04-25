@@ -7,6 +7,9 @@ each of the functions that can be programmed on single buttons on the
 Canon EOS R1.  My hope is to add decent descriptions to some / most /
 all??? of these over time.
 
+Mild disclaimer: I own an R5 Mk II and an R1.  Generally I am fumbling
+with the R5 Mk II except when I happen to notice a difference.
+
   * [[file:svg/icon_metering-af-start.svg]]: Metering and AF start ::
     One of the four options shutter button half press is able to do.
     When the shutter button is half pressed, AE metering and AF are
@@ -23,8 +26,7 @@ all??? of these over time.
     there may be other situations as well.
 
   * [[file:svg/icon_af-frame-button.svg]]: AF point selection ::
-    The *AF point selection* function is described in [[file:AF
-    Selection.html][AF Selection]].
+    The *AF point selection* function is described in [[file:AF Selection.html][AF Selection]].
 
   * [[file:svg/icon_direct_af-point.svg]]: Direct AF point selection ::
     This can only be set on the Multi-controller.  When set this way,
@@ -32,10 +34,27 @@ all??? of these over time.
     controller is moved.
 
   * [[file:svg/icon_AF_frame_direct_metering.svg]]: Direct AF pt sel (during meter) ::
+    This is available only on the Canon EOS R1 and can only be set on
+    the [[file:svg/icon_af-on.svg]] AF start button/Smart controller.
+    When a button set to any of the metering start functions is
+    pressed and for eight seconds after it has been released, the AF
+    area can be moved via finger movement across the
+    [[file:svg/icon_af-on.svg]] AF start button/Smart controller.
 
   * [[file:svg/icon_point_to_center.svg]]: Set AF point to center ::
+    Pressing a button programmed to this function will move the AF
+    area to the center.
 
   * [[file:svg/icon_AF_tracking_start.svg]]: Start/stop whole area AF tracking ::
+    I strongly suggest that you set this up and play with it.  I will
+    try to describe everything I see.  This is on the R5 Mk II with
+    firmware 1.2.
+
+    First, pushing a button assigned to this function does *not*
+    change the value of the ~Whole area tracking Servo AF~ menu item
+    found in tab 1 of the Pink [[file:svg/icon_tab-af.svg]] AF menu.  One
+    push of this button will switch the camera to the whole area AF.
+    If the
 
   * [[file:svg/icon_switch-af-point.svg]]: Switch to registered AF point ::
 
@@ -83,7 +102,7 @@ all??? of these over time.
 
   * [[file:svg/icon_eyes_af.svg]]: Eye Detection AF ::
     This single button engages the auto focus system but also selects
-    eye detect as well as whole area AF.
+    eye detect as well as whole area AF. ??? Double check this please
 
   * [[file:svg/icon_Eye_detection_direct_select.svg]]: Eye detection ::
     Each push of this button cycles through the Off, Auto, L Eye, and

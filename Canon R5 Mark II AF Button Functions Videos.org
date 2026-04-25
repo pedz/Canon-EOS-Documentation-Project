@@ -5,6 +5,6 @@
 The [[https://www.youtube.com/@PointsInFocus][Points In Focus]] YouTube Channel has three videos talking about the
 functions that can be assigned to buttons on the R5 Mark II.
 
-* [[https://youtu.be/pEGPqNVWiGc?si=q1JUE8VB49VaRaDG][Starting and Stopping AF with a Button - AF Buttons Part 1 - EOS R5 mark 2 Tip 37]]
-* [[https://youtu.be/5yAYBU1a2U4?si=kb8kl-PHpKZe_gc7][Using buttons to Move the AF Point and Change the AF Area - AF Buttons Part 2 - EOS R5 Mark 2 Tip 38]]
-* [[https://youtu.be/nAko5MRz-bY?si=3YQObwf72MBeDluI][Autofocus Button Functions - Part 3 - Changing AF Settings - EOS R5 mark 2 Tip 39]]
+  * [[https://youtu.be/pEGPqNVWiGc?si=q1JUE8VB49VaRaDG][Starting and Stopping AF with a Button - AF Buttons Part 1 - EOS R5 mark 2 Tip 37]]
+  * [[https://youtu.be/5yAYBU1a2U4?si=kb8kl-PHpKZe_gc7][Using buttons to Move the AF Point and Change the AF Area - AF Buttons Part 2 - EOS R5 Mark 2 Tip 38]]
+  * [[https://youtu.be/nAko5MRz-bY?si=3YQObwf72MBeDluI][Autofocus Button Functions - Part 3 - Changing AF Settings - EOS R5 mark 2 Tip 39]]
