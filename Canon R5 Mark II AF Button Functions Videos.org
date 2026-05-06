@@ -1,6 +1,7 @@
-#+TITLE:  Canon R5 Mark II Autofocus Button Functions Videos
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
+
+* Canon R5 Mark II Autofocus Button Functions Videos                 :R5MkII:
 
 The [[https://www.youtube.com/@PointsInFocus][Points In Focus]] YouTube Channel has three videos talking about the
 functions that can be assigned to buttons on the R5 Mark II.

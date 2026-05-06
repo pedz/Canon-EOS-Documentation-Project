@@ -1,0 +1,3 @@
+This is a documentation supplement for the {{{model}}}.  The objective
+is to add what others have learned about the exact functioning of the
+camera.

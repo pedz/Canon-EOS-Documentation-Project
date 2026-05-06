@@ -1,6 +1,7 @@
-#+TITLE:  AF Focusing
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
+
+* AF Focusing
 
 The [[https://www.youtube.com/@PointsInFocus][Points In Focus]] YouTube Channel has a very good video about the
 auto focus engine in [[https://youtu.be/zMyOXdZZC94?si=urCW1KLN2jWfwnhf][Selecting a Subject for Tracking with Servo AF -
@@ -38,7 +39,7 @@ that the camera does not appear to be 100% consistent.  I will try to
 describe what happens the majority of the time but as the video point
 out, "Your Mileage May Vary".
 
-* When an AF area with the lock icon is selected
+** When an AF area with the lock icon is selected
 
 The simple cases.  If the AF area is set to one of the options
 with the lock icon, the ~Whole area tracking Servo AF~ menu item and
@@ -48,7 +49,7 @@ if you want the camera to focus strictly to what is under the focus
 area, pick one of these areas and you don't need to worry about three
 of the other settings -- they are off.
 
-* When an AF area other than "AF area" without the lock icon is selected
+** When an AF area other than "AF area" without the lock icon is selected
 
 Spot AF without the lock icon is selected for this example.  I will
 refer to it as the "focus area".  With the ~Whole area tracking Servo
@@ -117,7 +118,7 @@ pressed, then the box drawn with double lines appears.  Again, panning
 the camera while in this state moves the double lined box with the
 pan.
 
-* When AF Area is selected
+** When AF Area is selected
 
 When the AF area is set to "AF area" and the ~Whole area tracking
 Servo AF~ menu item is turned off, there screen is clear of any focus
@@ -162,7 +163,7 @@ little inconsistent here.  Also, this behavior appears to be like this
 rather the camera is woken up from a fresh sleep or if it is during
 the metering timer.
 
-* What about Subject to Detect?
+** What about Subject to Detect?
 
 It appears as if the ~Subject to detect~ setting is more or less
 orthogonal to all of the above.  I believe it works to think of all of

@@ -1,6 +1,7 @@
-#+TITLE:  AF Selection
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
+
+* AF Selection
 
 First, the ~AF area selection control~ menu item can be set to either
 [[file:svg/icon_Button_M_Fn_w60.svg]] the M-Fn button or

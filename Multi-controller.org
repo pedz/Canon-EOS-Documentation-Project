@@ -1,6 +1,7 @@
-#+TITLE:  Multi-controller
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
+
+* Multi-controller
 
 When the Multi-controller is set to *Direct AF point selection*, the
 [[file:svg/icon_info.svg]] button may be pressed to select that the

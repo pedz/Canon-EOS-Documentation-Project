@@ -1,6 +1,7 @@
-#+TITLE:  AF-ON Button on Canon EOS R1
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
+
+* AF-ON Button on Canon EOS R1                                           :R1:
 
 The [[file:svg/icon_Button_AF_ON_w60.svg]] (AF-ON) button on the R1
 has a half press and a full press setting.  In still shooting mode,
