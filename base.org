@@ -1,0 +1,29 @@
+#+TITLE:  {{{model}}} Suppliment
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com
+
+#+MACRO: playback-menu Blue [[file:svg/icon_playback.svg]] Playback
+#+MACRO: control-menu Green [[file:svg/icon_Menu_Tab_Assign.svg]] Control Customization
+#+MACRO: star-menu Green [[file:svg/icon_star-bk.svg]]
+#+MACRO: custom-menu Orange [[file:svg/icon_tab-custom.svg]] Custom Functions
+#+MACRO: af-menu Pink [[file:svg/icon_tab-af.svg]]
+#+MACRO: comm-menu Purple [[file:svg/icon_data-transfer.svg]] Communication Functions
+#+MACRO: still-menu Red [[file:svg/icon_tab-shooting.svg]] Shooting
+#+MACRO: setup-menu Yellow [[file:svg/icon_tab-set-up.svg]] Set-up
+
+#+MACRO: menu-item ~$1~ menu item found in tab $2 of the $3 menu
+#+MACRO: menu-setting =$1=
+#+MACRO: function /$1/
+
+#+MACRO: include-if (eval (if (member $1 (plist-get (org-export--get-inbuffer-options) :select-tags)) $2))
+#+MACRO: omit-if    (eval (unless (member $1 (plist-get (org-export--get-inbuffer-options) :exclude-tags)) $2))
+
+#+INCLUDE: "Intro.org"
+#+INCLUDE: "AF Focusing.org"
+#+INCLUDE: "AF Selection.org"
+#+INCLUDE: "Functions available for customization.org"
+#+INCLUDE: "Multi-controller.org"
+#+INCLUDE: "AF-ON Button on Canon EOS R1.org"
+#+INCLUDE: "Canon EOS R1 Menus.org"
+#+INCLUDE: "Canon EOS R5 Mark II AF Button Functions Videos.org"
+#+INCLUDE: "Canon EOS R5 Mark II Menus.org"

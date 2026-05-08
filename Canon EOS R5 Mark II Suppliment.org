@@ -1,0 +1,5 @@
+#+MACRO: model EOS R5 Mark II
+#+OPTIONS: tags:nil
+#+SELECT_TAGS: R5MkII always
+
+#+INCLUDE: "base.org"
