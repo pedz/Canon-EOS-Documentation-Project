@@ -1,5 +1,5 @@
 #+MACRO: model Canon EOS R1
 #+OPTIONS: tags:nil
-#+SELECT_TAGS: R5MkII always
+#+SELECT_TAGS: R1 always
 
 #+INCLUDE: "base.org"
