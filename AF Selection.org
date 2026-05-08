@@ -1,23 +1,24 @@
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
 
-* AF Selection
+* AF Selection                                                       :always:
 
-First, the ~AF area selection control~ menu item can be set to either
-[[file:svg/icon_Button_M_Fn_w60.svg]] the M-Fn button or
-[[file:svg/icon_dial_bk.svg]] the main dial.  When set to M-Fn, then when
-a button set to the *AF point selection* function is pushed (and it may
-be released), each push of the M-Fn button will cycle through the AF
-areas that have been enabled in the ~Limit AF areas~ menu item found
-in tab 5 of the Pink [[file:svg/icon_tab-af.svg]] AF menu.  When ~AF area
-selection control~ menu item is set to the main dial, then turning the
-main dial selects the AF area.
+First, the {{{menu-item(AF area selection control, 3,
+{{{control-menu}}})}}} item can be set to either
+[[file:svg/icon_Button_M_Fn_w60.svg]] {{{menu-setting(M-Fn)}}} or
+[[file:svg/icon_dial_bk.svg]] {{{menu-setting(Main Dial)}}}.  When set to
+{{{menu-setting(M-Fn)}}}, then when a button set to the {{{function(AF
+point selection)}}} function is pushed (and it may be released), each
+push of the {{{menu-setting(M-Fn)}}}} button will cycle through the AF
+areas that have been enabled in the {{{menu-item(Limit AF areas, 5,
+{{{af-menu}}})}}}.  When {{{menu-item(AF area selection control, 3,
+{{{control-menu}}})}}} item is set to the {{{menu-setting(Main
+Dial)}}}, then turning the main dial selects the AF area.
 
-During the time that *AF point selection* is active, the
+During the time that {{{function(AF point selection)}}} is active, the
 [[file:svg/icon_info.svg]] button may be pressed when one of the areas
-that do not have the lock icon is selected to change the state of
-the ~Whole area tracking Servo AF~ menu item found in tab 1 of the
-Pink [[file:svg/icon_tab-af.svg]] AF menu.
+that do not have the lock icon is selected to change the state of the
+{{{menu-item(Whole area tracking Servo AF, 1, {{{af-menu}}})}}}.
 
 When [[file:svg/icon_AF-area_flexible-zone1.svg]],
 [[file:svg/icon_AF-area_flexible-zone2.svg]], or
@@ -27,18 +28,21 @@ When [[file:svg/icon_AF-area_flexible-zone1.svg]],
 the [[file:svg/icon_sub-dial_bk.svg]] quick control dial 1 controls the
 vertical size.
 
-The Multi-controller can be set to *Direct AF point selection* or it
-can be set to *Off*.  When set to *Direct AF point selection*, moving
-the Multi-controller in any of the eight directions at any time will
-move the AF area.  When the Multi-controller is set to *Off*, then
-under normal conditions, the Multi-controller does nothing.  After the
-*AF point selection* button is pressed, the Multi-controller can be
-used to move the AF area.  This is also true when the ~AF area
-selection control~ menu item is set to [[file:svg/icon_dial_bk.svg]] the
-main dial.
+The Multi-controller can be set to {{{function(Direct AF point
+selection)}}} or it can be set to {{{function(Off)}}}.  When set to
+{{{function(Direct AF point selection)}}}, moving the Multi-controller
+in any of the eight directions at any time will move the AF area.
+When the Multi-controller is set to {{{function(Off)}}}, then under
+normal conditions, the Multi-controller does nothing.  After the
+{{{function(AF point selection)}}} button is pressed, the
+Multi-controller can be used to move the AF area.  This is also true
+when the {{{menu-item(AF area selection control, 3,
+{{{control-menu}}})}}} item is set to [[file:svg/icon_dial_bk.svg]] the
+{{{menu-setting(Main Dial)}}}.
 
-After the *AF point selection* button is pressed, the AF area may also
-be moved vertically with the [[file:svg/icon_sub-dial_bk.svg]] quick
-control dial 1 and horizontally with the [[file:svg/icon_dial_bk.svg]]
-main dial when the ~AF area selection control~ menu item is set to
-[[file:svg/icon_Button_M_Fn_w60.svg]] the M-Fn button.
+After the {{{function(AF point selection)}}} button is pressed, the AF
+area may also be moved vertically with the
+[[file:svg/icon_sub-dial_bk.svg]] quick control dial 1 and horizontally
+with the [[file:svg/icon_dial_bk.svg]] main dial when the {{{menu-item(AF area
+selection control, 3, {{{control-menu}}})}}} item is set to
+[[file:svg/icon_Button_M_Fn_w60.svg]] {{{menu-setting(M-Fn)}}}.

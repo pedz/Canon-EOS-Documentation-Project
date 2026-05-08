@@ -15,7 +15,7 @@ slap).
 Firmware Version 1.2.0
 
  * Still Photo Shooting
- ** Red [[file:svg/icon_tab-shooting.svg]] Still Photo Shooting
+ ** {{{still-menu}}}
  *** Tab 1/9 Image quality/size
  **** JPEG/HEIF quality
  **** Img type/size
@@ -72,7 +72,7 @@ Firmware Version 1.2.0
  **** VF display format
  **** Reverse display
  **** Auto pwr off temp.
- ** Pink [[file:svg/icon_tab-af.svg]] AF
+ ** {{{af-menu}}}
  *** Tab 1/7 AF operation/area
  **** AF operation
  **** AF area
@@ -105,7 +105,7 @@ Firmware Version 1.2.0
  *** Tab 7/7 Various settings/Various settings
  **** Register/recall AF-related settings
  **** AF Setting Guide URL
- ** Blue [[file:svg/icon_playback.svg]] Playback
+ ** {{{playback-menu}}}
  *** Tab 1/5 File operation
  **** Protect images
  **** Erase images
@@ -136,7 +136,7 @@ Firmware Version 1.2.0
  **** Playback grid
  **** Movie play count
  **** Memo audio quality
- ** Purple [[file:svg/icon_data-transfer.svg]] Communication Functions
+ ** {{{comm-menu}}}
  *** Tab 1/4 Network settings
  **** Network settings
  **** Airplane mode
@@ -158,7 +158,7 @@ Firmware Version 1.2.0
  **** Choose USB connection app
  **** Save/load comm. settings on card
  **** Reset communication settings
- ** Yellow [[file:svg/icon_tab-set-up.svg]] Set-up
+ ** {{{setup-menu}}}
  *** Tab 1/6 File/card setting
  **** Record func+card/folder sel.
  **** File numbering
@@ -199,7 +199,7 @@ Firmware Version 1.2.0
  **** Manual/software URL
  **** Certification Logo Display
  **** Firmware
- ** Green [[file:svg/icon_Menu_Tab_Assign.svg]] Control Customization
+ ** {{{control-menu}}}
  *** Tab 1/4 Customized controls when shooting
  **** Customize buttons for shooting
  **** Customize dials/control ring
@@ -224,7 +224,7 @@ Firmware Version 1.2.0
  **** Eye control
  **** Touch control
  **** Clear all customized controls
- ** Orange [[file:svg/icon_tab-custom.svg]] Custom Functions
+ ** {{{custom-menu}}}
  *** Tab 1/4 Shooting mode/Exposure
  **** Restrict shooting modes
  **** Exposure level increments
@@ -252,7 +252,7 @@ Firmware Version 1.2.0
  **** Retract lens on power off
  **** Add IPTC information
  **** Clear all Custom Func. (C.Fn)
- ** Green [[file:svg/icon_star-bk.svg]] Star
+ ** {{{star-menu}}}
  *** Tab 1/1 My Menu Management
  **** Add My Menu Tab
  **** Delete all My Menu tabs
@@ -260,7 +260,7 @@ Firmware Version 1.2.0
  **** Menu display
 
  * Movie Recording
- ** Red [[file:svg/icon_tab-shooting.svg]] Still Photo Shooting
+ ** {{{still-menu}}}
  *** Tab 1/10 Image quality/size
  **** Movie rec. size
  **** High Frame Rate
@@ -321,7 +321,7 @@ Firmware Version 1.2.0
  **** HDMI display
  **** HDMI RAW otuput
  **** HDMI output range for C. Log
- ** Pink [[file:svg/icon_tab-af.svg]] AF
+ ** {{{af-menu}}}
  *** Tab 1/5 AF operation/area
  **** Movie Servo AF
  **** AF area
@@ -343,7 +343,7 @@ Firmware Version 1.2.0
  **** MF peaking settings
  **** Focus guide
  **** Lens electronic MF
- ** Blue [[file:svg/icon_playback.svg]] Playback
+ ** {{{playback-menu}}}
  *** Tab 1/5 File operation
  **** Protect images
  **** Erase images
@@ -374,7 +374,7 @@ Firmware Version 1.2.0
  **** Playback grid
  **** Movie play count
  **** Memo audio quality
- ** Purple [[file:svg/icon_data-transfer.svg]] Communication Functions
+ ** {{{comm-menu}}}
  *** Tab 1/4 Network settings
  **** Network settings
  **** Airplane mode
@@ -397,7 +397,7 @@ Firmware Version 1.2.0
  **** Choose USB connection app
  **** Save/load comm. settings on card
  **** Reset communication settings
- ** Yellow [[file:svg/icon_tab-set-up.svg]] Set-up
+ ** {{{setup-menu}}}
  *** Tab 1/6 File/card setting
  **** Record func+card/folder sel.
  **** File numbering
@@ -438,7 +438,7 @@ Firmware Version 1.2.0
  **** Manual/software URL
  **** Certification Logo Display
  **** Firmware
- ** Green [[file:svg/icon_Menu_Tab_Assign.svg]] Control Customization
+ ** {{{control-menu}}}
  *** Tab 1/4 Customized controls when shooting
  **** Customize buttons for shooting
  **** Shutter btn function for movie
@@ -462,7 +462,7 @@ Firmware Version 1.2.0
  *** Tab 4/4 Customized controls/Reset
  **** Touch control
  **** Clear all customized controls
- ** Orange [[file:svg/icon_tab-custom.svg]] Custom Functions
+ ** {{{custom-menu}}}
  *** Tab 1/4 Shooting mode/Exposure
  **** Restrict shooting modes
  **** Exposure level increments
@@ -490,7 +490,7 @@ Firmware Version 1.2.0
  **** Retract lens on power off
  **** Add IPTC information
  **** Clear all Custom Func. (C.Fn)
- ** Green [[file:svg/icon_star-bk.svg]] Star
+ ** {{{star-menu}}}
  *** Tab 1/1 My Menu Management
  **** Add My Menu Tab
  **** Delete all My Menu tabs

@@ -1,7 +1,9 @@
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
+#+MACRO: af-operation-menu {{{menu-item(AF operation, 1, {{{af-menu}}})}}}
+#+MACRO: ai-focus-button On the R5 Mark II, this button has no effect when {{{af-operation-menu}}} is set to {{{menu-setting(AI Focus)}}}.
 
-* Functions available for customization {{{model}}}
+* Functions available for customization {{{model}}}                  :always:
 
 Currently this is just the list of icons and brief descriptions for
 each of the functions that can be programmed on single buttons on the
@@ -10,6 +12,15 @@ all??? of these over time.
 
 Mild disclaimer: I own an R5 Mk II and an R1.  Generally I am fumbling
 with the R5 Mk II except when I happen to notice a difference.
+
+#+BEGIN_COMMENT
+There are edge cases that I have discovered which no one probably
+cares about but I will describe them here.  [[When an AF area with the lock icon is selected][When an AF area with the
+lock icon is selected]] the {{{menu-item(Subject to detect ,2,
+{{{af-menu}}})}}} is disabled.  But the camera appears to still
+remember the last setting for when
+[[file:svg/icon_Tracking_select_afon.svg]]: AF on detected subject
+#+END_COMMENT
 
   * [[file:svg/icon_metering-af-start.svg]]: Metering and AF start ::
     One of the four options shutter button half press is able to do.
@@ -72,66 +83,119 @@ with the R5 Mk II except when I happen to notice a difference.
     effect or not leaving the specified setting unchanged.
 
   * [[file:svg/icon_direct_af-area.svg]]: Direct AF area selection ::
+    Each push of the button assigned to this function cycles through
+    the AF areas that are enabled via the {{{menu-item(Limit AF areas,
+    5, {{{af-menu}}})}}}.
 
   * [[file:svg/icon_Subject_tracking_direct_select.svg]]: Direct select of sub to detect ::
+    Each push of the button assigned to this function cycles through
+    the subject types that are enabled via the {{{menu-item(Limit
+    subject to detect, 5, {{{af-menu}}})}}}.  [fn:: The
+    {{{menu-item(AF Area, 1, {{{af-menu}}})}}} can not have a lock
+    icon because these areas disable {{{menu-item(Subject to detect,
+    2, {{{af-menu}}})}}}.]  ????
 
   * [[file:svg/icon_oneshot-servo.svg]]: One-Shot AF *[[file:svg/icon_arrows-left-right.svg]] Servo AF ::
+    The {{{menu-item(AF operation, 1, {{{af-menu}}})}}} cycles from
+    One-Shot AF to Servo AF with each push of the button assigned to
+    this function. {{{include-if(R5MkII, {{{ai-focus-button}}})}}}
 
   * [[file:svg/icon_Metering_Afstart_GAZEconfirm.svg]]: Moving AF pt, meter., AF by eye ctrl ::
     One of the four options shutter button half press is able to do.
-    Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
-    Control Customization tab 4 must be on.  When the shutter button
-    is half pressed, AE metering and AF with eye control are both
-    started and continue until the button is either released or fully
-    depressed which takes a photo.  If the button is released, AE
-    continues for another eight seconds but AF stops.  The AF area is
-    moved to where the eye control is at the moment the shutter button
-    is half pressed.  Keeping it half pressed does not allow the AF
-    area to move around with the eye.  When Eye control is off, this
-    setting appears to work the same as Metering and AF start.
+    {{{menu-item(Eye control, 4, {{{control-menu}}})}}} must be on.
+    When the shutter button is half pressed, AE metering and AF with
+    eye control are both started and continue until the button is
+    either released or fully depressed which takes a photo.  If the
+    button is released, AE continues for another eight seconds but AF
+    stops.  The AF area is moved to where the eye control is at the
+    moment the shutter button is half pressed.  Keeping it half
+    pressed does not allow the AF area to move around with the eye.
+    When Eye control is off, this setting appears to work the same as
+    Metering and AF start.
 
   * [[file:svg/icon_Nac2_confirm.svg]]: Move AF point by eye control ::
-    Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
-    Control Customization tab 4 must be on.  
+    {{{menu-item(Eye control, 4, {{{control-menu}}})}}} must be on.
     At the moment the button is pressed, the AF area is moved to where
     the eye control pointer is.  Neither AF nor AE are started.
 
   * [[file:svg/icon_Nac2_confirm_and_AF.svg]]: Moving AF point, start AF by eye ctrl ::
-    Eye control setting in the green [[file:svg/icon_Menu_Tab_Assign.svg]]
-    Control Customization tab 4 must be on.  At the moment the button
-    is pressed, the AF area is moved to where the eye control pointer
-    is.  Both AE and AF are started and continue while the button is
-    held down.  AE continues for eight seconds after the button is
-    released.
+    {{{menu-item(Eye control, 4, {{{control-menu}}})}}} must be on.
+    At the moment the button is pressed, the AF area is moved to where
+    the eye control pointer is.  Both AE and AF are started and
+    continue while the button is held down.  AE continues for eight
+    seconds after the button is released.
 
   * [[file:svg/icon_Nac2_function.svg]]: Eye control ::
     Eye control is toggled on and off with each push of the button.
-    This is the same settings as in the green
-    [[file:svg/icon_Menu_Tab_Assign.svg]] Control Customization tab 4.
+    This is the same setting as the {{{menu-item(Eye control, 4,
+    {{{control-menu}}})}}}.
 
   * [[file:svg/icon_Tracking_select_afon.svg]]: AF on detected subject ::
+    When a button assigned to this function is pressed,
+    {{{menu-item(AF area, 1, {{{af-menu}}})}}} is temporarily set to
+    {{{menu-setting(Whole area AF)}}} and the auto focus system is
+    engaged.
 
   * [[file:svg/icon_eyes_af.svg]]: Eye Detection AF ::
-    This single button engages the auto focus system but also selects
-    eye detect as well as whole area AF. ??? Double check this please
+    When a button assigned to this function is pressed,
+    {{{menu-item(AF area, 1, {{{af-menu}}})}}} is temporarily set to
+    {{{menu-setting(Whole area AF)}}}, {{{menu-item(Eye detection, 2,
+    {{{af-menu}}})}}} is enabled.  It isn't clear if
+    {{{menu-setting(Auto)}}}, {{{menu-setting(Right Eye)}}}, or
+    {{{menu-setting(Left Eye)}}} is selected.  And the auto focus
+    system is engaged.
 
   * [[file:svg/icon_Eye_detection_direct_select.svg]]: Eye detection ::
     Each push of this button cycles through the Off, Auto, L Eye, and
-    R Eye options enabled in the AF Tab 5 Menu L/R eye detection.
+    R Eye options enabled in the {{{menu-item(L/R eye detection, 5,
+    {{{af-menu}}})}}}.
 
   * [[file:svg/icon_Subject_spot_detection.svg]]: Spot detection ::
-    Cycles Spot detection off and on with each push of the button when
-    Subject to detect is set to Vehicles.
+    Cycles ~Spot detection~ off and on with each push of the button
+    when {{{menu-item(Subject to detect, 2, {{{af-menu}}})}}} is set
+    to {{{menu-setting(Vehicles)}}}.  ~Spot detection~ is normally
+    altered with the [[file:svg/icon_info.svg]] button when
+    {{{menu-setting(Vehicles)}}} is selected for {{{menu-item(Subject
+    to detect, 2, {{{af-menu}}})}}}.
 
   * [[file:svg/icon_Personal_authentication.svg]]: Register people priority ::
+    The {{{menu-item(Register people priority, 2, {{{af-menu}}})}}} is
+    {{{menu-setting(Enabled)}}} and {{{menu-setting(Disabled)}}} with
+    each push of the button assigned to this function.
 
   * [[file:svg/icon_Action_detect.svg]]: Action Priority ::
+    The {{{menu-item(Action Priority, 2, {{{af-menu}}})}}} is
+    {{{menu-setting(Enabled)}}} and {{{menu-setting(Disabled)}}} with
+    each push of the button assigned to this function.  Funny note:
+    When setting this option via the menu, the choices are
+    {{{menu-setting(Enable)}}} and {{{menu-setting(Disable)}}} but
+    when changing it via the button, the settings are
+    {{{menu-setting(Off)}}} and {{{menu-setting(On)}}}.  But for
+    {{{function(Register people priority)}}}, it is just the opposite.
 
   * [[file:svg/icon_Af_mf_switch.svg]]: Focus mode ::
+    I don't have a lens to test this with but I presume that it mimics
+    {{{menu-item(Focus mode, 1, {{{af-menu}}})}}} with each push of
+    the button assigned to this function cycling between manual focus
+    and auto focus modes.
 
   * [[file:svg/icon_mf-peaking-set.svg]]: Peaking ::
+    When the camera is set to manual focus,
+    [fn:manual-focus: The
+    camera is put into manual focus mode via the MF/AF switch on the
+    lens or {{{menu-item(Focus mode, 1, {{{af-menu}}})}}}]
+    then the
+    {{{menu-item(MF peaking settings, 6, {{{af-menu}}})}}} has an
+    affect.  A button assigned to this function will turn the top item
+    ~Peaking~ {{{menu-setting(On)}}} and {{{menu-setting(Off)}}} with
+    each push of the button.
 
   * [[file:svg/icon_focus-guide.svg]]: Focus guide ::
+    When the camera is set to manual focus,[fn:manual-focus] then the
+    {{{menu-item(Focus guide, 6, {{{af-menu}}})}}} has an effect.  A
+    button assigned to this function will turn that setting
+    {{{menu-setting(On)}}} and {{{menu-setting(Off)}}} with each push
+    of the button.
 
   * [[file:svg/icon_Focus_preset_register.svg]]: Register focus preset ::
 

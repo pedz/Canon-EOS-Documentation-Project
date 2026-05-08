@@ -1,7 +1,7 @@
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
 
-* AF Focusing
+* AF Focusing                                                         :always:
 
 The [[https://www.youtube.com/@PointsInFocus][Points In Focus]] YouTube Channel has a very good video about the
 auto focus engine in [[https://youtu.be/zMyOXdZZC94?si=urCW1KLN2jWfwnhf][Selecting a Subject for Tracking with Servo AF -
@@ -11,57 +11,73 @@ through many of them in a logical manner.  Likewise, I will use this
 space to add revelations about how the auto focus engine works here
 and will likely append to it over time.
 
+#+MACRO: ai-focus {{{menu-setting(AI Focus)}}}
 There are settings that need to be enumerated:
 
-  1. The ~Whole area tracking Servo AF~ menu item found in tab 1 of
-     the Pink [[file:svg/icon_tab-af.svg]] menu can be set to On or
-     Off.
+  1. The {{{menu-item(Whole area tracking Servo AF, 1,
+     {{{af-menu}}})}}} can be set to {{{menu-setting(On)}}} or
+     {{{menu-setting(Off)}}}.
 
-  2. The ~Subject to detect~ menu item found in tab 2 of the Pink
-     [[file:svg/icon_tab-af.svg]] menu which can be set to Auto,
-     People, Animals, Vehicles, or None.
+  2. The {{{menu-item(Subject to detect, 2, {{{af-menu}}})}}} menu
+     which can be set to {{{menu-setting(Auto)}}},
+     {{{menu-setting(People)}}}, {{{menu-setting(Animals)}}},
+     {{{menu-setting(Vehicles)}}}, or {{{menu-setting(None)}}}.
 
-  3. The [[file:svg/icon_AF_tracking_start.svg]] *Start/stop whole
-     area AF tracking* function that can be assigned to a button.
+  3. The [[file:svg/icon_AF_tracking_start.svg]] {{{function(Start/stop
+     whole area AF tracking)}}} function that can be assigned to a
+     button.
 
-  4. The AF Area which can be set to Spot AF, 1 point AF, Expand AF
-     area, Expand AF area around, Flexible Zone AF 1, 2, or 3, or
-     Whole area AF.  The AF areas Spot AF, 1 point AF, Expand AF area,
-     and Expand AF area around can have a lock icon or not.
+  4. The {{{menu-item(AF Area, 1, {{{af-menu}}})}}} which can be set
+     to {{{menu-setting(Spot AF)}}}, {{{menu-setting(1 point AF)}}},
+     {{{menu-setting(Expand AF area)}}}, {{{menu-setting(Expand AF
+     area around)}}}, {{{menu-setting(Flexible Zone AF 1)}}},
+     {{{menu-setting(Flexible Zone AF 2)}}}, {{{menu-setting(Flexible
+     Zone AF 3)}}}, or {{{menu-setting(Whole area AF)}}}.  The AF
+     areas {{{menu-setting(Spot AF)}}}, {{{menu-setting(1 point
+     AF)}}}, {{{menu-setting(Expand AF area)}}}, and
+     {{{menu-setting(Expand AF area around)}}} can have a lock icon or
+     not.
 
-  5. The AF operation can be set to One-Shot AF, Servo AF, or AI
-     Focus.  In all of my testing, I will be using Servo AF.  I may
-     check to see what One-Shot AF does but I seriously doubt if I
-     will ever check out what AI Focus does.
+  5. The {{{menu-item(AF operation, 1, {{{af-menu}}})}}} can be set to
+     {{{menu-setting(One-Shot AF)}}} {{{include-if(R5MkII, \,
+     {{{ai-focus}}}\,)}}} or {{{menu-setting(Servo AF)}}}.  In all of
+     my testing, I will be using {{{menu-setting(Servo AF)}}}.  I may
+     check to see what {{{menu-setting(One-Shot AF)}}} does but I
+     seriously doubt if I will ever check out what {{{menu-setting(AI
+     Focus)}}} does.
 
 I want to mention that if you fiddle with this a lot, you will notice
 that the camera does not appear to be 100% consistent.  I will try to
-describe what happens the majority of the time but as the video point
+describe what happens the majority of the time but as the video points
 out, "Your Mileage May Vary".
 
 ** When an AF area with the lock icon is selected
 
-The simple cases.  If the AF area is set to one of the options
-with the lock icon, the ~Whole area tracking Servo AF~ menu item and
-the ~Subject to detect~ menu items are grayed out and a button with
-the *Start/stop whole area AF tracking* function has no effect.  Thus,
-if you want the camera to focus strictly to what is under the focus
-area, pick one of these areas and you don't need to worry about three
-of the other settings -- they are off.
+The simple cases.  If the {{{menu-item(AF area, 1, {{{af-menu}}})}}}
+is set to one of the options with the lock icon, the
+{{{menu-item(Whole area tracking Servo AF, 1, {{{af-menu}}})}}} and
+the {{{menu-item(Subject to detect, 1, {{{af-menu}}})}}} are grayed
+out and a button with the {{{function(Start/stop whole area AF
+tracking)}}} function has no effect.  Thus, if you want the camera to
+focus strictly to what is under the focus area, pick one of these
+areas and you don't need to worry about three of the other settings --
+they are off.
 
-** When an AF area other than "AF area" without the lock icon is selected
+** When an AF area without the lock icon is selected
 
-Spot AF without the lock icon is selected for this example.  I will
-refer to it as the "focus area".  With the ~Whole area tracking Servo
-AF~ menu setting to off and I have the shutter half press function set
-to ~Metering and AF start~.  I will refer to this as "the focus
-button" since it is less typing and also more accurate.  And I will
-refer to the button with *Start/stop whole area AF tracking* assigned
-to it as "the tracking button".  When a button is pressed and held
-down, I will call that "pressed".  When a button is pressed and
-released, I will call it "hit".  e.g. "when the track button is hit".
-Last, to change the scene I am panning the camera as it sits on a
-tripod.  This should simulate tracking an object as it moves.
+{{{menu-setting(Spot AF)}}} without the lock icon is selected for this
+example.  I will refer to it as the "focus area".  With the
+{{{menu-item(Whole area tracking Servo AF, 1, {{{af-menu}}})}}} set to
+{{{menu-setting(Off)}}} and I have the shutter half press function set
+to {{{function(Metering and AF start)}}}.  I will refer to this as
+"the focus button" since it is less typing and also more accurate.
+And I will refer to the button with {{{function(Start/stop whole area AF
+tracking)}}} assigned to it as "the tracking button".  When a button is
+pressed and held down, I will call that "pressed".  When a button is
+pressed and released, I will call it "hit".  e.g. "when the track
+button is hit".  Last, to change the scene I am panning the camera as
+it sits on a tripod.  This should simulate tracking an object as it
+moves.
 
 When the focus button pressed, the camera starts to focus and the
 white focus area will turn blue when focus is achieved.  Panning the
@@ -100,9 +116,10 @@ remains.  When the camera goes to sleep however, the state is
 forgotten and when the camera is woken back up, it will be back to the
 normal state with the original focus area in white.
 
-When the ~Whole area tracking Servo AF~ menu item is turned on the
-camera changes behavior.  With the focus button not pressed, the white
-AF area is shown.  When the focus button is pressed, the white area
+When the {{{menu-item(Whole area tracking Servo AF, 1,
+{{{af-menu}}})}}} item is turned {{{menu-setting(On)}}} the camera
+changes behavior.  With the focus button not pressed, the white AF
+area is shown.  When the focus button is pressed, the white area
 changes to a blue area of a different shape.  It can be a single blue
 rectangle or it can be a bunch of blue focus points dancing about the
 screen.  The original area that the blue box covers will be close to
@@ -120,11 +137,12 @@ pan.
 
 ** When AF Area is selected
 
-When the AF area is set to "AF area" and the ~Whole area tracking
-Servo AF~ menu item is turned off, there screen is clear of any focus
-boxes until the focus button is pressed at which point a broken box
-drawn with a single line is shown around the whole screen along with
-the dancing blue focus boxes.  When the focus button is released, the
+When the AF area is set to "AF area" and the {{{menu-item(Whole area
+tracking Servo AF, 1, {{{af-menu}}})}}} item is turned
+{{{menu-setting(Off)}}}, there screen is clear of any focus boxes
+until the focus button is pressed at which point a broken box drawn
+with a single line is shown around the whole screen along with the
+dancing blue focus boxes.  When the focus button is released, the
 screen is cleared of focusing information again.
 
 If the track button is hit while the focus button is pressed, the
@@ -146,7 +164,8 @@ focus button is pressed.  Hitting the track button again (with the
 focus button still held down) reverts back to the dancing blue focus
 points.
 
-When the ~Whole area tracking Servo AF~ is turned on and the focus
+When the {{{menu-item(Whole area tracking Servo AF, 1,
+{{{af-menu}}})}}} is turned {{{menu-setting(On)}}} and the focus
 button is pressed first, a stable larger blue box is presented.  If
 the track button is pressed during this time, the small dancing blue
 points appear.  Pressing the track button a second reverts back to the
@@ -165,10 +184,12 @@ the metering timer.
 
 ** What about Subject to Detect?
 
-It appears as if the ~Subject to detect~ setting is more or less
-orthogonal to all of the above.  I believe it works to think of all of
-the above as "How to move the focus area in order to find something to
-focus on" while the ~Subject to detect~ has to do with what to focus
-on.  With a ~Subject to detect~ set, priority is given to what that
-subject is with the Auto setting simply meaning that one of the other
-three topics needs to be picked -- which ever is predominant.
+It appears as if the {{{menu-item(Subject to detect, 2,
+{{{af-menu}}})}}} setting is more or less orthogonal to all of the
+above.  I believe it works to think of all of the above as "How to
+move the focus area in order to find something to focus on" while the
+{{{menu-item(Subject to detect, 2, {{{af-menu}}})}}} has to do with
+what to focus on.  With a {{{menu-item(Subject to detect, 2,
+{{{af-menu}}})}}} set, priority is given to what that subject is with
+the {{{menu-setting(Auto)}}} setting simply meaning that one of the
+other three topics needs to be picked -- which ever is predominant.
