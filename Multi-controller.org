@@ -4,7 +4,7 @@
 * Multi-controller                                                   :always:
 
 When the Multi-controller is set to *Direct AF point selection*, the
-[[file:svg/icon_info.svg]] button may be pressed to select that the
+[[file:svg/icon_info.svg]] button may be pressed to select what the
 Multi-controller does when pushed straight in.  Pushing the
 Multi-controller straight in can perform one of several functions:
 
