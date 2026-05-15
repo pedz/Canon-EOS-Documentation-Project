@@ -1,0 +1,394 @@
+#+BEGIN_COMMENT
+This is produced by doing:
+
+./make-picture.rb Canon\ EOS\ R1\ Menus.org > 'R1 menu table.org'
+
+and then adding the lines up to and including the #+NAME: line.
+#+END_COMMENT
+
+* Hidden R5MkII Menu Table                                         :noexport:
+#+NAME: menu-table
+| Still Photo Shooting | {{{still-menu}}}    | Tab 1/9 Image quality/size                   | JPEG/HEIF quality                                     |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 1/9 Image quality/size                   | Img type/size                                         |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 1/9 Image quality/size                   | Cropping/aspect ratio                                 |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 2/9 Exposure                             | Expo. comp. / AEB                                     |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 2/9 Exposure                             | ISO speed settings                                    |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 2/9 Exposure                             | Anti-flicker shoot.                                   |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 2/9 Exposure                             | HF anti-flicker shooting                              |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 2/9 Exposure                             | External Speedlite control                            |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 2/9 Exposure                             | Metering mode                                         |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 2/9 Exposure                             | Detect priority AE while AF                           |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 3/9 Color/tone/Dynamic range             | Picture Style                                         |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 3/9 Color/tone/Dynamic range             | Color space                                           |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 3/9 Color/tone/Dynamic range             | Clarity                                               |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 3/9 Color/tone/Dynamic range             | HDR shooting (PQ)                                     |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 3/9 Color/tone/Dynamic range             | Auto Lighting Optimizer                               |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 3/9 Color/tone/Dynamic range             | Hightlight tone priority                              |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 4/9 White balance/Quality correction     | White balance                                         |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 4/9 White balance/Quality correction     | Set Custom WB                                         |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 4/9 White balance/Quality correction     | WB Shift/Brk.                                         |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 4/9 White balance/Quality correction     | Lens aberration correction                            |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 4/9 White balance/Quality correction     | Long exp. noise reduction                             |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 4/9 White balance/Quality correction     | High ISO speed NR                                     |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 4/9 White balance/Quality correction     | Dust Delete Data                                      |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 5/9 Various shooting                     | Multiple exposure                                     |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 5/9 Various shooting                     | Focus bracketing                                      |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 6/9 Shutter control                      | Drive mode                                            |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 6/9 Shutter control                      | Pre-cont. shoot                                       |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 6/9 Shutter control                      | Interval timer                                        |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 6/9 Shutter control                      | Bulb timer                                            |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 6/9 Shutter control                      | Silent shutter function                               |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 6/9 Shutter control                      | Shutter mode                                          |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 6/9 Shutter control                      | Release shutter without card                          |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 7/9 Assist shooting                      | IS (Image Stabilizer) mode                            |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 7/9 Assist shooting                      | Customize Quick Controls                              |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 7/9 Assist shooting                      | Metering timer                                        |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 8/9 Assist shooting                      | Image review                                          |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 8/9 Assist shooting                      | High speed display                                    |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 8/9 Assist shooting                      | Blackout-free display                                 |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 8/9 Assist shooting                      | Display simulation                                    |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 8/9 Assist shooting                      | OVF sim. view assist                                  |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 8/9 Assist shooting                      | HDR/C.Log View Assist.                                |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 9/9 Assist shooting                      | Shooting info. disp.                                  |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 9/9 Assist shooting                      | Display frame rate set.                               |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 9/9 Assist shooting                      | VF magnification                                      |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 9/9 Assist shooting                      | VF display format                                     |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 9/9 Assist shooting                      | Reverse display                                       |
+| Still Photo Shooting | {{{still-menu}}}    | Tab 9/9 Assist shooting                      | Auto pwr off temp.                                    |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 1/7 AF operation/area                    | AF operation                                          |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 1/7 AF operation/area                    | AF area                                               |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 1/7 AF operation/area                    | Whole area tracking Servo AF                          |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 1/7 AF operation/area                    | Focus mode                                            |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 2/7 Subject detection                    | Subject to detect                                     |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 2/7 Subject detection                    | Eye detection                                         |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 2/7 Subject detection                    | Register people priority                              |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 2/7 Subject detection                    | Action Priority                                       |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 3/7 Servo AF character.                  | AUTO                                                  |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 3/7 Servo AF character.                  | M                                                     |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 3/7 Servo AF character.                  | SP                                                    |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 4/7 Customize AF operation               | Servo 1st image priority                              |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 4/7 Customize AF operation               | One-Shot AF release prior.                            |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 4/7 Customize AF operation               | Preview AF                                            |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 4/7 Customize AF operation               | Lens drive when AF impossible                         |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 4/7 Customize AF operation               | AF-assist beam firing                                 |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 5/7 Customized controls                  | Limit AF areas                                        |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 5/7 Customized controls                  | Orientation linked AF point                           |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 5/7 Customized controls                  | Limit subject to detect                               |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 5/7 Customized controls                  | L/R eye detection                                     |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 6/7 MF related                           | MF peaking settings                                   |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 6/7 MF related                           | Focus guide                                           |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 6/7 MF related                           | Lens electronic MF                                    |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 7/7 Various settings/Various settings    | Register/recall AF-related settings                   |
+| Still Photo Shooting | {{{af-menu}}}       | Tab 7/7 Various settings/Various settings    | AF Setting Guide URL                                  |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 1/5 File operation                       | Protect images                                        |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 1/5 File operation                       | Erase images                                          |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 1/5 File operation                       | Rotate stills                                         |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 1/5 File operation                       | Change mov rotate info                                |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 1/5 File operation                       | Rating                                                |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 1/5 File operation                       | Protect when setting the rating                       |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 2/5 File operation                       | Still Image copy                                      |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 2/5 File operation                       | Print order                                           |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 3/5 Image processig                      | RAW image processing                                  |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 3/5 Image processig                      | In-Camera Upscaling                                   |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 3/5 Image processig                      | Resize                                                |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 3/5 Image processig                      | Cropping                                              |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 3/5 Image processig                      | HEIF -> JPEG conversion                               |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 4/5 Playback method                      | Slide show                                            |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 4/5 Playback method                      | VR preview                                            |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 4/5 Playback method                      | Set image search conditions                           |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 4/5 Playback method                      | View from last seen                                   |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 4/5 Playback method                      | Magnification                                         |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 4/5 Playback method                      | Blur/Out-of-Focus image detection                     |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 5/5 Various settings                     | Playback information                                  |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 5/5 Various settings                     | Highlight alert                                       |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 5/5 Various settings                     | AF point disp.                                        |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 5/5 Various settings                     | Playback grid                                         |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 5/5 Various settings                     | Movie play count                                      |
+| Still Photo Shooting | {{{playback-menu}}} | Tab 5/5 Various settings                     | Memo audio quality                                    |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Network settings                                      |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Airplane mode                                         |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Bluetooth settings                                    |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Camera name                                           |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Error details                                         |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 1/4 Network settings                     | MAC address                                           |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Transfer images to FTP server                         |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to EOS Utility                                |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Upload to image.canon                                 |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Sync time between cameras                             |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to smartphoone(tablet)                        |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to Wireless Remote                            |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 3/4 Network function                     | Camera Control API                                    |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | GPS settings                                          |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | Choose USB connection app                             |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | Save/load comm. settings on card                      |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | Reset communication settings                          |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Record func+card/folder sel.                          |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | File numbering                                        |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Clip Number                                           |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | File name                                             |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Format card                                           |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Auto rotate                                           |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Add movie rotate info                                 |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Date/Time/Zone                                        |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Language                                              |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | System frequency                                      |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Help text size                                        |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Beep                                                  |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Volume                                                |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Audio monitor                                         |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Screen brightness                                     |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Viewfinder brightness                                 |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Screen/viewfinder color tone                          |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Fine-tune VF color tone                               |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Screen/viewfinder display                             |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 3/6 Customize display                    | UI magnification                                      |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 3/6 Customize display                    | HDMI resolution                                       |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Shutter at shutdown                                   |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Sensor cleaning                                       |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Manage password                                       |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Power saving                                          |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 5/6 Reset/All settings                   | Reset camera                                          |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 5/6 Reset/All settings                   | Custom shooting mode (C1-C3)                          |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 5/6 Reset/All settings                   | Save/load cam settings on card                        |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Battery info.                                         |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Copyright information                                 |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Show log                                              |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Manual/software URL                                   |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Certification Logo Display                            |
+| Still Photo Shooting | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Firmware                                              |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Customize buttons for shooting                        |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Customize dials/control ring                          |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Dials direction to set Tv/Av                          |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Control ring direction to set Tv/Av                   |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Switch Main dial / Quick control 2 when shooting      |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Touch Shutter                                         |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Multi function lock                                   |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | Touch & drag AF settings                              |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | AF area selection control                             |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | sensitivity- AF pt select                             |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | Focus/control ring                                    |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | Focus ring rotation                                   |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | RF lens MF focus ring sensitivity                     |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Customize buttons for playback                        |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Image jump with main dial                             |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Img jump v/Hold: Record memo button + Quick control 1 |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Switch Main dial / Quick control 2 during playback    |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 4/4 Customized controls/Reset            | Eye control                                           |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 4/4 Customized controls/Reset            | Touch control                                         |
+| Still Photo Shooting | {{{control-menu}}}  | Tab 4/4 Customized controls/Reset            | Clear all customized controls                         |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Restrict shooting modes                               |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Exposure level increments                             |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | ISO speed setting increments                          |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Speed from metering/ISO Auto                          |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Bracketing auto cancel                                |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Bracketing sequence                                   |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Number of bracketed shots                             |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Safety shift                                          |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Same expo. for new aperture                           |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 2/4 Exposure                             | AE lock meter. mode after focus                       |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Set shutter speed range                               |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Set aperture range                                    |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 2/4 Exposure                             | AE Microadjustment                                    |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 2/4 Exposure                             | FE Microadjustment                                    |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 3/4 Drive                                | Continuous shooting speed                             |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 3/4 Drive                                | Limit continuous shot count                           |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Add cropping information                              |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Default Erase option                                  |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Av setting without lens                               |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Release shutter w/o lens                              |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Retract lens on power off                             |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Add IPTC information                                  |
+| Still Photo Shooting | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Clear all Custom Func. (C.Fn)                         |
+| Still Photo Shooting | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Add My Menu Tab                                       |
+| Still Photo Shooting | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Delete all My Menu tabs                               |
+| Still Photo Shooting | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Delete all items                                      |
+| Still Photo Shooting | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Menu display                                          |
+| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Movie rec. size                                       |
+| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | High Frame Rate                                       |
+| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Main rec. format                                      |
+| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Movie cropping                                        |
+| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Dual shooting (still&movie)                           |
+| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Sound recording                                       |
+| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio format                                          |
+| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio settings                                        |
+| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio Status                                          |
+| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Exposure comp.                                        |
+| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | ISO speed settings                                    |
+| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | HF anti-flicker shooting                              |
+| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Movie AV 1/8-stop incr.                               |
+| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Movie Auto slow shutter                               |
+| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Detect prioirty AE while AF                           |
+| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Custom Picture                                        |
+| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Picture Style                                         |
+| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Clarity                                               |
+| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | HDR shooting (PQ)                                     |
+| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | HDR Movie Mode                                        |
+| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Auto Lighting Optimize                                |
+| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Highlight tone priority                               |
+| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | White balance                                         |
+| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | Set Custom WB                                         |
+| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | WB correction                                         |
+| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | Lens aberration correction                            |
+| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | High ISO speed NR                                     |
+| Movie Recording      | {{{still-menu}}}    | Tab 6/10 Various shooting                    | Pre-recording set.                                    |
+| Movie Recording      | {{{still-menu}}}    | Tab 6/10 Various shooting                    | Time-lapse movie                                      |
+| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Movie self-timer                                      |
+| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Tally lamp                                            |
+| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | IS (Image Stabilizer) mode                            |
+| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Movie Auto level                                      |
+| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Customize Quick Controls                              |
+| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Metering timer                                        |
+| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | Metadata                                              |
+| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | Time code                                             |
+| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | HDR/C.Log View Assist.                                |
+| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | False color set.                                      |
+| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | Zebra settings                                        |
+| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | Shooting info. disp.                                  |
+| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | Quick Ctrl screen                                     |
+| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | VF display format                                     |
+| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | Reverse display                                       |
+| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Auto pwr off temp.                                    |
+| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Standby; Low res.                                     |
+| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Shutdown warning guidance                             |
+| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI display                                          |
+| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI RAW otuput                                       |
+| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI output range for C. Log                          |
+| Movie Recording      | {{{af-menu}}}       | Tab 1/5 AF operation/area                    | Movie Servo AF                                        |
+| Movie Recording      | {{{af-menu}}}       | Tab 1/5 AF operation/area                    | AF area                                               |
+| Movie Recording      | {{{af-menu}}}       | Tab 1/5 AF operation/area                    | Focus mode                                            |
+| Movie Recording      | {{{af-menu}}}       | Tab 2/5 Subject detection                    | Subject to detect                                     |
+| Movie Recording      | {{{af-menu}}}       | Tab 2/5 Subject detection                    | Eye detection                                         |
+| Movie Recording      | {{{af-menu}}}       | Tab 2/5 Subject detection                    | Register people priority                              |
+| Movie Recording      | {{{af-menu}}}       | Tab 2/5 Subject detection                    | Switching tracked subjects                            |
+| Movie Recording      | {{{af-menu}}}       | Tab 3/5 Servo AF character.                  | Movie Servo AF speed                                  |
+| Movie Recording      | {{{af-menu}}}       | Tab 3/5 Servo AF character.                  | Movie Servo AF track sens.                            |
+| Movie Recording      | {{{af-menu}}}       | Tab 4/5 Customize AF operation               | Lens drive when AF impossible                         |
+| Movie Recording      | {{{af-menu}}}       | Tab 4/5 Customize AF operation               | Limit AF areas                                        |
+| Movie Recording      | {{{af-menu}}}       | Tab 4/5 Customize AF operation               | Limit subject to detect                               |
+| Movie Recording      | {{{af-menu}}}       | Tab 4/5 Customize AF operation               | L/R eye detection                                     |
+| Movie Recording      | {{{af-menu}}}       | Tab 6/5 MF related                           | MF peaking settings                                   |
+| Movie Recording      | {{{af-menu}}}       | Tab 6/5 MF related                           | Focus guide                                           |
+| Movie Recording      | {{{af-menu}}}       | Tab 6/5 MF related                           | Lens electronic MF                                    |
+| Movie Recording      | {{{playback-menu}}} | Tab 1/5 File operation                       | Protect images                                        |
+| Movie Recording      | {{{playback-menu}}} | Tab 1/5 File operation                       | Erase images                                          |
+| Movie Recording      | {{{playback-menu}}} | Tab 1/5 File operation                       | Rotate stills                                         |
+| Movie Recording      | {{{playback-menu}}} | Tab 1/5 File operation                       | Change mov rotate info                                |
+| Movie Recording      | {{{playback-menu}}} | Tab 1/5 File operation                       | Rating                                                |
+| Movie Recording      | {{{playback-menu}}} | Tab 1/5 File operation                       | Protect when setting the rating                       |
+| Movie Recording      | {{{playback-menu}}} | Tab 2/5 File operation                       | Still Image copy                                      |
+| Movie Recording      | {{{playback-menu}}} | Tab 2/5 File operation                       | Print order                                           |
+| Movie Recording      | {{{playback-menu}}} | Tab 3/5 Image processig                      | RAW image processing                                  |
+| Movie Recording      | {{{playback-menu}}} | Tab 3/5 Image processig                      | In-Camera Upscaling                                   |
+| Movie Recording      | {{{playback-menu}}} | Tab 3/5 Image processig                      | Resize                                                |
+| Movie Recording      | {{{playback-menu}}} | Tab 3/5 Image processig                      | Cropping                                              |
+| Movie Recording      | {{{playback-menu}}} | Tab 3/5 Image processig                      | HEIF -> JPEG conversion                               |
+| Movie Recording      | {{{playback-menu}}} | Tab 4/5 Playback method                      | Slide show                                            |
+| Movie Recording      | {{{playback-menu}}} | Tab 4/5 Playback method                      | VR preview                                            |
+| Movie Recording      | {{{playback-menu}}} | Tab 4/5 Playback method                      | Set image search conditions                           |
+| Movie Recording      | {{{playback-menu}}} | Tab 4/5 Playback method                      | View from last seen                                   |
+| Movie Recording      | {{{playback-menu}}} | Tab 4/5 Playback method                      | Magnification                                         |
+| Movie Recording      | {{{playback-menu}}} | Tab 4/5 Playback method                      | Blur/Out-of-Focus image detection                     |
+| Movie Recording      | {{{playback-menu}}} | Tab 5/5 Various settings                     | Playback information                                  |
+| Movie Recording      | {{{playback-menu}}} | Tab 5/5 Various settings                     | Highlight alert                                       |
+| Movie Recording      | {{{playback-menu}}} | Tab 5/5 Various settings                     | AF point disp.                                        |
+| Movie Recording      | {{{playback-menu}}} | Tab 5/5 Various settings                     | Playback grid                                         |
+| Movie Recording      | {{{playback-menu}}} | Tab 5/5 Various settings                     | Movie play count                                      |
+| Movie Recording      | {{{playback-menu}}} | Tab 5/5 Various settings                     | Memo audio quality                                    |
+| Movie Recording      | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Network settings                                      |
+| Movie Recording      | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Airplane mode                                         |
+| Movie Recording      | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Bluetooth settings                                    |
+| Movie Recording      | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Camera name                                           |
+| Movie Recording      | {{{comm-menu}}}     | Tab 1/4 Network settings                     | Error details                                         |
+| Movie Recording      | {{{comm-menu}}}     | Tab 1/4 Network settings                     | MAC address                                           |
+| Movie Recording      | {{{comm-menu}}}     | Tab 2/4 Network function                     | Transfer images to FTP server                         |
+| Movie Recording      | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to EOS Utility                                |
+| Movie Recording      | {{{comm-menu}}}     | Tab 2/4 Network function                     | Upload to image.canon                                 |
+| Movie Recording      | {{{comm-menu}}}     | Tab 2/4 Network function                     | Sync time between cameras                             |
+| Movie Recording      | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to smartphoone(tablet)                        |
+| Movie Recording      | {{{comm-menu}}}     | Tab 2/4 Network function                     | Live streaming                                        |
+| Movie Recording      | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to Wireless Remote                            |
+| Movie Recording      | {{{comm-menu}}}     | Tab 3/4 Network function                     | Xamera Control API                                    |
+| Movie Recording      | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | GPS settings                                          |
+| Movie Recording      | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | Choose USB connection app                             |
+| Movie Recording      | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | Save/load comm. settings on card                      |
+| Movie Recording      | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | Reset communication settings                          |
+| Movie Recording      | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Record func+card/folder sel.                          |
+| Movie Recording      | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | File numbering                                        |
+| Movie Recording      | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Clip Number                                           |
+| Movie Recording      | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | File name                                             |
+| Movie Recording      | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Format card                                           |
+| Movie Recording      | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Auto rotate                                           |
+| Movie Recording      | {{{setup-menu}}}    | Tab 1/6 File/card setting                    | Add movie rotate info                                 |
+| Movie Recording      | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Date/Time/Zone                                        |
+| Movie Recording      | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Language                                              |
+| Movie Recording      | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | System frequency                                      |
+| Movie Recording      | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Help text size                                        |
+| Movie Recording      | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Beep                                                  |
+| Movie Recording      | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Volume                                                |
+| Movie Recording      | {{{setup-menu}}}    | Tab 2/6 Country/Area/Guidance/Audio settings | Audio monitor                                         |
+| Movie Recording      | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Screen brightness                                     |
+| Movie Recording      | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Viewfinder brightness                                 |
+| Movie Recording      | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Screen/viewfinder color tone                          |
+| Movie Recording      | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Fine-tune VF color tone                               |
+| Movie Recording      | {{{setup-menu}}}    | Tab 3/6 Customize display                    | Screen/viewfinder display                             |
+| Movie Recording      | {{{setup-menu}}}    | Tab 3/6 Customize display                    | UI magnification                                      |
+| Movie Recording      | {{{setup-menu}}}    | Tab 3/6 Customize display                    | HDMI resolution                                       |
+| Movie Recording      | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Shutter at shutdown                                   |
+| Movie Recording      | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Sensor cleaning                                       |
+| Movie Recording      | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Manage password                                       |
+| Movie Recording      | {{{setup-menu}}}    | Tab 4/6 Various settings                     | Power saving                                          |
+| Movie Recording      | {{{setup-menu}}}    | Tab 5/6 Reset/All settings                   | Reset camera                                          |
+| Movie Recording      | {{{setup-menu}}}    | Tab 5/6 Reset/All settings                   | Custom shooting mode (C1-C3)                          |
+| Movie Recording      | {{{setup-menu}}}    | Tab 5/6 Reset/All settings                   | Save/load cam settings on card                        |
+| Movie Recording      | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Battery info.                                         |
+| Movie Recording      | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Copyright information                                 |
+| Movie Recording      | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Show log                                              |
+| Movie Recording      | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Manual/software URL                                   |
+| Movie Recording      | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Certification Logo Display                            |
+| Movie Recording      | {{{setup-menu}}}    | Tab 6/6 Various settings                     | Firmware                                              |
+| Movie Recording      | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Customize buttons for shooting                        |
+| Movie Recording      | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Shutter btn function for movie                        |
+| Movie Recording      | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Customize dials/control ring                          |
+| Movie Recording      | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Dials direction to set Tv/Av                          |
+| Movie Recording      | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Control ring direction to set Tv/Av                   |
+| Movie Recording      | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Switch Main dial / Quick control 2 when shooting      |
+| Movie Recording      | {{{control-menu}}}  | Tab 1/4 Customized controls when shooting    | Multi function lock                                   |
+| Movie Recording      | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | Touch & drag AF settings                              |
+| Movie Recording      | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | AF area selection control                             |
+| Movie Recording      | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | sensitivity- AF pt select                             |
+| Movie Recording      | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | Focus/control ring                                    |
+| Movie Recording      | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | Focus ring rotation                                   |
+| Movie Recording      | {{{control-menu}}}  | Tab 2/4 Customized controls when shooting    | RF lens MF focus ring sensitivity                     |
+| Movie Recording      | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Customize buttons for playback                        |
+| Movie Recording      | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Image jump with main dial                             |
+| Movie Recording      | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Img jump v/Hold: Record memo button + Quick control 1 |
+| Movie Recording      | {{{control-menu}}}  | Tab 3/4 Custommized controls when playback   | Switch Main dial / Quick control 2 during playback    |
+| Movie Recording      | {{{control-menu}}}  | Tab 4/4 Customized controls/Reset            | Touch control                                         |
+| Movie Recording      | {{{control-menu}}}  | Tab 4/4 Customized controls/Reset            | Clear all customized controls                         |
+| Movie Recording      | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Restrict shooting modes                               |
+| Movie Recording      | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Exposure level increments                             |
+| Movie Recording      | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | ISO speed setting increments                          |
+| Movie Recording      | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Speed from metering/ISO Auto                          |
+| Movie Recording      | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Bracketing auto cancel                                |
+| Movie Recording      | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Bracketing sequence                                   |
+| Movie Recording      | {{{custom-menu}}}   | Tab 1/4 Shooting mode/Exposure               | Number of bracketed shots                             |
+| Movie Recording      | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Safety shift                                          |
+| Movie Recording      | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Same expo. for new aperture                           |
+| Movie Recording      | {{{custom-menu}}}   | Tab 2/4 Exposure                             | AE lock meter. mode after focus                       |
+| Movie Recording      | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Set shutter speed range                               |
+| Movie Recording      | {{{custom-menu}}}   | Tab 2/4 Exposure                             | Set aperture range                                    |
+| Movie Recording      | {{{custom-menu}}}   | Tab 2/4 Exposure                             | AE Microadjustment                                    |
+| Movie Recording      | {{{custom-menu}}}   | Tab 2/4 Exposure                             | FE Microadjustment                                    |
+| Movie Recording      | {{{custom-menu}}}   | Tab 3/4 Drive                                | Continuous shooting speed                             |
+| Movie Recording      | {{{custom-menu}}}   | Tab 3/4 Drive                                | Limit continuous shot count                           |
+| Movie Recording      | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Add cropping information                              |
+| Movie Recording      | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Default Erase option                                  |
+| Movie Recording      | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Av setting without lens                               |
+| Movie Recording      | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Release shutter w/o lens                              |
+| Movie Recording      | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Retract lens on power off                             |
+| Movie Recording      | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Add IPTC information                                  |
+| Movie Recording      | {{{custom-menu}}}   | Tab 4/4 Various settings / Reset             | Clear all Custom Func. (C.Fn)                         |
+| Movie Recording      | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Add My Menu Tab                                       |
+| Movie Recording      | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Delete all My Menu tabs                               |
+| Movie Recording      | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Delete all items                                      |
+| Movie Recording      | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Menu display                                          |

@@ -1,3 +1,8 @@
+* Introduction                                                       :always:
+
 This is a documentation supplement for the {{{model}}}.  The objective
 is to add what others have learned about the exact functioning of the
-camera.
+camera.  It is part of the [[https://github.com/pedz/Canon-EOS-Documentation-Project][Canon-EOS-Documentation-Project]] found on
+Github.  If you would like to contribute to the project, please open a
+Discussion in the project.
+

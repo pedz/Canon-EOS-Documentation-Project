@@ -11,12 +11,32 @@
 #+MACRO: still-menu Red [[file:svg/icon_tab-shooting.svg]] Shooting
 #+MACRO: setup-menu Yellow [[file:svg/icon_tab-set-up.svg]] Set-up
 
-#+MACRO: menu-item ~$1~ menu item found in tab $2 of the $3 menu
 #+MACRO: menu-setting =$1=
 #+MACRO: function /$1/
 
 #+MACRO: include-if (eval (if (member $1 (plist-get (org-export--get-inbuffer-options) :select-tags)) $2))
 #+MACRO: omit-if    (eval (unless (member $1 (plist-get (org-export--get-inbuffer-options) :exclude-tags)) $2))
+
+#+NAME: menu
+#+HEADER: :var item="Detect priority AE while AF"
+#+BEGIN_SRC emacs-lisp :export none :var table=menu-table
+  (let* ((len (length table))
+         (index 0)
+         (str (replace-regexp-in-string "\n *" " " item))
+         tab
+         temp)
+    (while (and (< index len) ; >
+                (not (string= (elt (elt table index) 3) str)))
+      (setq index (1+ index)))
+    (if (= index len)
+        (error "String '%s' not found" str))
+    (setq temp (elt table index))
+    (setq tab (replace-regexp-in-string "^[Tt]ab \\([0-9]+\\)/[0-9]+ .*$" "\\1" (elt temp 2)))
+    (format "~%s~ menu item found in tab %s of the %s menu"
+            (elt temp 3)
+            tab
+            (elt temp 1)))
+#+END_SRC
 
 #+INCLUDE: "Intro.org"
 #+INCLUDE: "AF Focusing.org"

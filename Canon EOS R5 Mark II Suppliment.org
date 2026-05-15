@@ -2,4 +2,11 @@
 #+OPTIONS: tags:nil
 #+SELECT_TAGS: R5MkII always
 
+#+INCLUDE: "R5MkII menu table.org"
+
 #+INCLUDE: "base.org"
+
+# Local Variables:
+# org-babel-inline-result-wrap: "%s"
+# org-confirm-babel-evaluate: nil
+# End:
