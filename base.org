@@ -1,4 +1,4 @@
-#+TITLE:  {{{model}}} Suppliment
+#+TITLE:  {{{model}}} Supplement
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
 

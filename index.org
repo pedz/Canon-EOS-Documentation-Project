@@ -12,6 +12,5 @@ The project is hosted on at [[https://github.com/pedz/Canon-EOS-Documentation-Pr
 would like to help, please open a discussion in the project on GitHub.
 
 
-* Camera Supplements
- 1. [[file:Canon EOS R1 Suppliment.html][Canon EOS R1 Suppliment]]
- 2. [[file:Canon EOS R5 Mark II Suppliment.html][Canon EOS R5 Mark II Suppliment]]
+ 1. [[file:Canon EOS R1 Supplement.html][Canon EOS R1 Supplement]]
+ 2. [[file:Canon EOS R5 Mark II Supplement.html][Canon EOS R5 Mark II Supplement]]
