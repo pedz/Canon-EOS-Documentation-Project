@@ -8,7 +8,7 @@ all the functions that can be assigned to buttons.  Most are not
 documented at all.  This project is to document those areas that need
 more documentation.
 
-The project is hosted on at [[https://github.com/pedz/Canon-EOS-Documentation-Project][Canon-EOS-Documentation-Project]].  If you
+The project is hosted at [[https://github.com/pedz/Canon-EOS-Documentation-Project][Canon-EOS-Documentation-Project]].  If you
 would like to help, please open a discussion in the project on GitHub.
 
 
