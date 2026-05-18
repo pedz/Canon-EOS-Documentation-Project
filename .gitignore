@@ -1,4 +1,7 @@
 .DS_Store
 *.html
 png/
+untracked/
 test.org
+!Canon EOS R1 Suppliment.html
+!Canon EOS R5 Mark II Suppliment.html
