@@ -7,6 +7,7 @@ and then adding the lines up to and including the #+NAME: line.
 #+END_COMMENT
 
 * Hidden R5MkII Menu Table                                         :noexport:
+#+INCLUDE: "macros.org"
 #+NAME: menu-table
 | Still Photo Shooting | {{{still-menu}}}    | Tab 1/9 Image quality/size                   | JPEG/HEIF quality                                     |
 | Still Photo Shooting | {{{still-menu}}}    | Tab 1/9 Image quality/size                   | Img type/size                                         |

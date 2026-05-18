@@ -2,9 +2,9 @@
 #+OPTIONS: tags:nil
 #+SELECT_TAGS: R1 always
 
-#+INCLUDE: "R1 menu table.org"
-
 #+INCLUDE: "base.org"
+
+#+INCLUDE: "R1 menu table.org"
 
 # Local Variables:
 # org-babel-inline-result-wrap: "%s"

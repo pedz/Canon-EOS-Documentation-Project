@@ -1,3 +1,17 @@
-[[Canon EOS R1 Suppliment.org][Canon EOS R1 Suppliment]]
-[[Canon EOS R5 Mark II Suppliment.org][Canon EOS R5 Mark II Suppliment]]
+#+TITLE:  Canon EOS Documentation Project
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com
 
+To me, there are many subtle questions about how the Canon EOS cameras
+work that are not answered in the manual.  The top most of these are
+all the functions that can be assigned to buttons.  Most are not
+documented at all.  This project is to document those areas that need
+more documentation.
+
+The project is hosted on at [[https://github.com/pedz/Canon-EOS-Documentation-Project][Canon-EOS-Documentation-Project]].  If you
+would like to help, please open a discussion in the project on GitHub.
+
+
+* Camera Supplements
+ 1. [[file:Canon EOS R1 Suppliment.html][Canon EOS R1 Suppliment]]
+ 2. [[file:Canon EOS R5 Mark II Suppliment.html][Canon EOS R5 Mark II Suppliment]]

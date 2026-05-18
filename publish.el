@@ -14,6 +14,7 @@
   (interactive)
   (setq org-babel-inline-result-wrap "%s"
         org-confirm-babel-evaluate nil
+        org-publish-use-timestamps-flag nil
         org-publish-project-alist
         '(("Canon-EOS-Documentation-Project"
            :base-directory "~/Source/Canon-EOS-Documentation-Project"
