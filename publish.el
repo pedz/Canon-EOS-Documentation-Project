@@ -15,13 +15,15 @@
   (setq org-babel-inline-result-wrap "%s"
         org-confirm-babel-evaluate nil
         org-publish-use-timestamps-flag nil
+        org-export-with-author nil
+        org-html-validation-link nil
         org-publish-project-alist
         '(("Canon-EOS-Documentation-Project"
            :base-directory "~/Source/Canon-EOS-Documentation-Project"
            :publishing-function org-html-publish-to-html
            :publishing-directory "~/Source/Canon-EOS-Documentation-Project"
-           :exclude "*.org"
-           :include ("Canon EOS R1 Suppliment.org"
-                     "Canon EOS R5 Mark II Suppliment.org"
+           :exclude ".*"
+           :include ("Canon EOS R1 Supplement.org"
+                     "Canon EOS R5 Mark II Supplement.org"
                      "index.org"))))
-  (org-publish-current-project))
+  (org-publish-all))

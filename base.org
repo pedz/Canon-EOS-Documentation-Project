@@ -1,6 +1,3 @@
-#+TITLE:  {{{model}}} Supplement
-#+AUTHOR: Perry Smith
-#+EMAIL:  pedz@easesoftware.com
 
 #+INCLUDE: "macros.org"
 #+INCLUDE: "Intro.org"
@@ -12,3 +9,7 @@
 #+INCLUDE: "AF-ON Button on Canon EOS R1.org"
 #+INCLUDE: "Canon EOS R1 Menus.org"
 #+INCLUDE: "Canon EOS R5 Mark II Menus.org"
+
+#+TITLE:  {{{model}}} Supplement
+#+AUTHOR: Perry Smith
+#+EMAIL:  pedz@easesoftware.com

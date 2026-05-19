@@ -14,9 +14,19 @@
 #+MACRO: include-if (eval (if (member $1 (plist-get (org-export--get-inbuffer-options) :select-tags)) $2))
 #+MACRO: omit-if    (eval (unless (member $1 (plist-get (org-export--get-inbuffer-options) :exclude-tags)) $2))
 
+# #+NAME: model
+# #+BEGIN_SRC elisp :exports none
+#   (dolist (f (plist-get (org-export--get-inbuffer-options) :select-tags) result)
+#     (setq result
+#           (pcase f
+#             ("R1" "Canon EOS R1")
+#             ("R5MkII" "EOS R5 Mark II")
+#             (_ result))))
+# #+END_SRC
+
 #+NAME: menu
 #+HEADER: :var item="Detect priority AE while AF"
-#+BEGIN_SRC emacs-lisp :export none :var table=menu-table
+#+BEGIN_SRC elisp :exports none :var table=menu-table
   (let* ((len (length table))
          (index 0)
          (str (replace-regexp-in-string "\n *" " " item))

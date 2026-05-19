@@ -1,4 +1,4 @@
-#+MACRO: model EOS R5 Mark II
+#+MACRO: model Canon EOS R5 Mark II
 #+OPTIONS: tags:nil
 #+SELECT_TAGS: R5MkII always
 
