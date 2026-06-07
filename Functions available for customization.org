@@ -2,7 +2,6 @@
 #+EMAIL:  pedz@easesoftware.com
 #+MACRO: af-operation-menu call_menu(item="AF operation")
 #+MACRO: ai-focus-button On the R5 Mark II, this button has no effect when {{{af-operation-menu}}} is set to {{{menu-setting(AI Focus)}}}.
-#+MACRO: info-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_info.svg" alt="INFO"></span>@@ button
 
 * Functions available for customization {{{model}}}                  :always:
 
@@ -278,7 +277,7 @@ detected subject
 
   * [[file:svg/icon_func-exp.svg]]: Expo comp (hold btn, turn *[[file:svg/icon_dial_bk.svg]]) ::
     In P, Tv, Av, and M shooting modes, holding a button assigned to
-    this function down enables the main dial to adjust the exposure
+    this function down enables the {{{main-dial}}} to adjust the exposure
     compensation.  In Fv mode however, even after releasing the
     button, the main dial continues to adjust the exposure
     compensation until the call_menu(item="Metering timer") expires.
@@ -290,7 +289,7 @@ detected subject
 
   * [[file:svg/icon_func-set-iso.svg]]: Set ISO speed(hold btn,turn*[[file:svg/icon_dial_bk.svg]]) ::
     When a button assigned to this function is pressed and held, the
-    main dial is used to adjust the ISO.
+    {{{main-dial}}} is used to adjust the ISO.
 
   * [[file:svg/icon_flash.svg]]: Flash firing ::
     I don't want to muck with a flash right now.
@@ -339,14 +338,14 @@ detected subject
     as cloudy, sunny, etc.  Any of the dials can be used to select the
     desired setting.  The {{{info-button}}} can be pressed which
     presents an X-Y view of the white balance where the setting can be
-    moved by the Multi-Controller.  The main dial can be used to set
+    moved by the Multi-Controller.  The {{{main-dial}}} can be used to set
     the white balance bracketing.
 
   * [[file:svg/icon_Wb_shift.svg]]: WB Shift/Bkt. ::
     This is available only in still photo shooting.  When a button
     assigned to this function is pressed, a X-Y view of the white
     balance is presented and the multi-controller can be used to
-    adjust the settings.  The main dial can be used to adjust the
+    adjust the settings.  The {{{main-dial}}} can be used to adjust the
     white balance bracketing.
 
   * [[file:svg/icon_Wb_shift.svg]]: WB correction ::
@@ -357,14 +356,39 @@ detected subject
     bracketing during moving shooting isn't possible.
 
   * [[file:svg/icon_func-picstyle.svg]]: Picture Style ::
+    There are eleven Picture Styles defined.  When a button assigned
+    to this function is pushed, a menu of these eleven styles is
+    displayed as two lines with the top line having six selections and
+    the second line having five.  The multi-controller may be used in
+    both the horizontal and vertical motions to select one of the
+    styles.  Any of the dials may also be used to select one of the
+    styles.  Also, the {{{info-button}}} brings up a different screen
+    with the six attributes of the selected style before the
+    {{{info-button}}} was pressed are available in a vertical menu.
+    The {{{qcd-1}}} is used to select which attribute to change while
+    the {{{main-dial}}} is used to change its value.
 
   * [[file:svg/icon_record-func-card-sel.svg]]: Record func+card/folder sel. ::
+    When a button assigned to this function is pressed, a menu
+    identical to the call_menu(item="Record func+card/folder sel.") is
+    presented with the same functionality.
 
   * [[file:svg/icon_False_Color.svg]]: False color ::
+    Only available for Movie Shooting.  With each push of a button
+    assigned to this function is pressed, the False color sub-option
+    of the call_menu(item="False color set.") is toggled on and off.
 
   * [[file:svg/icon_zebra_select.svg]]: Zebra ::
+    Only available for Movie Shooting.    With each push of a button
+    assigned to this function is pressed, the Zebra sub-option
+    of the call_menu(item="False color set.") is toggled on and off.
 
   * [[file:svg/icon_mov.svg]]: Movie recording ::
+    Only available for Still Photo Shooting.  This is the default
+    function for the Movie shooting button.  When a button assigned to
+    this function is pressed, the camera switches into
+    [{{{c3-movie}}}] and starts recording.  A subsequent push will
+    stop the recording.
 
   * [[file:svg/icon_pause-mov-servo.svg]]: Pause Movie Servo AF ::
 

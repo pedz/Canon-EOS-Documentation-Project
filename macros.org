@@ -5,7 +5,8 @@
 #+MACRO: custom-menu Orange [[file:svg/icon_tab-custom.svg]] Custom Functions
 #+MACRO: af-menu Pink [[file:svg/icon_tab-af.svg]]
 #+MACRO: comm-menu Purple [[file:svg/icon_data-transfer.svg]] Communication Functions
-#+MACRO: still-menu Red [[file:svg/icon_tab-shooting.svg]] Shooting
+#+MACRO: still-menu Red [[file:svg/icon_tab-shooting.svg]] Still Shooting
+#+MACRO: movie-menu Red [[file:svg/icon_tab-shooting.svg]] Movie Shooting
 #+MACRO: setup-menu Yellow [[file:svg/icon_tab-set-up.svg]] Set-up
 
 #+MACRO: menu-setting =$1=
@@ -44,3 +45,18 @@
             tab
             (elt temp 1)))
 #+END_SRC
+
+# The info-button
+#+MACRO: info-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_info.svg" alt="INFO"></span>@@ button
+# The Quick Control 1 dial -- the big dial on the back of the camera
+#+MACRO: qcd-1 @@html:<span class="icon"><img class="print_icon" src="svg/icon_sub-dial.svg" alt="Quick Control 1"></span>@@ Quick Control 1
+# The Quick Control 2 dial -- the one on the top back of the camera
+#+MACRO: qcd-2 @@html:<span class="icon"><img class="print_icon" src="svg/icon_sub-dial2.svg" alt="Quick Control 2"></span>@@ Quick Control 2
+# The Main dial -- the one on the top front of the camera
+#+MACRO: main-dial @@html:<span class="icon"><img class="print_icon" src="svg/icon_main-dial.svg" alt="Main dial"></span>@@ Main dial
+# The M-fn button
+#+MACRO: m-fn @@html:<span class="icon"><img class="print_icon" src="svg/icon_m-fn.svg" alt="M-fn"></span>@@ Multi-function button
+# The M-fn-ftp button
+#+MACRO: m-fn @@html:<span class="icon"><img class="print_icon" src="svg/icon_m-fn.svg" alt="M-fn">/<img class="print_icon" src="svg/icon_ftp-server.svg" alt=ftp server"></span>@@ Multi-function/FTP server image transfer button
+# The C3 custom setting for movies
+#+MACRO: c3-movie @@html:<img class="print_icon" src="svg/icon_mode-mov-c3.svg" alt="Program AE3 (movies)">@@

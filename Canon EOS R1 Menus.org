@@ -269,7 +269,7 @@ Firmware Version 1.2.0
         * Menu display
 
   * Movie Recording
-    * {{{still-menu}}}
+    * {{{movie-menu}}}
       * Tab 1/10 Image quality/size
         * Movie rec. size
         * High Frame Rate

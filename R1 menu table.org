@@ -211,56 +211,56 @@ and then adding the lines up to and including the #+NAME: line.
 | Still Photo Shooting | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Delete all My Menu tabs                                      |
 | Still Photo Shooting | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Delete all items                                             |
 | Still Photo Shooting | {{{star-menu}}}     | Tab 1/1 My Menu Management                   | Menu display                                                 |
-| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Movie rec. size                                              |
-| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | High Frame Rate                                              |
-| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Main rec. format                                             |
-| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Movie cropping                                               |
-| Movie Recording      | {{{still-menu}}}    | Tab 1/10 Image quality/size                  | Dual shooting (still&movie)                                  |
-| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Sound recording                                              |
-| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio format                                                 |
-| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio settings                                               |
-| Movie Recording      | {{{still-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio Status                                                 |
-| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Exposure comp.                                               |
-| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | ISO speed settings                                           |
-| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | HF anti-flicker shooting                                     |
-| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Movie AV 1/8-stop incr.                                      |
-| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Movie Auto slow shutter                                      |
-| Movie Recording      | {{{still-menu}}}    | Tab 3/10 Exposure                            | Detect prioirty AE while AF                                  |
-| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Custom Picture                                               |
-| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Picture Style                                                |
-| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Clarity                                                      |
-| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | HDR shooting (PQ)                                            |
-| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Auto Lighting Optimize                                       |
-| Movie Recording      | {{{still-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Highlight tone priority                                      |
-| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | White balance                                                |
-| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | Set Custom WB                                                |
-| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | WB correction                                                |
-| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | Lens aberration correction                                   |
-| Movie Recording      | {{{still-menu}}}    | Tab 5/10 While balance/Quality correction    | High ISO speed NR                                            |
-| Movie Recording      | {{{still-menu}}}    | Tab 6/10 Various shooting                    | Pre-recording set.                                           |
-| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Movie self-timer                                             |
-| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Tally lamp                                                   |
-| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | IS (Image Stabilizer) mode                                   |
-| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Movie Auto level                                             |
-| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Customize Quick Controls                                     |
-| Movie Recording      | {{{still-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Metering timer                                               |
-| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | Metadata                                                     |
-| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | Time code                                                    |
-| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | Viewfinder priority mode                                     |
-| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | HDR/C.Log View Assist.                                       |
-| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | False color set.                                             |
-| Movie Recording      | {{{still-menu}}}    | Tab 8/10 Assist shooting                     | Zebra settings                                               |
-| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | Shooting info. disp.                                         |
-| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | Quick Ctrl screen                                            |
-| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | VF magnification                                             |
-| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | VF display format                                            |
-| Movie Recording      | {{{still-menu}}}    | Tab 9/10 Assist shooting                     | Reverse display                                              |
-| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Auto pwr off temp.                                           |
-| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Standby; Low res.                                            |
-| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Shutdown warning guidance                                    |
-| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI display                                                 |
-| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI RAW otuput                                              |
-| Movie Recording      | {{{still-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI output range for C. Log                                 |
+| Movie Recording      | {{{movie-menu}}}    | Tab 1/10 Image quality/size                  | Movie rec. size                                              |
+| Movie Recording      | {{{movie-menu}}}    | Tab 1/10 Image quality/size                  | High Frame Rate                                              |
+| Movie Recording      | {{{movie-menu}}}    | Tab 1/10 Image quality/size                  | Main rec. format                                             |
+| Movie Recording      | {{{movie-menu}}}    | Tab 1/10 Image quality/size                  | Movie cropping                                               |
+| Movie Recording      | {{{movie-menu}}}    | Tab 1/10 Image quality/size                  | Dual shooting (still&movie)                                  |
+| Movie Recording      | {{{movie-menu}}}    | Tab 2/10 Sound-rec. settings                 | Sound recording                                              |
+| Movie Recording      | {{{movie-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio format                                                 |
+| Movie Recording      | {{{movie-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio settings                                               |
+| Movie Recording      | {{{movie-menu}}}    | Tab 2/10 Sound-rec. settings                 | Audio Status                                                 |
+| Movie Recording      | {{{movie-menu}}}    | Tab 3/10 Exposure                            | Exposure comp.                                               |
+| Movie Recording      | {{{movie-menu}}}    | Tab 3/10 Exposure                            | ISO speed settings                                           |
+| Movie Recording      | {{{movie-menu}}}    | Tab 3/10 Exposure                            | HF anti-flicker shooting                                     |
+| Movie Recording      | {{{movie-menu}}}    | Tab 3/10 Exposure                            | Movie AV 1/8-stop incr.                                      |
+| Movie Recording      | {{{movie-menu}}}    | Tab 3/10 Exposure                            | Movie Auto slow shutter                                      |
+| Movie Recording      | {{{movie-menu}}}    | Tab 3/10 Exposure                            | Detect prioirty AE while AF                                  |
+| Movie Recording      | {{{movie-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Custom Picture                                               |
+| Movie Recording      | {{{movie-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Picture Style                                                |
+| Movie Recording      | {{{movie-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Clarity                                                      |
+| Movie Recording      | {{{movie-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | HDR shooting (PQ)                                            |
+| Movie Recording      | {{{movie-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Auto Lighting Optimize                                       |
+| Movie Recording      | {{{movie-menu}}}    | Tab 4/10 Color/tone/Dynamic range            | Highlight tone priority                                      |
+| Movie Recording      | {{{movie-menu}}}    | Tab 5/10 While balance/Quality correction    | White balance                                                |
+| Movie Recording      | {{{movie-menu}}}    | Tab 5/10 While balance/Quality correction    | Set Custom WB                                                |
+| Movie Recording      | {{{movie-menu}}}    | Tab 5/10 While balance/Quality correction    | WB correction                                                |
+| Movie Recording      | {{{movie-menu}}}    | Tab 5/10 While balance/Quality correction    | Lens aberration correction                                   |
+| Movie Recording      | {{{movie-menu}}}    | Tab 5/10 While balance/Quality correction    | High ISO speed NR                                            |
+| Movie Recording      | {{{movie-menu}}}    | Tab 6/10 Various shooting                    | Pre-recording set.                                           |
+| Movie Recording      | {{{movie-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Movie self-timer                                             |
+| Movie Recording      | {{{movie-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Tally lamp                                                   |
+| Movie Recording      | {{{movie-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | IS (Image Stabilizer) mode                                   |
+| Movie Recording      | {{{movie-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Movie Auto level                                             |
+| Movie Recording      | {{{movie-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Customize Quick Controls                                     |
+| Movie Recording      | {{{movie-menu}}}    | Tab 7/10 Shutter control/Assist shooting     | Metering timer                                               |
+| Movie Recording      | {{{movie-menu}}}    | Tab 8/10 Assist shooting                     | Metadata                                                     |
+| Movie Recording      | {{{movie-menu}}}    | Tab 8/10 Assist shooting                     | Time code                                                    |
+| Movie Recording      | {{{movie-menu}}}    | Tab 8/10 Assist shooting                     | Viewfinder priority mode                                     |
+| Movie Recording      | {{{movie-menu}}}    | Tab 8/10 Assist shooting                     | HDR/C.Log View Assist.                                       |
+| Movie Recording      | {{{movie-menu}}}    | Tab 8/10 Assist shooting                     | False color set.                                             |
+| Movie Recording      | {{{movie-menu}}}    | Tab 8/10 Assist shooting                     | Zebra settings                                               |
+| Movie Recording      | {{{movie-menu}}}    | Tab 9/10 Assist shooting                     | Shooting info. disp.                                         |
+| Movie Recording      | {{{movie-menu}}}    | Tab 9/10 Assist shooting                     | Quick Ctrl screen                                            |
+| Movie Recording      | {{{movie-menu}}}    | Tab 9/10 Assist shooting                     | VF magnification                                             |
+| Movie Recording      | {{{movie-menu}}}    | Tab 9/10 Assist shooting                     | VF display format                                            |
+| Movie Recording      | {{{movie-menu}}}    | Tab 9/10 Assist shooting                     | Reverse display                                              |
+| Movie Recording      | {{{movie-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Auto pwr off temp.                                           |
+| Movie Recording      | {{{movie-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Standby; Low res.                                            |
+| Movie Recording      | {{{movie-menu}}}    | Tab 10/10 Assist shooting/HDMI               | Shutdown warning guidance                                    |
+| Movie Recording      | {{{movie-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI display                                                 |
+| Movie Recording      | {{{movie-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI RAW otuput                                              |
+| Movie Recording      | {{{movie-menu}}}    | Tab 10/10 Assist shooting/HDMI               | HDMI output range for C. Log                                 |
 | Movie Recording      | {{{af-menu}}}       | Tab 1/6 AF operation/area                    | Movie Servo AF                                               |
 | Movie Recording      | {{{af-menu}}}       | Tab 1/6 AF operation/area                    | AF area                                                      |
 | Movie Recording      | {{{af-menu}}}       | Tab 1/6 AF operation/area                    | Focus mode                                                   |
