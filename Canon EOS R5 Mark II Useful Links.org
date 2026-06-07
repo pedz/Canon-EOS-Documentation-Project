@@ -1,0 +1,19 @@
+
+* Canon EOS R5 Mark II Useful Links                                  :R5MkII:
+
+These are simply links to Canon's official documentation that I find
+useful:
+
+  * [[https://cam.start.canon/en/C017/][EOS R5 Mark II Launch Page (English)]]
+    * [[https://cam.start.canon/en/C017/manual/html/index.html][Advanced User Guide]]
+      * [[https://cam.start.canon/en/C017/manual/html/UG-00_Before_0120.html][Camera Part Names]]
+      * [[https://cam.start.canon/en/C017/manual/html/UG-10_Reference_0100.html#Reference_0100_2][Information Display]]
+        The images are for the small LCD on the top of the camera and
+        the rear LCD panel and there are no images for the EVF.
+        However, my belief is that all of the icons in the EVF are the
+        same as on the real panel.  I do know, however, that some of
+        the positions change.  On my R5m2, the "Acc" icon is on the
+        right side of the screen in the EVF and on the left side of
+        the screen on the real panel.
+    * [[https://cam.start.canon/en/H001/index.html][Supplemental Information]]
+    * [[https://cam.start.canon/en/C017/guide/html/index.html][AF Setting Guide]]
