@@ -2,6 +2,7 @@
 #+EMAIL:  pedz@easesoftware.com
 #+MACRO: af-operation-menu call_menu(item="AF operation")
 #+MACRO: ai-focus-button On the R5 Mark II, this button has no effect when {{{af-operation-menu}}} is set to {{{menu-setting(AI Focus)}}}.
+#+MACRO: info-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_info.svg" alt="INFO"></span>@@ button
 
 * Functions available for customization {{{model}}}                  :always:
 
@@ -69,7 +70,7 @@ detected subject
 
   * [[file:svg/icon_switch-af-func.svg]]: Switch to registered AF func. ::
     This function allows a single button to be configured to set up
-    many of the AF settings via the [[file:svg/icon_info.svg]] button.
+    many of the AF settings via the {{{info-button}}}.
     The settings include:
       * AF area
       * Whole area tracking Servo AF
@@ -155,7 +156,7 @@ detected subject
     Cycles ~Spot detection~ off and on with each push of the button
     when call_menu(item="Subject to detect") is set to
     {{{menu-setting(Vehicles)}}}.  ~Spot detection~ is normally
-    altered with the [[file:svg/icon_info.svg]] button when
+    altered with the {{{info-button}}} when
     {{{menu-setting(Vehicles)}}} is selected for
     call_menu(item="Subject to detect").
 
@@ -230,8 +231,8 @@ detected subject
     The continuous shoot speed while the button is not held down is
     selected by various ways including call_menu(item="Drive
     mode"). The continuous shooting speed selected while the button is
-    held down is selected via the [[file:svg/icon_info.svg]] button while
-    selecting this function.
+    held down is selected via the {{{info-button}}} while selecting
+    this function.
 
   * [[file:svg/icon_ae-lock-af-stop.svg]]: AE lock, AF stop ::
     As the name implies, this appears to lock the auto exposure and
@@ -298,22 +299,62 @@ detected subject
     I don't want to muck with a flash right now.
 
   * [[file:svg/icon_image-size.svg]]: Image size selection ::
+    Not documented [fn:none: Many items, like this one, I have no interest in.  For me, I pick
+    to record in RAW or CRAW and quickly changing image sizes seems
+    like an absurd waste of a button.  If you really would like these
+    documented, please make a request.  I may get to them eventually anyway.]
 
   * [[file:svg/icon_one-touch-img-quality.svg]]: One-touch image quality setting ::
+    Not documented [fn:none]
 
   * [[file:svg/icon_one-touch-img-quality-h.svg]]: One-touch image quality (hold) ::
+    Not documented [fn:none]
 
   * [[file:svg/icon_change-aspect.svg]]: *[[file:svg/icon_still.svg]]Cropping/aspect ratio ::
+    When the button assigned to this function is pressed (and can be
+    released or not), a horizontal menu appears in the screen and any
+    of the dials can be used to select the desired crop and aspect
+    ratio.
 
   * [[file:svg/icon_swich-aspect.svg]]: Switch between crop/aspect ::
+    During selecting this function, the {{{info-button}}} is used to
+    check or uncheck the which cropping and aspect ratios to be made
+    available.  The full selection is full, 1.6 crop, 4:3 aspect
+    ration and 16:9 aspect ratio.
+    
+    When the button assigned to this function is pressed the next
+    selection in the set just described is chosen.
 
   * [[file:svg/icon_raw-auto-light-opt.svg]]: Auto Lighting Optimizer ::
+    When a button assigned to this function is pressed, a horizontal
+    menu is displayed and matches the function of the
+    call_menu(item="Auto Lighting Optimizer") with the
+    {{{info-button}}} enabling or disabling the optimizer from working
+    with the *[M]* and *[BULB]* shooting modes.  Any dial can be used
+    to select between the different optimizer options.
 
   * [[file:svg/icon_wb.svg]]: White balance selection ::
+    When a button assigned to this function is pressed, a horizontal
+    menu appears with the various preset values of white balance such
+    as cloudy, sunny, etc.  Any of the dials can be used to select the
+    desired setting.  The {{{info-button}}} can be pressed which
+    presents an X-Y view of the white balance where the setting can be
+    moved by the Multi-Controller.  The main dial can be used to set
+    the white balance bracketing.
 
   * [[file:svg/icon_Wb_shift.svg]]: WB Shift/Bkt. ::
+    This is available only in still photo shooting.  When a button
+    assigned to this function is pressed, a X-Y view of the white
+    balance is presented and the multi-controller can be used to
+    adjust the settings.  The main dial can be used to adjust the
+    white balance bracketing.
 
   * [[file:svg/icon_Wb_shift.svg]]: WB correction ::
+    This is available only in moving shooting.  When a button assigned
+    to this function is pressed, a X-Y view of the white balance is
+    presented and the multi-controller can be used to adjust the
+    settings.  The adjustment for bracketing isn't present since
+    bracketing during moving shooting isn't possible.
 
   * [[file:svg/icon_func-picstyle.svg]]: Picture Style ::
 
@@ -427,3 +468,4 @@ detected subject
     This is available only on the Canon EOS R1.
 
   * [[file:svg/icon_le-mf-d.svg]]: No function (disabled) ::
+

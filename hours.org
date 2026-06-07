@@ -1,0 +1,25 @@
+#+title: Time log
+#+MACRO: project (eval (project-name (project-current)))
+
+* Intro
+:LOGBOOK:
+CLOCK: [2026-06-05 Fri 16:40]--[2026-06-05 Fri 16:48] =>  0:08
+:END:
+
+This is a log of the time and steps taken while working on the
+{{{project}}}.  I can't say what the result as far as readability will
+be.  The first git commit is April 8, 2026.  Today is June 5th.  I
+have worked on this off and on so I can't say how many hours has been
+put in before this log was started.
+
+* Continue adding to Functions
+:LOGBOOK:
+CLOCK: [2026-06-05 Fri 16:48]--[2026-06-05 Fri 18:36] =>  1:48
+:END:
+I started adding to the text and got side tracked into something I've
+kinda wanted to do for a while.  This directory is now set up using my
+project-setups.org system so that I can define Org variables specific
+for this project.  This was caused by me wanting to have the same
+"icon" for the INFO button that Canon uses.  This will need to add to
+the org-html-head which I haven't done yet.  It is time to eat.
+Tomorrow's project.

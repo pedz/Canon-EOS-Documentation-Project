@@ -5,8 +5,3 @@
 #+INCLUDE: "base.org"
 
 #+INCLUDE: "R5MkII menu table.org"
-
-# Local Variables:
-# org-babel-inline-result-wrap: "%s"
-# org-confirm-babel-evaluate: nil
-# End:
