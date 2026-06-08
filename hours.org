@@ -15,6 +15,9 @@ put in before this log was started.
 * Continue adding to Functions
 :LOGBOOK:
 CLOCK: [2026-06-05 Fri 16:48]--[2026-06-05 Fri 18:36] =>  1:48
+CLOCK: [2026-06-06 Sat 16:48]--[2026-06-06 Sat 18:48] =>  2:00
+CLOCK: [2026-06-07 Sun 16:48]--[2026-06-07 Sun 18:48] =>  2:00
+CLOCK: [2026-06-08 Mon 16:48]--[2026-06-08 Mon 18:48] =>  2:00
 :END:
 I started adding to the text and got side tracked into something I've
 kinda wanted to do for a while.  This directory is now set up using my

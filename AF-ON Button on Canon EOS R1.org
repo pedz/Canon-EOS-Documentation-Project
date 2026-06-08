@@ -70,7 +70,7 @@ Not available on full press for photo shooting modes
    * Metering and AF start
    * Metering start
    * Movie recording
-   * Peaking
+   * nPeaking
    * Picture Style
    * Playback button
    * Power off

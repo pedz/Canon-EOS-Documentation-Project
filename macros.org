@@ -60,3 +60,7 @@
 #+MACRO: m-fn @@html:<span class="icon"><img class="print_icon" src="svg/icon_m-fn.svg" alt="M-fn">/<img class="print_icon" src="svg/icon_ftp-server.svg" alt=ftp server"></span>@@ Multi-function/FTP server image transfer button
 # The C3 custom setting for movies
 #+MACRO: c3-movie @@html:<img class="print_icon" src="svg/icon_mode-mov-c3.svg" alt="Program AE3 (movies)">@@
+# The icon for movie shooting
+#+MACRO: movie-recording @@html:<span class="icon"><img class="print_icon" src="svg/icon_mov.svg" alt="Movies"></span>@@
+# The icon for still photo shooting
+#+MACRO: still-photo-shooting @@html:<span class="icon"><img class="print_icon" src="svg/icon_still.svg" alt="Still photo shooting"></span>@@

@@ -6,3 +6,23 @@ camera.  It is part of the [[https://github.com/pedz/Canon-EOS-Documentation-Pro
 Github.  If you would like to contribute to the project, please open a
 Discussion in the project.
 
+Since P, Tv, Av, Fv, C1-C3, etc. are called "modes" in Canon
+documentation, I try hard *not* to say "still photo mode" or "movie
+mode" but instead I try to use the terms Still Photo Shooting and
+Movie Shooting.  Canon tends to use the term "Movie Recording" but, to
+me, that sounds like when a movie is actually being recorded.  As
+Canon phrases it, "the still photo shooting/movie recording switch is
+set to" either {{{still-photo-shooting}}} or {{{movie-recording}}}.
+
+Also, when I say a button is pressed, I mean that the button is
+pressed and released.  I will try to say "pressed and held" or similar
+phrase to mean that the button needs to be held down.
+
+I also use the phrase "This is sticky" which is vaguely complex.
+Basically it means that a setting remains in effect even if the camera
+is turned off or the menus are accessed, etc.  The catch here is that
+if the camera is currently in one of the C1-C3 modes and ~Auto update
+set.~ sub-option of the call_menu(item="Custom shooting mode (C1-C3)")
+is set to {{{menu-setting(Disable)}}}, then the setting will remain
+changed under the same restrictions as changing any other setting
+which, as far as I can determine, is not clearly defined.
