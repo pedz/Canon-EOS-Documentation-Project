@@ -7,7 +7,7 @@ included from here.
 #+END_COMMENT
 
 #+MACRO: model Canon EOS R5 Mark II
-#+OPTIONS: tags:nil
+#+OPTIONS: tags:nil d:(r5mk2-only)
 #+SELECT_TAGS: R5MkII always
 
 #+INCLUDE: "base.org"

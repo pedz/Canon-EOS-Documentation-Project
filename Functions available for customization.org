@@ -2,7 +2,8 @@
 #+EMAIL:  pedz@easesoftware.com
 #+MACRO: af-operation-menu call_menu(item="AF operation")
 #+MACRO: ai-focus-button On the R5 Mark II, this button has no effect when {{{af-operation-menu}}} is set to {{{menu-setting(AI Focus)}}}.
-#+MACRO: when When a button assigned to this function is pressed
+#+MACRO: when-pressed When a button assigned to this function is pressed
+#+MACRO: when-held-down When a button assigned to this function is held down
 
 * Functions available for customization {{{model}}}                  :always:
 
@@ -49,13 +50,14 @@ detected subject
     the eight way movements move the AF area in the direction the
     controller is moved.
 
+  :r1-only:
   * [[file:svg/icon_AF_frame_direct_metering.svg]]: Direct AF pt sel (during meter) ::
-    This is available only on the Canon EOS R1 and can only be set on
-    the [[file:svg/icon_af-on.svg]] AF start button/Smart controller.
-    When a button set to any of the metering start functions is
-    pressed and for eight seconds after it has been released, the AF
-    area can be moved via finger movement across the
+    This is can only be set on the [[file:svg/icon_af-on.svg]] AF start
+    button/Smart controller.  When a button set to any of the metering
+    start functions is pressed and for eight seconds after it has been
+    released, the AF area can be moved via finger movement across the
     [[file:svg/icon_af-on.svg]] AF start button/Smart controller.
+  :end:
 
   * [[file:svg/icon_point_to_center.svg]]: Set AF point to center ::
     Pressing a button assigned to this function will move the AF area
@@ -133,13 +135,13 @@ detected subject
     call_menu(item="Eye control").
 
   * [[file:svg/icon_Tracking_select_afon.svg]]: AF on detected subject ::
-    {{{when}}},
+    {{{when-pressed}}},
     call_menu(item="AF area") is temporarily set to
     {{{menu-setting(Whole area AF)}}} and the auto focus system is
     engaged.
 
   * [[file:svg/icon_eyes_af.svg]]: Eye Detection AF ::
-    {{{when}}},
+    {{{when-pressed}}},
     call_menu(item="AF area") is temporarily set to
     {{{menu-setting(Whole area AF)}}},
     call_menu(item="Eye detection") is enabled.  It isn't clear if
@@ -212,10 +214,9 @@ detected subject
     a default but it isn't the value recorded.
 
   * [[file:svg/icon_Face_only_direct_select.svg]]: Subj. detect. AF ::
-    When a button assigned to this is pushed, subject detect is
-    enabled along with call_menu(item="Whole area tracking
-    Servo AF").  What isn't clear is which type of subjects will be
-    detected.
+    {{{when-pressed}}}, subject detect is enabled along with
+    call_menu(item="Whole area tracking Servo AF").  What isn't clear
+    is which type of subjects will be detected.
 
   * [[file:svg/icon_continuous-shooting.svg]]: Drive mode ::
     {{{include-if(R5MkII, Selects the next drive mode with each push
@@ -273,7 +274,7 @@ detected subject
     later.
 
   * [[file:svg/icon_AE_lock_OFF.svg]]: Release AE Lock ::
-    {{{when}}} and released,
+    {{{when-pressed}}} and released,
     any exposure lock is released.
 
   * [[file:svg/icon_func-exp.svg]]: Expo comp (hold btn, turn *[[file:svg/icon_dial_bk.svg]]) ::
@@ -284,12 +285,12 @@ detected subject
     compensation until the call_menu(item="Metering timer") expires.
 
   * [[file:svg/icon_iso.svg]]: ISO speed ::
-    {{{when}}} and released, a
+    {{{when-pressed}}} and released, a
     display showing the ISO and any of the dials will adjust the
     value.
 
   * [[file:svg/icon_func-set-iso.svg]]: Set ISO speed(hold btn,turn*[[file:svg/icon_dial_bk.svg]]) ::
-    {{{when}}} and held, the
+    {{{when-pressed}}} and held, the
     {{{main-dial}}} is used to adjust the ISO.
 
   * [[file:svg/icon_flash.svg]]: Flash firing ::
@@ -328,7 +329,7 @@ detected subject
     selection in the set just described is chosen.
 
   * [[file:svg/icon_raw-auto-light-opt.svg]]: Auto Lighting Optimizer ::
-    {{{when}}}, a horizontal
+    {{{when-pressed}}}, a horizontal
     menu is displayed and matches the function of the
     call_menu(item="Auto Lighting Optimizer") with the
     {{{info-button}}} enabling or disabling the optimizer from working
@@ -336,7 +337,7 @@ detected subject
     to select between the different optimizer options.
 
   * [[file:svg/icon_wb.svg]]: White balance selection ::
-    {{{when}}}, a horizontal
+    {{{when-pressed}}}, a horizontal
     menu appears with the various preset values of white balance such
     as cloudy, sunny, etc.  Any of the dials can be used to select the
     desired setting.  The {{{info-button}}} can be pressed which
@@ -345,34 +346,32 @@ detected subject
     the white balance bracketing.
 
   * [[file:svg/icon_Wb_shift.svg]]: WB Shift/Bkt. ::
-    This is available only in still photo shooting.  When a button
-    assigned to this function is pressed, a X-Y view of the white
-    balance is presented and the multi-controller can be used to
-    adjust the settings.  The {{{main-dial}}} can be used to adjust the
-    white balance bracketing.
+    This is available only in still photo shooting.  {{{when-pressed}}}, a X-Y
+    view of the white balance is presented and the multi-controller
+    can be used to adjust the settings.  The {{{main-dial}}} can be
+    used to adjust the white balance bracketing.
 
   * [[file:svg/icon_Wb_shift.svg]]: WB correction ::
-    This is available only in moving shooting.  When a button assigned
-    to this function is pressed, a X-Y view of the white balance is
-    presented and the multi-controller can be used to adjust the
-    settings.  The adjustment for bracketing isn't present since
-    bracketing during moving shooting isn't possible.
+    This is available only in moving shooting.  {{{when-pressed}}}, a X-Y view
+    of the white balance is presented and the multi-controller can be
+    used to adjust the settings.  The adjustment for bracketing isn't
+    present since bracketing during moving shooting isn't possible.
 
   * [[file:svg/icon_func-picstyle.svg]]: Picture Style ::
-    There are eleven Picture Styles defined.  When a button assigned
-    to this function is pushed, a menu of these eleven styles is
-    displayed as two lines with the top line having six selections and
-    the second line having five.  The multi-controller may be used in
-    both the horizontal and vertical motions to select one of the
-    styles.  Any of the dials may also be used to select one of the
-    styles.  Also, the {{{info-button}}} brings up a different screen
-    with the six attributes of the selected style before the
-    {{{info-button}}} was pressed are available in a vertical menu.
-    The {{{qcd-1}}} is used to select which attribute to change while
-    the {{{main-dial}}} is used to change its value.
+    There are eleven Picture Styles defined.  {{{when-pressed}}}, a
+    menu of these eleven styles is displayed as two lines with the top
+    line having six selections and the second line having five.  The
+    multi-controller may be used in both the horizontal and vertical
+    motions to select one of the styles.  Any of the dials may also be
+    used to select one of the styles.  Also, the {{{info-button}}}
+    brings up a different screen with the six attributes of the
+    selected style before the {{{info-button}}} was pressed are
+    available in a vertical menu.  The {{{qcd-1}}} is used to select
+    which attribute to change while the {{{main-dial}}} is used to
+    change its value.
 
   * [[file:svg/icon_record-func-card-sel.svg]]: Record func+card/folder sel. ::
-    {{{when}}}, a menu
+    {{{when-pressed}}}, a menu
     identical to the call_menu(item="Record func+card/folder sel.") is
     presented with the same functionality.
 
@@ -388,10 +387,9 @@ detected subject
 
   * [[file:svg/icon_mov.svg]]: Movie recording ::
     Only available for Still Photo Shooting.  This is the default
-    function for the Movie shooting button.  When a button assigned to
-    this function is pressed, the camera switches into
-    [{{{c3-movie}}}] and starts recording.  A subsequent push will
-    stop the recording.
+    function for the Movie shooting button.  {{{when-pressed}}}, the
+    camera switches into [{{{c3-movie}}}] and starts recording.  A
+    subsequent push will stop the recording.
 
   * [[file:svg/icon_pause-mov-servo.svg]]: Pause Movie Servo AF ::
     Only available during Movie Shooting.  The ~Movie Servo AF~
@@ -404,9 +402,9 @@ detected subject
 
   * [[file:svg/icon_Audio_status.svg]]: Audio Status ::
     Only available during Movie Shooting.  By default, this function
-    is assigned to the Depth-of-field preview button.  When a button
-    assigned to this function is pressed, an Audio Status display is
-    brought up identical to call_menu(item="Audio Status").
+    is assigned to the Depth-of-field preview button.
+    {{{when-pressed}}}, an Audio Status display is brought up
+    identical to call_menu(item="Audio Status").
 
   * [[file:svg/icon_Powerzoom_Tele.svg]]: Cinema zoom (to tele) ::
     I don't have a lens to test this function out.
@@ -415,28 +413,26 @@ detected subject
     I don't have a lens to test this function out.
 
   * [[file:svg/icon_Custum_picture.svg]]: Custom Picture ::
-    Only available during Movie Shooting.  When a button assigned to
-    this function is pressed, the call_menu(item="Custom Picture")
-    menu is brought up.
+    Only available during Movie Shooting.  {{{when-pressed}}}, the
+    call_menu(item="Custom Picture") menu is brought up.
 
   * [[file:svg/icon_PreRecording_setting.svg]]: Pre-recording ::
-    Only available during Movie Shooting.  When a button assigned to
-    this function is pressed, the ~Pre-recording~ sub-option of the
-    call_menu(item="Pre-recording set.") is toggled.  This function is
-    sticky.
+    Only available during Movie Shooting.  {{{when-pressed}, the
+    ~Pre-recording~ sub-option of the call_menu(item="Pre-recording
+    set.") is toggled.  This function is sticky.
 
   * [[file:svg/icon_Self_timer.svg]]: Movie self-timer ::
-    Only available during Movie Shooting.  When a button assigned to
-    this function is pressed, a horizontal menu is presented with the
-    three options presented by call_menu(item="Movie self-timer"):
-    {{{menu-setting(Off)}}}, {{{menu-setting(10 sec)}}}, and
-    {{{menu-setting(2 sec)}}}.  Any dial as well as the
-    Multi-controller can be used to select the desired setting.
+    Only available during Movie Shooting.  {{{when-pressed}}}, a
+    horizontal menu is presented with the three options presented by
+    call_menu(item="Movie self-timer"): {{{menu-setting(Off)}}},
+    {{{menu-setting(10 sec)}}}, and {{{menu-setting(2 sec)}}}.  Any
+    dial as well as the Multi-controller can be used to select the
+    desired setting.
 
   * [[file:svg/icon_Relax_temp_rise_setting_on.svg]]: Standby: Low res. ::
-    Only available during Movie Shooting.  When a button assigned to
-    this function is pressed, the call_menu(item="Standby; Low res.")
-    is toggled.  This function is sticky.
+    Only available during Movie Shooting.  {{{when-pressed}}}, the
+    call_menu(item="Standby; Low res.")  is toggled.  This function is
+    sticky.
 
   * [[file:svg/icon_flash-func-settings.svg]]: Flash function settings ::
     Sorry... I don't want to muck about with flash right now.  Maybe
@@ -447,17 +443,17 @@ detected subject
     later.
 
   * [[file:svg/icon_func-dial.svg]]: Dial function settings ::
-    {{{when}}}, a grid of up
-    to ten functions is displayed.  The grid can be one or two lines
-    tall and up to five columns across with one of the columns being
-    selected.  If the function is assigned to the {{{m-fn}}} button,
-    then the {{{m-fn}}} icon is displayed on the left meaning that
-    subsequent pushes of that button will move the selected column to
-    the right and then wrap around to the first column.  If the
-    {{{m-fn}}} is not assigned to this function, then the {{{qcd-2}}}
-    icon is displayed on the left.  In all cases, the {{{qcd-2}}} can
-    be used to select the desired column as well as the button(s) that
-    the function has been assigned to.
+    {{{when-pressed}}}, a grid of up to ten functions is displayed.
+    The grid can be one or two lines tall and up to five columns
+    across with one of the columns being selected.  If the function is
+    assigned to the {{{m-fn}}} button, then the {{{m-fn}}} icon is
+    displayed on the left meaning that subsequent pushes of that
+    button will move the selected column to the right and then wrap
+    around to the first column.  If the {{{m-fn}}} is not assigned to
+    this function, then the {{{qcd-2}}} icon is displayed on the left.
+    In all cases, the {{{qcd-2}}} can be used to select the desired
+    column as well as the button(s) that the function has been
+    assigned to.
 
     Once a column has been selected by subsequent pressing of the
     button or by the {{{qcd-2}}}, the values of the selected function
@@ -480,13 +476,14 @@ detected subject
     * Picture Style
     * Off
 
+  :r1-only:
   * [[file:svg/icon_cycle-set-func.svg]]: Cycle between the set functions ::
-    This is available only on the Canon EOS R1.  Pressing a button
-    assigned to this function will display an attribute to be
-    adjusted.  Subsequent pushes will bring up the next attribute that
-    has been enabled.  The seven attributes or attribute pairs are
-    listed below.  They are enabled via the {{{info-button}}} during
-    the process of assigning this function to a button.
+    Pressing a button assigned to this function will display an
+    attribute to be adjusted.  Subsequent pushes will bring up the
+    next attribute that has been enabled.  The seven attributes or
+    attribute pairs are listed below.  They are enabled via the
+    {{{info-button}}} during the process of assigning this function to
+    a button.
     * ISO speed
     * Exposure compensation
     * White balance
@@ -494,45 +491,106 @@ detected subject
     * Flash exp. comp / Metering mode
     * AEB setting
     * Shooting mode
+  :end:
 
   * [[file:svg/icon_func-brightness.svg]]: Maximize screen brightness (temp) ::
-    36
+    {{{when-pressed}}} (and released),
+    the back LCD screen will go to maximum brightness.  A subsequent
+    push will restore the screen's brightness to it regular setting.
+    No change to the EVF that I can see.
 
   * [[file:svg/icon_power_off.svg]]: Power off ::
-    35
+    {{{when-pressed}}}, the camera goes to sleep however the shutter
+    does not close.
 
   * [[file:svg/icon_func-display-off.svg]]: Screen off ::
-    34
+    {{{when-pressed}}}, the rear LCD display is turned off.
 
   * [[file:svg/icon_unlock-btn-pressed.svg]]: Unlock while button pressed ::
-    33
+    If the Power/multi-function lock switch is in the lock position,
+    then when a button assigned to this function is held down, the
+    controls become unlocked and the camera behaves as if the
+    Power/multi-function lock switch is in the On position.  This
+    function can only be assigned to the DOF button and the button
+    that some lenses have.
 
   * [[file:svg/icon_btn-illum-panel-info.svg]]: Short press: LCD illumination - Long press: LCD info switching ::
-    32
+    This can only be assigned to the {{{lcd-button}}}.  As the name
+    implies, a short press will turn the top LCD illumination on and
+    another short press will turn it off.  Long presses will cycle
+    through the two screens of information.
 
   * [[file:svg/icon_btn-panel-illum-info.svg]]: Short press: LCD info switching - Long press: LCD illumination ::
-    31
+    This can only be assigned to the {{{lcd-button}}} and is its
+    default assignment.  As the name implies, a long press will turn
+    the top LCD illumination on and another long press will turn it
+    off.  Short presses will cycle through the two screens of
+    information.
 
   * [[file:svg/icon_panel-illum.svg]]: LCD panel illumination ::
-    30
+    {{{when-pressed}}}, the illumination of the top LCD panel is turned on and
+    then off with a subsequent push.
 
   * [[file:svg/icon_btn-panel-illum-info2.svg]]: LCD panel info switching ::
-    29
+    {{{when-pressed}}}, the information displayed on the top LCD panel cycled.
+
 
   * [[file:svg/icon_mode.svg]]: Shooting mode settings ::
-    28
+    This is the default for the {{{mode-button}}}.
+    {{{when-pressed}}}, a two line by five element grid of all the
+    possible modes is displayed.  Those that have been enabled in the
+    call_menu(item="Restrict shooting modes") are highlighted.  Any of
+    the dials as well as the Multi-controller can be used to select
+    the desired mode.  Unlike some functions, the {{{set-button}}}
+    does not have to be pressed for the change to take affect.
+    e.g. the shutter button can be half pressed and the camera will
+    still make the assignment.
 
   * [[file:svg/icon_mode-c.svg]]: Switch to Custom shooting mode ::
-    27
+    Okay, to me this is a little weird.  {{{when-pressed}}}, the
+    camera will cycle through the custom modes that have been enabled
+    in the call_menu(item="Restrict shooting modes").  In addition, it
+    will also select whatever was last selected via the
+    {{{function(Shooting mode settings)}}} described above.  For
+    example, if C1-C3 are enabled and the last mode switched to by the
+    {{{mode-button}}} is Av.  Then pushing this button will cycle
+    through the C-C3 modes as well as the Av mode but not the other
+    enabled modes.
 
   * [[file:svg/icon_silent.svg]]: Silent shutter function ::
-    26
+    {{{when-pressed}}}, the setting of call_menu(item="Silent shutter
+    function") is toggled.
 
   * [[file:svg/icon_Focus_control_switch.svg]]: Switch focus/control ring ::
-    25
+    Testing on the R5 Mark II with firmware 1.3.1 (June 2026) and the
+    Canon RF 70-200mm f/2.8 L IS USM Z Lens, the
+    call_menu(item="Focus/control ring") menu appears.  The lens has
+    both a control and a focus ring.  Just as is described in the
+    "Lenses for which this menu is displayed that have both focusing
+    and control rings" section of the [[https://cam.start.canon/en/C017/manual/html/UG-08_Customize_0030.html][Control Customization Details]] of
+    the R5 Mark II manual, in one option, the focus and control rings
+    function as normal and in the other option, the control ring is
+    disable and the focus ring acts as the control ring.
+    {{{when-pressed}}}, the option just describe toggles between the
+    two settings.  It is sticky.  I do not have a lens with just one
+    ring and no switch so I can't test the "Lenses without a
+    focusing/control ring switch" condition.
+
+    I do have lenses with just one ring but they have a switch.  This
+    function appears to do nothing.  I also have the Canon RF 35mm
+    f/1.8 Macro IS STM Lens in which case the menu item does not
+    appear and this function appears to do nothing as well.
 
   * [[file:svg/icon_func-depth.svg]]: Depth-of-field preview ::
-    24
+    This is the default function assigned to the Depth-of-field
+    preview button.  When the call_menu(item="Display simulation") is
+    set to {{{menu-setting("Exposure+DOF")}}}, this function does
+    nothing because the camera is already adjusting the display
+    simulation for exposure as well as depth of field.
+    {{{when-pressed}}} and call_menu(item="Display simulation") is set
+    for any of the other three options, the aperture is closed to the
+    value selected so the user can judge the depth of field that will
+    result when the photograph is taken.
 
   * [[file:svg/icon_func-reset1.svg]]: Reset selected item in Fv mode ::
     23
@@ -576,9 +634,10 @@ detected subject
   * [[file:svg/icon_data-transfer.svg]]: Communication function ::
     10
 
+  :r1-only:  
   * [[file:svg/icon_airplane_mode.svg]]: Airplane mode ::
-    This is available only on the Canon EOS R1.
     9
+  :end:
 
   * [[file:svg/icon_new-folder.svg]]: Create folder ::
     8
@@ -586,25 +645,22 @@ detected subject
   * [[file:svg/icon_func-switch-vf-screen.svg]]: Switch between VF/screen ::
     7
 
+  :r1-only:
   * [[file:svg/icon_btn-magnify.svg]]: Magnify/Reduce button ::
-    This is available only on the Canon EOS R1.
     6
 
   * [[file:svg/icon_btn-playback.svg]]: Playback button ::
-    This is available only on the Canon EOS R1.
     5
 
   * [[file:svg/icon_info_monitor.svg]]: Info button ::
-    This is available only on the Canon EOS R1.
     4
 
   * [[file:svg/icon_btn-erase.svg]]: Erase button ::
-    This is available only on the Canon EOS R1.
     3
 
   * [[file:svg/icon_rate_monitor.svg]]: Rating button ::
-    This is available only on the Canon EOS R1.
     2
+  :end:
 
   * [[file:svg/icon_le-mf-d.svg]]: No function (disabled) ::
     1

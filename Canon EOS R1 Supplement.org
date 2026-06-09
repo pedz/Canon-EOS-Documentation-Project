@@ -7,7 +7,7 @@ included from here.
 #+END_COMMENT
 
 #+MACRO: model Canon EOS R1
-#+OPTIONS: tags:nil
+#+OPTIONS: tags:nil d:("r1-only")
 #+SELECT_TAGS: R1 always
 
 #+INCLUDE: "base.org"
