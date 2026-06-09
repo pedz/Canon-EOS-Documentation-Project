@@ -70,3 +70,11 @@
 #+MACRO: mode-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_mode.svg" alt="M-fn"></span>@@ Mode button
 # The set button
 #+MACRO: set-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_set.svg" alt="M-fn"></span>@@ Mode button
+# The Q button
+#+MACRO: quick-control-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_quick.svg" alt="M-fn"></span>@@ Quick Control button
+# The magnify button
+#+MACRO: magnify-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_magnify.svg" alt="M-fn"></span>@@ Magnify/reduce button
+# The playback button
+#+MACRO: playback-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_playback.svg" alt="M-fn"></span>@@ Playback button
+# The menu button
+#+MACRO: menu-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_menu.svg" alt="M-fn"></span>@@ Menu button

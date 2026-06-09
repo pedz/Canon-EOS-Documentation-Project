@@ -187,10 +187,9 @@ detected subject
     When the camera is set to manual focus, [fn:manual-focus: The
     camera is put into manual focus mode via the MF/AF switch on the
     lens or call_menu(item="Focus mode")] then the
-    call_menu(item="MF peaking settings") has an affect.  A
-    button assigned to this function will turn the top item ~Peaking~
-    {{{menu-setting(On)}}} and {{{menu-setting(Off)}}} with each push
-    of the button.
+    call_menu(item="MF peaking settings") has an affect.
+    {{{when-pressed}}}, it will toggle the top sub-option, ~Peaking~,
+    of that menu {{{menu-setting(On)}}} and {{{menu-setting(Off)}}}.
 
   * [[file:svg/icon_focus-guide.svg]]: Focus guide ::
     When the camera is set to manual focus,[fn:manual-focus] then the
@@ -302,7 +301,7 @@ detected subject
     later.
 
   * [[file:svg/icon_image-size.svg]]: Image size selection ::
-    Not documented [fn:none: Many items, like this one, I have no interest in.  For me, I pick
+    Not documented [fn:none: Many functions, like this one, I have no interest in.  For me, I pick
     to record in RAW or CRAW and quickly changing image sizes seems
     like an absurd waste of a button.  If you really would like these
     documented, please make a request.  I may get to them eventually anyway.]
@@ -593,51 +592,115 @@ detected subject
     result when the photograph is taken.
 
   * [[file:svg/icon_func-reset1.svg]]: Reset selected item in Fv mode ::
-    23
+    {{{when-pressed}}} and the camera is in Fv mode or a custom mode
+    based upon Fv mode, the selected item that has been selected via
+    the {{{qcd-2}}} will be reset to Auto.
 
-  * [[file:svg/icon_func-reset2.svg]]: Reset Tv/Av/* [[file:svg/icon_exp-com.svg]]/ISO in Fv mode ::
-    22
+  * [[file:svg/icon_func-reset2.svg]]: Reset Tv/Av/[[file:svg/icon_exp-com.svg]]/ISO in Fv mode ::
+    {{{when-pressed}}} and the camera is in Fv mode or a custom mode
+    based upon Fv mode, all of Tv/Av/[[file:svg/icon_exp-com.svg]]/ISO are
+    reset to Auto.
 
   * [[file:svg/icon_btn_quick.svg]]: Quick Control screen ::
-    21
+    {{{when-pressed}}}, the Quick Control screen is presented just as
+    if the {{{quick-control-button}}} had been pushed.
 
   * [[file:svg/icon_magnify.svg]]: Magnify/Reduce ::
-    20
+    {{{when-pressed}}}, the Quick Control screen is presented just as
+    if the {{{magnify-button}}} had been pushed.
 
   * [[file:svg/icon_playback.svg]]: Image replay ::
-    19
+    {{{when-pressed}}}, the Quick Control screen is presented just as
+    if the {{{playback-button}}} had been pushed.  There is one subtle
+    difference.  When the actual {{{playback-button}}} is pressed a
+    second time, the camera goes back to shooting mode but this
+    doesn't appear to happen with a button assigned to this function.
 
   * [[file:svg/icon_play_magnified.svg]]: Magnify images during playback ::
-    18
+    {{{when-pressed}}}, it has the same effect as if the
+    {{{playback-button}}} had been pressed followed by the
+    {{{magnify-button}}}.  Subsequent presses toggles the
+    magnification on and off.
 
   * [[file:svg/icon_regi-recall-func.svg]]: Register/recall shooting func ::
-    17
+    Perhaps the single most universal function.  Before I get into the
+    details, here are some subtleties that I have found.  *Yes*, this
+    function can be assigned to more than one button but *No* each
+    button will have the same settings. ☹️
+
+    When the {{{info-button}}} is pressed while assigning this
+    function to a button, the user shown a list of nineteen
+    attributes.  The list has two columns.  The left column is a check
+    box.  When checked, then this attribute will be applied to the
+    camera while the assigned button is being pressed.  The right
+    column are the values that the attribute can be assigned.  For
+    example, Shutter speed can be assigned any value from 30" to
+    1/32000.  Curiously, Auto is not in the list.
+
+    Here are the list of attributes that can be set.  Have FUN!!!
+    * Shooting mode
+    * Shutter speed
+    * Aperture
+    * ISO speed
+    * Metering mode
+    * Exposure compensation
+    * White balance
+    * AF area
+    * Whoe area tracking Server AF
+    * Subject to detect
+    * Spot detection
+    * Eye detection
+    * Servo AF characteristics
+    * Case Auto character.
+    * Tracking sensitifity
+    * Accel./decel. tracking
+    * Servo 1st image priority
+    * AF start position
+    * AF operation
 
   * [[file:svg/icon_menu.svg]]: Menu display ::
-    16
+    {{{when-pressed}}}, the menu appears just as if the
+    {{{menu-button}}} had been pressed.
 
   * [[file:svg/icon_Tv_step.svg]]: Manual HF anti-flicker shoot(Tv) ::
-    15
+    I don't feel like I 100% understand the anti-flicker abilities and
+    I don't have flickering lights at home to test with.
 
   * [[file:svg/icon_Tv_recommendation.svg]]: Recom. Tv for HF anti-flicker shoot ::
-    14
+    I don't feel like I 100% understand the anti-flicker abilities and
+    I don't have flickering lights at home to test with.
 
   * [[file:svg/icon_ts-enable.svg]]: Touch Shutter ::
-    13
+    {{{when-pressed}}}, the call_menu(item="Touch Shutter") setting is
+    toggled.
 
   * [[file:svg/icon_OVF_View_Assist.svg]]: OVF sim. view assist ::
-    12
+    {{{when-pressed}}}, the call_menu(item="OVF sim. view assist")
+    setting is toggled.
 
   * [[file:svg/icon_View_fps.svg]]: *[[file:svg/icon_display_slash_finder.svg]] Display frame rate set. ::
-    11
+    {{{when-pressed}}}, the call_menu(item="Display frame rate set.")
+    is toggled between {{{menu-setting(Power Saving)}}} and
+    {{{menu-setting(Smooth)}}}.
 
   * [[file:svg/icon_data-transfer.svg]]: Communication function ::
-    10
+    {{{when-pressed}}}, a menu essentially the same as Tab 2 of the
+    {{{comm-menu}}} is presented.  The functions in the list are:
+    * Transfer images to FTP server
+    * Connect to EOS Utility
+    * Upload to image.canon
+    * Sync time between cameras
+    * Connect to smartphone(tablet)
+    * Connect to Wireless remote
 
-  :r1-only:  
+    There is also a "Connection settings" button that brings up the
+    list of Connection settings: the same menu that is presented when
+    the ~Connection settings~ sub-option of the
+    call_menu(item="Network settings") is selected.
+
   * [[file:svg/icon_airplane_mode.svg]]: Airplane mode ::
-    9
-  :end:
+    {{{when-pressed}}}, a menu is presented for Airplane mode.  The
+    user can select {{{menu-setting(On)}}} or {{{menu-setting(Off)}}}.
 
   * [[file:svg/icon_new-folder.svg]]: Create folder ::
     8
