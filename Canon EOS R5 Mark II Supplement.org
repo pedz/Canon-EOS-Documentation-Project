@@ -1,3 +1,11 @@
+#+BEGIN_COMMENT
+Each model will have a file like this where the model macro will be
+defined, the options, and tags.  Then the base.org will be included
+follow by any files that are just for this particular model.  In
+particular, the file that defines menu-table for that model will be
+included from here.
+#+END_COMMENT
+
 #+MACRO: model Canon EOS R5 Mark II
 #+OPTIONS: tags:nil
 #+SELECT_TAGS: R5MkII always
