@@ -47,3 +47,9 @@ this will help me since I will be able to search.
 Well... that worked out rather nicely.  I fixed publish.el so that one
 call will publish all the pieced and GitHub Pages is hosting it.
 Fun!!
+
+* Lets clean a few things up
+:LOGBOOK:
+CLOCK: [2026-06-10 Wed 17:24]--[2026-06-10 Wed 17:34] =>  0:10
+:END:
+Redid the README entirely.
