@@ -1,5 +1,3 @@
-#+AUTHOR: Perry Smith
-#+EMAIL:  pedz@easesoftware.com
 
 * Canon Autofocus Button Functions Videos                            :always:
 

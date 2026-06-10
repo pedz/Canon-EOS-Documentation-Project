@@ -1,5 +1,3 @@
-#+AUTHOR: Perry Smith
-#+EMAIL:  pedz@easesoftware.com
 
 * Canon R1 Menus                                                         :R1:
 

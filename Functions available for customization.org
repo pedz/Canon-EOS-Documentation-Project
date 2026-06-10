@@ -1,5 +1,3 @@
-#+AUTHOR: Perry Smith
-#+EMAIL:  pedz@easesoftware.com
 #+MACRO: af-operation-menu call_menu(item="AF operation")
 #+MACRO: ai-focus-button On the R5 Mark II, this button has no effect when {{{af-operation-menu}}} is set to {{{menu-setting(AI Focus)}}}.
 #+MACRO: when-pressed When a button assigned to this function is pressed

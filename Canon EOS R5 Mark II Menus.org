@@ -1,5 +1,3 @@
-#+AUTHOR: Perry Smith
-#+EMAIL:  pedz@easesoftware.com
 
 * Canon R5 Mark II Menus                                             :R5MkII:
 

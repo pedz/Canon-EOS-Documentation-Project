@@ -1,5 +1,3 @@
-#+AUTHOR: Perry Smith
-#+EMAIL:  pedz@easesoftware.com
 
 * AF-ON Button on Canon EOS R1                                           :R1:
 
