@@ -17,3 +17,5 @@ useful:
         the screen on the real panel.
     * [[https://cam.start.canon/en/H001/index.html][Supplemental Information]]
     * [[https://cam.start.canon/en/C018/guide/html/index.html][AF Setting Guide]]
+  * [[https://cam.start.canon/en/S014/manual/html/index.html][EOS Multi Remote]]
+    

@@ -1,0 +1,15 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="10.76mm" height="5.64mm" viewBox="0 0 30.5 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_charging</title>
+  <rect class="cls-1" width="30.5" height="16"/>
+  <g>
+    <path d="M2.81.85V5.48h-2v5h2v4.64h27V.85ZM28.12,13.5H4.46V2.5H28.12Z"/>
+    <polygon points="13.68 12.81 20.4 6.37 16.45 6.37 18.62 3.26 15.28 3.26 13.06 8.29 15.56 8.29 13.68 12.81"/>
+  </g>
+</svg>

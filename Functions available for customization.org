@@ -344,17 +344,26 @@ detected subject
     moved by the Multi-Controller.  The {{{main-dial}}} can be used to set
     the white balance bracketing.
 
+  * [[file:svg/icon_color_temp_change.svg]]: Switch color temperature ::
+    While assigning this function to a button, the {{{info-button}}}
+    may be pressed and a list of the four {{{menu-setting(K1-K4)}}} is
+    presented with check boxes to enable or disable each setting.
+    {{{when-pressed}}}, the next {{{menu-setting(K1-K4)}}} will be
+    selected.
+
   * [[file:svg/icon_Wb_shift.svg]]: WB Shift/Bkt. ::
-    This is available only in still photo shooting.  {{{when-pressed}}}, a X-Y
-    view of the white balance is presented and the multi-controller
-    can be used to adjust the settings.  The {{{main-dial}}} can be
-    used to adjust the white balance bracketing.
+    This is available only during still photo shooting.
+    {{{when-pressed}}}, a X-Y view of the white balance is presented
+    and the multi-controller can be used to adjust the settings.  The
+    {{{main-dial}}} can be used to adjust the white balance
+    bracketing.
 
   * [[file:svg/icon_Wb_shift.svg]]: WB correction ::
-    This is available only in moving shooting.  {{{when-pressed}}}, a X-Y view
-    of the white balance is presented and the multi-controller can be
-    used to adjust the settings.  The adjustment for bracketing isn't
-    present since bracketing during moving shooting isn't possible.
+    This is available only during moving shooting.
+    {{{when-pressed}}}, a X-Y view of the white balance is presented
+    and the multi-controller can be used to adjust the settings.  The
+    adjustment for bracketing isn't present since bracketing during
+    moving shooting isn't possible.
 
   * [[file:svg/icon_func-picstyle.svg]]: Picture Style ::
     There are eleven Picture Styles defined.  {{{when-pressed}}}, a
@@ -670,6 +679,10 @@ detected subject
     I don't feel like I 100% understand the anti-flicker abilities and
     I don't have flickering lights at home to test with.
 
+  * [[file:svg/icon_Pre_conti_shoot.svg]]: Pre-cont. shooting ::
+    {{{when-pressed}}}, the setting of
+    call_menu(item="Pre-cont. shoot") will be toggled.
+
   * [[file:svg/icon_ts-enable.svg]]: Touch Shutter ::
     {{{when-pressed}}}, the call_menu(item="Touch Shutter") setting is
     toggled.
@@ -702,28 +715,68 @@ detected subject
     {{{when-pressed}}}, a menu is presented for Airplane mode.  The
     user can select {{{menu-setting(On)}}} or {{{menu-setting(Off)}}}.
 
+  * [[file:svg/icon_EOS_Multi_Remote_Group_ALL.svg]]: EOS Multi Remote group: All ::
+    I probably could tinker with this but I have no desire.  Perhaps
+    someone will volunteer.
+    
+  * [[file:svg/icon_EOS_Multi_Remote_Group_NONE.svg]]: EOS Multi Remote group: None ::
+    I probably could tinker with this but I have no desire.  Perhaps
+    someone will volunteer.
+    
+  * [[file:svg/icon_EOS_Multi_Remote_Group_1.svg]]: EOS Multi Remote group: 1 ::
+    I probably could tinker with this but I have no desire.  Perhaps
+    someone will volunteer.
+    
+  * [[file:svg/icon_EOS_Multi_Remote_Group_2.svg]]: EOS Multi Remote group: 2 ::
+    I probably could tinker with this but I have no desire.  Perhaps
+    someone will volunteer.
+    
+  * [[file:svg/icon_EOS_Multi_Remote_Group_3.svg]]: EOS Multi Remote group: 3 ::
+    I probably could tinker with this but I have no desire.  Perhaps
+    someone will volunteer.
+    
+  * [[file:svg/icon_EOS_Multi_Remote_Group_4.svg]]: EOS Multi Remote group: 4 ::
+    I probably could tinker with this but I have no desire.  Perhaps
+    someone will volunteer.
+    
+  * [[file:svg/icon_EOS_Multi_Remote_Group_5.svg]]: EOS Multi Remote group: 5 ::
+    I probably could tinker with this but I have no desire.  Perhaps
+    someone will volunteer.
+    
   * [[file:svg/icon_new-folder.svg]]: Create folder ::
-    8
+    The call_menu(item="Record func+card/folder sel.") has a ~Folder~
+    sub-option.  When it is selected, there is a ~Create folder~
+    option under it.  When that is selected, a display that is the
+    start of a sequence of dialog screens to create and name a folder
+    on the current media.  {{{when-pressed}}}, the ~Create folder~
+    screen is presented.
     
   * [[file:svg/icon_func-switch-vf-screen.svg]]: Switch between VF/screen ::
-    7
-
+    {{{when-pressed}}}, the camera will kinda mostly switch between
+    the EVF and the rear LCD panel but any movement detected by the
+    eye piece will switch back to the EVF.
+    
   :r1-only:
   * [[file:svg/icon_btn-magnify.svg]]: Magnify/Reduce button ::
-    6
+    Canon already had a {{{function(Magnify/Reduce)}}} function.  This
+    has a different icon but appears to function the same.
 
   * [[file:svg/icon_btn-playback.svg]]: Playback button ::
-    5
+    Canon already had a {{{function(Image replay)}}} function.  This
+    has a different icon but appears to function the same.
 
   * [[file:svg/icon_info_monitor.svg]]: Info button ::
-    4
+    The button assigned to this function will operate exactly as the
+    {{{info-button}}}.
 
   * [[file:svg/icon_btn-erase.svg]]: Erase button ::
-    3
+    The button assigned to this function will operate exactly as the
+    {{{erase-button}}}.
 
   * [[file:svg/icon_rate_monitor.svg]]: Rating button ::
-    2
+    The button assigned to this function will operate exactly as the
+    {{{rating-button}}}.
   :end:
 
   * [[file:svg/icon_le-mf-d.svg]]: No function (disabled) ::
-    1
+    A button assigned to this function does nothing.

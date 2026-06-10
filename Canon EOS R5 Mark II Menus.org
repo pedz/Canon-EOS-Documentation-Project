@@ -150,6 +150,7 @@ Firmware Version 1.2.0
         * Upload to image.canon
         * Sync time between cameras
         * Connect to smartphoone(tablet)
+        * Live Streaming
         * Connect to Wireless Remote
       * Tab 3/4 Network function
         * Camera Control API

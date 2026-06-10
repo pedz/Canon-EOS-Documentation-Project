@@ -118,6 +118,7 @@ and then adding the lines up to and including the #+NAME: line.
 | Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Upload to image.canon                                        |
 | Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Sync time between cameras                                    |
 | Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to smartphoone(tablet)                               |
+| Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Live Streaming                                               |
 | Still Photo Shooting | {{{comm-menu}}}     | Tab 2/4 Network function                     | Connect to Wireless Remote                                   |
 | Still Photo Shooting | {{{comm-menu}}}     | Tab 3/4 Network function                     | Camera Control API                                           |
 | Still Photo Shooting | {{{comm-menu}}}     | Tab 4/4 Various Settings                     | GPS settings                                                 |

@@ -1,0 +1,12 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>icon_wireless-lan2</title>
+  <path d="M14.19.5,8.06,7.87V15.5H6.81V7.84L.81.5ZM6.81,5.86V1.76H3.42l.7.9L5,3.75,6,4.87Zm4.71-4.1H8.06V5.91l.83-1,.94-1.13.92-1.11Z"/>
+  <polyline class="cls-1" points="0 16 0 0 15 0"/>
+</svg>
