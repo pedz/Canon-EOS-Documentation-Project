@@ -18,7 +18,27 @@
         org-export-with-author nil
         org-html-validation-link nil
         org-publish-project-alist
-        '(("Canon-EOS-Documentation-Project"
+        '())
+  (org-publish-all))
+
+(defun pedz/publish-canon-project ()
+  "Publish the Canon-EOS-Documentation-Project"
+  (interactive)
+  (setq org-babel-inline-result-wrap "%s"
+        org-confirm-babel-evaluate nil
+        org-publish-use-timestamps-flag nil
+        org-export-with-author nil
+        org-html-validation-link nil
+        org-publish-project-alist
+        '(("Canon EOS Documentaion Project" :components ("HTML files" "UTF-8 files"))
+          ("HTML files"
+           :base-directory "~/Source/Canon-EOS-Documentation-Project"
+           :publishing-function org-ascii-publish-to-utf8
+           :publishing-directory "~/Source/Canon-EOS-Documentation-Project"
+           :exclude ".*"
+           :include ("Canon EOS R1 Menu.org"
+                     "Canon EOS R5 Mark II Menu.org"))
+          ("UTF-8 files"
            :base-directory "~/Source/Canon-EOS-Documentation-Project"
            :publishing-function org-html-publish-to-html
            :publishing-directory "~/Source/Canon-EOS-Documentation-Project"

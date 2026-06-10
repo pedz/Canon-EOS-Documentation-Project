@@ -1,13 +1,23 @@
 
-#+MACRO: playback-menu Blue [[file:svg/icon_playback.svg]] Playback
-#+MACRO: control-menu Green [[file:svg/icon_Menu_Tab_Assign.svg]] Control Customization
-#+MACRO: star-menu Green [[file:svg/icon_star-bk.svg]]
-#+MACRO: custom-menu Orange [[file:svg/icon_tab-custom.svg]] Custom Functions
-#+MACRO: af-menu Pink [[file:svg/icon_tab-af.svg]]
-#+MACRO: comm-menu Purple [[file:svg/icon_data-transfer.svg]] Communication Functions
-#+MACRO: still-menu Red [[file:svg/icon_tab-shooting.svg]] Still Shooting
-#+MACRO: movie-menu Red [[file:svg/icon_tab-shooting.svg]] Movie Shooting
-#+MACRO: setup-menu Yellow [[file:svg/icon_tab-set-up.svg]] Set-up
+#+MACRO: playback-menu-icon @@html:<img src="svg/icon_playback.svg" alt="Playback"/>@@
+#+MACRO: control-menu-icon @@html:<img src="svg/icon_Menu_Tab_Assign.svg" alt="Control Customization"/>@@
+#+MACRO: star-menu-icon @@html:<img src="svg/icon_star-bk.svg" alt="Star"/>@@
+#+MACRO: custom-menu-icon @@html:<img src="svg/icon_tab-custom.svg" alt="Custom Functions"/>@@
+#+MACRO: af-menu-icon @@html:<img src="svg/icon_tab-af.svg" alt="Auto Focus"/>@@
+#+MACRO: comm-menu-icon @@html:<img src="svg/icon_data-transfer.svg" alt="Communication Functions"/>@@
+#+MACRO: still-menu-icon @@html:<img src="svg/icon_tab-shooting.svg" alt="Still Shooting"/>@@
+#+MACRO: movie-menu-icon @@html:<img src="svg/icon_tab-shooting.svg" alt="Movie Shooting"/>@@
+#+MACRO: setup-menu-icon @@html:<img src="svg/icon_tab-set-up.svg" alt="Set-up"/>@@
+
+#+MACRO: playback-menu Blue {{{playback-menu-icon}}} Playback
+#+MACRO: control-menu Green {{{control-menu-icon}}} Control Customization
+#+MACRO: star-menu Green {{{star-menu-icon}}}
+#+MACRO: custom-menu Orange {{{custom-menu-icon}}} Custom Functions
+#+MACRO: af-menu Pink {{{af-menu-icon}}}
+#+MACRO: comm-menu Purple {{{comm-menu-icon}}} Communication Functions
+#+MACRO: still-menu Red {{{still-menu-icon}}} Still Shooting
+#+MACRO: movie-menu Red {{{movie-menu-icon}}} Movie Shooting
+#+MACRO: setup-menu Yellow {{{setup-menu-icon}}} Set-up
 
 #+MACRO: menu-setting =$1=
 #+MACRO: function /$1/
@@ -47,39 +57,39 @@
 #+END_SRC
 
 # The info-button
-#+MACRO: info-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_info.svg" alt="INFO"></span>@@ button
+#+MACRO: info-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_info.svg" alt="INFO"/></span>@@ button
 # The Quick Control 1 dial -- the big dial on the back of the camera
-#+MACRO: qcd-1 @@html:<span class="icon"><img class="print_icon" src="svg/icon_sub-dial.svg" alt="Quick Control 1"></span>@@ Quick Control 1
+#+MACRO: qcd-1 @@html:<span class="icon"><img class="print_icon" src="svg/icon_sub-dial.svg" alt="Quick Control 1"/></span>@@ Quick Control 1
 # The Quick Control 2 dial -- the one on the top back of the camera
-#+MACRO: qcd-2 @@html:<span class="icon"><img class="print_icon" src="svg/icon_sub-dial2.svg" alt="Quick Control 2"></span>@@ Quick Control 2
+#+MACRO: qcd-2 @@html:<span class="icon"><img class="print_icon" src="svg/icon_sub-dial2.svg" alt="Quick Control 2"/></span>@@ Quick Control 2
 # The Main dial -- the one on the top front of the camera
-#+MACRO: main-dial @@html:<span class="icon"><img class="print_icon" src="svg/icon_main-dial.svg" alt="Main dial"></span>@@ Main dial
+#+MACRO: main-dial @@html:<span class="icon"><img class="print_icon" src="svg/icon_main-dial.svg" alt="Main dial"/></span>@@ Main dial
 # The M-fn button
-#+MACRO: m-fn @@html:<span class="icon"><img class="print_icon" src="svg/icon_m-fn.svg" alt="M-fn"></span>@@ Multi-function button
+#+MACRO: m-fn @@html:<span class="icon"><img class="print_icon" src="svg/icon_m-fn.svg" alt="M-fn"/></span>@@ Multi-function button
 # The M-fn-ftp button
-#+MACRO: m-fn-ftp @@html:<span class="icon"><img class="print_icon" src="svg/icon_m-fn.svg" alt="M-fn">/<img class="print_icon" src="svg/icon_ftp-server.svg" alt="FTP server"></span>@@ Multi-function/FTP server image transfer button
+#+MACRO: m-fn-ftp @@html:<span class="icon"><img class="print_icon" src="svg/icon_m-fn.svg" alt="M-fn"/>/<img class="print_icon" src="svg/icon_ftp-server.svg" alt="FTP server"/></span>@@ Multi-function/FTP server image transfer button
 # The C3 custom setting for movies
-#+MACRO: c3-movie @@html:<img class="print_icon" src="svg/icon_mode-mov-c3.svg" alt="Program AE3 (movies)">@@
+#+MACRO: c3-movie @@html:<img class="print_icon" src="svg/icon_mode-mov-c3.svg" alt="Program AE3 (movies)"/>@@
 # The icon for movie shooting
-#+MACRO: movie-recording @@html:<span class="icon"><img class="print_icon" src="svg/icon_mov.svg" alt="Movies"></span>@@
+#+MACRO: movie-recording @@html:<span class="icon"><img class="print_icon" src="svg/icon_mov.svg" alt="Movies"/></span>@@
 # The icon for still photo shooting
-#+MACRO: still-photo-shooting @@html:<span class="icon"><img class="print_icon" src="svg/icon_still.svg" alt="Still photo shooting"></span>@@
+#+MACRO: still-photo-shooting @@html:<span class="icon"><img class="print_icon" src="svg/icon_still.svg" alt="Still photo shooting"/></span>@@
 # The button by the small top LCD panel
-#+MACRO: lcd-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_panel-illum.svg" alt="Illumination">/<img class="print_icon" src="svg/icon_trimming.svg" alt="Trimming"></span>@@ LCD panel info switching/illumination/cropping button
+#+MACRO: lcd-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_panel-illum.svg" alt="Illumination"/>/<img class="print_icon" src="svg/icon_trimming.svg" alt="Trimming"/></span>@@ LCD panel info switching/illumination/cropping button
 # The mode button
-#+MACRO: mode-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_mode.svg" alt="MODE"></span>@@ Mode button
+#+MACRO: mode-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_mode.svg" alt="MODE"/></span>@@ Mode button
 # The set button
-#+MACRO: set-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_set.svg" alt="SET"></span>@@ Mode button
+#+MACRO: set-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_set.svg" alt="SET"/></span>@@ Mode button
 # The Q button
-#+MACRO: quick-control-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_quick.svg" alt="Quick Control"></span>@@ Quick Control button
+#+MACRO: quick-control-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_quick.svg" alt="Quick Control"/></span>@@ Quick Control button
 # The magnify button
-#+MACRO: magnify-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_magnify.svg" alt="Magnify"></span>@@ Magnify/reduce button
+#+MACRO: magnify-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_magnify.svg" alt="Magnify"/></span>@@ Magnify/reduce button
 # The playback button
-#+MACRO: playback-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_playback.svg" alt="Playbak"></span>@@ Playback button
+#+MACRO: playback-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_playback.svg" alt="Playbak"/></span>@@ Playback button
 # The menu button
-#+MACRO: menu-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_menu.svg" alt="Menu"></span>@@ Menu button
+#+MACRO: menu-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_menu.svg" alt="Menu"/></span>@@ Menu button
 
 # The erase button
-#+MACRO: erase-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_erase.svg" alt="Erase"></span>@@ Erase button
+#+MACRO: erase-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_erase.svg" alt="Erase"/></span>@@ Erase button
 # The rating button
-#+MACRO: rating-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_rate.svg" alt="Rating">/<img class="print_icon" src="svg/icon_voice-memo.svg" alt="Voice memo"></span>@@ Rating button
+#+MACRO: rating-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_rate.svg" alt="Rating"/>/<img class="print_icon" src="svg/icon_voice-memo.svg" alt="Voice memo"/></span>@@ Rating button

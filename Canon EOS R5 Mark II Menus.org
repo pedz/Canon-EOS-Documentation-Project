@@ -1,16 +1,15 @@
 
 * Canon R5 Mark II Menus                                             :R5MkII:
 
-This is just a flat listing of all of the menus in the R5 Mark II.  I
-want to eventually be able to format this as a simple list that I can
-put on my iPhone.  I can never find the menu that I'm looking for.
-With this on my phone, I can do a search, find where the menu item is,
-and then go to it on my camera.  To me (sorry if this is a huge
-failure on my part), I can never even get which menu tab to start
-searching.  Camera?  Set-up? Customization? Custom Functions? (head
-slap).
+This is just a flat listing of all of the menus in the R1.  I have
+trouble finding the menu that I'm looking for.  I can really remember
+which color to look in.  So this is a flat text that is included in
+the main supplement but is also exported as a flat UTF-8 file that can
+be loaded onto your phone.  I have it in my iCloud account.  I can
+open it via Files and search for what I'm looking for.
 
-Firmware Version 1.2.0
+
+Firmware Version 1.3.0
 
   * Still Photo Shooting
     * {{{still-menu}}}
