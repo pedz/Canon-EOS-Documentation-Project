@@ -1,0 +1,27 @@
+#+DESCRIPTION: This is a description
+#+HTML_DOCTYPE: xhtml5
+#+OPTIONS: html5-fancy:t
+#+HTML_HEAD: <link rel="stylesheet" href="html-test.css">
+
+This is some text ... hello world
+
+#+ATTR_HTML: :class detail-class :id my-details
+#+BEGIN_details
+#+ATTR_HTML: :class summary-class :id my-summary
+#+BEGIN_summary
+org-html-html5-elements
+#+END_summary
+(defconst org-html-html5-elements
+  '("article" "aside" "audio" "canvas" "details" "figcaption"
+    "figure" "footer" "header" "menu" "meter" "nav" "output"
+    "progress" "section" "summary" "video")
+  "New elements in html5.
+#+END_details
+
+this is after the details.
+
+This is the Org document to create this:
+#+INCLUDE: "html-test.org" src org
+
+And this is the CSS file:
+#+INCLUDE: "html-test.css" src css
