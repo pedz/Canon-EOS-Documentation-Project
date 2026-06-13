@@ -3,11 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-06-11 Thu 19:51 -->
+<!-- 2026-06-13 Sat 18:34 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Canon EOS R1 Supplement</title>
-<meta name="author" content="Perry Smith" />
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
   #content { max-width: 60em; margin: auto; }
@@ -57,6 +56,7 @@
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
   pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-c:before { content: 'C'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -71,7 +71,7 @@
   pre.src-haskell:before { content: 'Haskell'; }
   pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
+  pre.src-js:before { content: 'JavaScript'; }
   pre.src-latex:before { content: 'LaTeX'; }
   pre.src-ledger:before { content: 'Ledger'; }
   pre.src-lisp:before { content: 'Lisp'; }
@@ -184,7 +184,13 @@
   #org-div-home-and-up
    { text-align: right; font-size: 70%; white-space: nowrap; }
   textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
+  .linenr {
+    font-size: smaller;
+    @supports (content: attr(data-linenr)) {
+      visibility: hidden;
+      &::before { content: attr(data-linenr); visibility: visible; }
+    }
+  }
   .code-highlighted { background-color: #ffff00; }
   .org-info-js_info-navigation { border-style: none; }
   #org-info-js_console-label
@@ -250,27 +256,27 @@ dl:after {
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org15b87ef">1. Introduction</a></li>
-<li><a href="#orgde2cf45">2. AF Focusing</a>
+<li><a href="#orgcfe6fac">1. Introduction</a></li>
+<li><a href="#org5035dad">2. AF Focusing</a>
 <ul>
-<li><a href="#orga9bd71a">2.1. When an AF area with the lock icon is selected</a></li>
-<li><a href="#org17d7902">2.2. When an AF area without the lock icon is selected</a></li>
-<li><a href="#orgea17a7b">2.3. When AF Area is selected</a></li>
-<li><a href="#org3862554">2.4. What about Subject to Detect?</a></li>
+<li><a href="#org2f4e977">2.1. When an AF area with the lock icon is selected</a></li>
+<li><a href="#org1636b1b">2.2. When an AF area without the lock icon is selected</a></li>
+<li><a href="#org552f876">2.3. When AF Area is selected</a></li>
+<li><a href="#orgdce9ac8">2.4. What about Subject to Detect?</a></li>
 </ul>
 </li>
-<li><a href="#orga68aab3">3. AF Selection</a></li>
-<li><a href="#orgbb09b1e">4. Canon Autofocus Button Functions Videos</a></li>
-<li><a href="#org9131d74">5. Functions available for customization Canon EOS R1</a></li>
-<li><a href="#orga443579">6. Multi-controller</a></li>
-<li><a href="#orgfbadffb">7. AF-ON Button on Canon EOS R1</a></li>
-<li><a href="#org6c634b4">8. Canon R1 Menus</a></li>
-<li><a href="#org2642e77">9. Canon EOS R1 Useful Links</a></li>
+<li><a href="#orgc75b4c1">3. AF Selection</a></li>
+<li><a href="#org84ad590">4. Canon Autofocus Button Functions Videos</a></li>
+<li><a href="#org81cf404">5. Functions available for customization Canon EOS R1</a></li>
+<li><a href="#orgf5fef81">6. Multi-controller</a></li>
+<li><a href="#org9b1ba1e">7. AF-ON Button on Canon EOS R1</a></li>
+<li><a href="#orgdf85247">8. Canon R1 Menus</a></li>
+<li><a href="#org8bee6e7">9. Canon EOS R1 Useful Links</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org15b87ef" class="outline-2">
-<h2 id="org15b87ef"><span class="section-number-2">1.</span> Introduction</h2>
+<div id="outline-container-orgcfe6fac" class="outline-2">
+<h2 id="orgcfe6fac"><span class="section-number-2">1.</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 This is a documentation supplement for the Canon EOS R1.  The objective
@@ -308,8 +314,8 @@ which, as far as I can determine, is not clearly defined.
 </p>
 </div>
 </div>
-<div id="outline-container-orgde2cf45" class="outline-2">
-<h2 id="orgde2cf45"><span class="section-number-2">2.</span> AF Focusing</h2>
+<div id="outline-container-org5035dad" class="outline-2">
+<h2 id="org5035dad"><span class="section-number-2">2.</span> AF Focusing</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The <a href="https://www.youtube.com/@PointsInFocus">Points In Focus</a> YouTube Channel has a very good video about the
@@ -359,8 +365,8 @@ describe what happens the majority of the time but as the video points
 out, "Your Mileage May Vary".
 </p>
 </div>
-<div id="outline-container-orga9bd71a" class="outline-3">
-<h3 id="orga9bd71a"><span class="section-number-3">2.1.</span> When an AF area with the lock icon is selected</h3>
+<div id="outline-container-org2f4e977" class="outline-3">
+<h3 id="org2f4e977"><span class="section-number-3">2.1.</span> When an AF area with the lock icon is selected</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 The simple cases.  If the <code>AF area</code> menu item found in tab 1 of the Pink <img src="svg/icon_tab-af.svg" alt="Auto Focus"/> menu is set to
@@ -370,12 +376,12 @@ one of the options with the lock icon, the
 with the <i>Start/stop whole area AF tracking</i> function
 has no effect.  Thus, if you want the camera to focus strictly to what
 is under the focus area, pick one of these areas and you don't need to
-worry about three of the other settings &#x2013; they are off.
+worry about three of the other settings &ndash; they are off.
 </p>
 </div>
 </div>
-<div id="outline-container-org17d7902" class="outline-3">
-<h3 id="org17d7902"><span class="section-number-3">2.2.</span> When an AF area without the lock icon is selected</h3>
+<div id="outline-container-org1636b1b" class="outline-3">
+<h3 id="org1636b1b"><span class="section-number-3">2.2.</span> When an AF area without the lock icon is selected</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 <code>Spot AF</code> without the lock icon is selected for this
@@ -454,7 +460,7 @@ camera pans.
 
 <p>
 If the focus button is pressed, when the track button is hit, the
-camera switches to the original AF area.  Note&#x2026; this is if the track
+camera switches to the original AF area.  Note&hellip; this is if the track
 button is hit while the focus button is pressed.  If the track button
 is hit while the metering time is active but the focus button is not
 pressed, then the box drawn with double lines appears.  Again, panning
@@ -463,8 +469,8 @@ pan.
 </p>
 </div>
 </div>
-<div id="outline-container-orgea17a7b" class="outline-3">
-<h3 id="orgea17a7b"><span class="section-number-3">2.3.</span> When AF Area is selected</h3>
+<div id="outline-container-org552f876" class="outline-3">
+<h3 id="org552f876"><span class="section-number-3">2.3.</span> When AF Area is selected</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 When the AF area is set to "AF area" and the
@@ -521,8 +527,8 @@ the metering timer.
 </p>
 </div>
 </div>
-<div id="outline-container-org3862554" class="outline-3">
-<h3 id="org3862554"><span class="section-number-3">2.4.</span> What about Subject to Detect?</h3>
+<div id="outline-container-orgdce9ac8" class="outline-3">
+<h3 id="orgdce9ac8"><span class="section-number-3">2.4.</span> What about Subject to Detect?</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 It appears as if the <code>Subject to detect</code> menu item found in tab 2 of the Pink <img src="svg/icon_tab-af.svg" alt="Auto Focus"/> menu
@@ -533,13 +539,13 @@ order to find something to focus on" while the
 focus on.  With a <code>Subject to detect</code> menu item found in tab 2 of the Pink <img src="svg/icon_tab-af.svg" alt="Auto Focus"/> menu set,
 priority is given to what that subject is with the
 <code>Auto</code> setting simply meaning that one of the other
-three topics needs to be picked &#x2013; which ever is predominant.
+three topics needs to be picked &ndash; which ever is predominant.
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-orga68aab3" class="outline-2">
-<h2 id="orga68aab3"><span class="section-number-2">3.</span> AF Selection</h2>
+<div id="outline-container-orgc75b4c1" class="outline-2">
+<h2 id="orgc75b4c1"><span class="section-number-2">3.</span> AF Selection</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 First, the <code>AF area selection control</code> menu item found in tab 3 of the Green <img src="svg/icon_Menu_Tab_Assign.svg" alt="Control Customization"/> Control Customization menu item can
@@ -591,8 +597,8 @@ horizontally with the <span class="icon"><img class="print_icon" src="svg/icon_m
 </p>
 </div>
 </div>
-<div id="outline-container-orgbb09b1e" class="outline-2">
-<h2 id="orgbb09b1e"><span class="section-number-2">4.</span> Canon Autofocus Button Functions Videos</h2>
+<div id="outline-container-org84ad590" class="outline-2">
+<h2 id="org84ad590"><span class="section-number-2">4.</span> Canon Autofocus Button Functions Videos</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 The <a href="https://www.youtube.com/@PointsInFocus">Points In Focus</a> YouTube Channel has three videos talking about the
@@ -608,8 +614,8 @@ useful for many Canon cameras produced in early 2026.
 </ul>
 </div>
 </div>
-<div id="outline-container-org9131d74" class="outline-2">
-<h2 id="org9131d74"><span class="section-number-2">5.</span> Functions available for customization Canon EOS R1</h2>
+<div id="outline-container-org81cf404" class="outline-2">
+<h2 id="org81cf404"><span class="section-number-2">5.</span> Functions available for customization Canon EOS R1</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Currently this is just the list of icons and brief descriptions for
@@ -637,7 +643,7 @@ implies). This makes the most sense if the shutter button half
 press is set to one of the two settings that has AF start although
 there may be other situations as well.</dd>
 
-<dt><img src="svg/icon_af-frame-button.svg" alt="icon_af-frame-button.svg" class="org-svg" />: AF point selection</dt><dd>The <b>AF point selection</b> function is described in <a href="#orga68aab3">AF Selection</a>.</dd>
+<dt><img src="svg/icon_af-frame-button.svg" alt="icon_af-frame-button.svg" class="org-svg" />: AF point selection</dt><dd>The <b>AF point selection</b> function is described in <a href="#orgc75b4c1">AF Selection</a>.</dd>
 
 <dt><img src="svg/icon_direct_af-point.svg" alt="icon_direct_af-point.svg" class="org-svg" />: Direct AF point selection</dt><dd>This can only be set on the Multi-controller.  When set this way,
 the eight way movements move the AF area in the direction the
@@ -656,7 +662,7 @@ released, the AF area can be moved via finger movement across the
 <dt><img src="svg/icon_point_to_center.svg" alt="icon_point_to_center.svg" class="org-svg" />: Set AF point to center</dt><dd>Pressing a button assigned to this function will move the AF area
 to the center.</dd>
 
-<dt><img src="svg/icon_AF_tracking_start.svg" alt="icon_AF_tracking_start.svg" class="org-svg" />: Start/stop whole area AF tracking</dt><dd>This setting is detailed in the <a href="#orgde2cf45">AF Focusing</a> section.</dd>
+<dt><img src="svg/icon_AF_tracking_start.svg" alt="icon_AF_tracking_start.svg" class="org-svg" />: Start/stop whole area AF tracking</dt><dd>This setting is detailed in the <a href="#org5035dad">AF Focusing</a> section.</dd>
 
 <dt><img src="svg/icon_switch-af-point.svg" alt="icon_switch-af-point.svg" class="org-svg" />: Switch to registered AF point</dt><dd>This feature is fairly well documented in the manual.  It is
 documented <a href="https://cam.start.canon/en/C018/manual/html/UG-04_AF-Drive_0060.html">here</a> for the R1 and <a href="https://cam.start.canon/en/C017/manual/html/UG-04_AF-Drive_0060.html">here</a> for the R5 Mark II.</dd>
@@ -828,7 +834,7 @@ set to AE lock (while button pressed), touching the shutter button
 starts AE.  Holding the shutter half pressed (as well as taking
 the image) will cause AE to lock.</dd>
 
-<dt><img src="svg/icon_ael-fel.svg" alt="icon_ael-fel.svg" class="org-svg" />: AE lock/FE lock</dt><dd>Sorry&#x2026; I don't want to muck about with flash right now.  Maybe
+<dt><img src="svg/icon_ael-fel.svg" alt="icon_ael-fel.svg" class="org-svg" />: AE lock/FE lock</dt><dd>Sorry&hellip; I don't want to muck about with flash right now.  Maybe
 later.</dd>
 
 <dt><img src="svg/icon_AE_lock_OFF.svg" alt="icon_AE_lock_OFF.svg" class="org-svg" />: Release AE Lock</dt><dd>When a button assigned to this function is pressed and released,
@@ -847,10 +853,10 @@ value.</dd>
 <dt><img src="svg/icon_func-set-iso.svg" alt="icon_func-set-iso.svg" class="org-svg" />: Set ISO speed(hold btn,turn*<img src="svg/icon_dial_bk.svg" alt="icon_dial_bk.svg" class="org-svg" />)</dt><dd>When a button assigned to this function is pressed and held, the
 <span class="icon"><img class="print_icon" src="svg/icon_main-dial.svg" alt="Main dial"/></span> Main dial is used to adjust the ISO.</dd>
 
-<dt><img src="svg/icon_flash.svg" alt="icon_flash.svg" class="org-svg" />: Flash firing</dt><dd>Sorry&#x2026; I don't want to muck about with flash right now.  Maybe
+<dt><img src="svg/icon_flash.svg" alt="icon_flash.svg" class="org-svg" />: Flash firing</dt><dd>Sorry&hellip; I don't want to muck about with flash right now.  Maybe
 later.</dd>
 
-<dt><img src="svg/icon_fe-lock2.svg" alt="icon_fe-lock2.svg" class="org-svg" />: FE lock</dt><dd>Sorry&#x2026; I don't want to muck about with flash right now.  Maybe
+<dt><img src="svg/icon_fe-lock2.svg" alt="icon_fe-lock2.svg" class="org-svg" />: FE lock</dt><dd>Sorry&hellip; I don't want to muck about with flash right now.  Maybe
 later.</dd>
 
 <dt><img src="svg/icon_image-size.svg" alt="icon_image-size.svg" class="org-svg" />: Image size selection</dt><dd>Not documented <sup><a id="fnr.-5-none" class="footref" href="#fn.-5-none" role="doc-backlink">3</a></sup></dd>
@@ -972,10 +978,10 @@ desired setting.</dd>
 <code>Standby; Low res.</code> menu item found in tab 10 of the Red <img src="svg/icon_tab-shooting.svg" alt="Movie Shooting"/> Movie Shooting menu  is toggled.  This function is
 sticky.</dd>
 
-<dt><img src="svg/icon_flash-func-settings.svg" alt="icon_flash-func-settings.svg" class="org-svg" />: Flash function settings</dt><dd>Sorry&#x2026; I don't want to muck about with flash right now.  Maybe
+<dt><img src="svg/icon_flash-func-settings.svg" alt="icon_flash-func-settings.svg" class="org-svg" />: Flash function settings</dt><dd>Sorry&hellip; I don't want to muck about with flash right now.  Maybe
 later.</dd>
 
-<dt><img src="svg/icon_External_flash_Gr.svg" alt="icon_External_flash_Gr.svg" class="org-svg" />: Quick flash group control</dt><dd>Sorry&#x2026; I don't want to muck about with flash right now.  Maybe
+<dt><img src="svg/icon_External_flash_Gr.svg" alt="icon_External_flash_Gr.svg" class="org-svg" />: Quick flash group control</dt><dd>Sorry&hellip; I don't want to muck about with flash right now.  Maybe
 later.</dd>
 
 <dt><img src="svg/icon_func-dial.svg" alt="icon_func-dial.svg" class="org-svg" />: Dial function settings</dt><dd><p>
@@ -1298,8 +1304,8 @@ has a different icon but appears to function the same.</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-orga443579" class="outline-2">
-<h2 id="orga443579"><span class="section-number-2">6.</span> Multi-controller</h2>
+<div id="outline-container-orgf5fef81" class="outline-2">
+<h2 id="orgf5fef81"><span class="section-number-2">6.</span> Multi-controller</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 When the Multi-controller is set to <b>Direct AF point selection</b>, the
@@ -1329,8 +1335,8 @@ by eye control</b> function and has the same icon.
 </p>
 </div>
 </div>
-<div id="outline-container-orgfbadffb" class="outline-2">
-<h2 id="orgfbadffb"><span class="section-number-2">7.</span> AF-ON Button on Canon EOS R1</h2>
+<div id="outline-container-org9b1ba1e" class="outline-2">
+<h2 id="org9b1ba1e"><span class="section-number-2">7.</span> AF-ON Button on Canon EOS R1</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 The <img src="svg/icon_Button_AF_ON_w60.svg" alt="icon_Button_AF_ON_w60.svg" class="org-svg" /> (AF-ON) button on the R1
@@ -1538,8 +1544,8 @@ Not available on full press for movie shooting modes
 </ul>
 </div>
 </div>
-<div id="outline-container-org6c634b4" class="outline-2">
-<h2 id="org6c634b4"><span class="section-number-2">8.</span> Canon R1 Menus</h2>
+<div id="outline-container-orgdf85247" class="outline-2">
+<h2 id="orgdf85247"><span class="section-number-2">8.</span> Canon R1 Menus</h2>
 <div class="outline-text-2" id="text-8">
 <p>
 This is just a flat listing of all of the menus in the R1.  I have
@@ -2269,8 +2275,8 @@ Firmware Version 1.3.0
 </ul>
 </div>
 </div>
-<div id="outline-container-org2642e77" class="outline-2">
-<h2 id="org2642e77"><span class="section-number-2">9.</span> Canon EOS R1 Useful Links</h2>
+<div id="outline-container-org8bee6e7" class="outline-2">
+<h2 id="org8bee6e7"><span class="section-number-2">9.</span> Canon EOS R1 Useful Links</h2>
 <div class="outline-text-2" id="text-9">
 <p>
 These are simply links to Canon's official documentation that I find
@@ -2320,9 +2326,7 @@ documented, please make a request.  I may get to them eventually anyway.</p></di
 </div>
 </div></div>
 <div id="postamble" class="status">
-<p class="author">Author: Perry Smith</p>
-<p class="date">Created: 2026-06-11 Thu 19:51</p>
-<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2026-06-13 Sat 18:34</p>
 </div>
 </body>
 </html>

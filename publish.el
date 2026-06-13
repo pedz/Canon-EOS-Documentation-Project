@@ -18,18 +18,6 @@
         org-export-with-author nil
         org-html-validation-link nil
         org-publish-project-alist
-        '())
-  (org-publish-all))
-
-(defun pedz/publish-canon-project ()
-  "Publish the Canon-EOS-Documentation-Project"
-  (interactive)
-  (setq org-babel-inline-result-wrap "%s"
-        org-confirm-babel-evaluate nil
-        org-publish-use-timestamps-flag nil
-        org-export-with-author nil
-        org-html-validation-link nil
-        org-publish-project-alist
         '(("Canon EOS Documentaion Project" :components ("HTML files" "UTF-8 files"))
           ("HTML files"
            :base-directory "~/Source/Canon-EOS-Documentation-Project"
