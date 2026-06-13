@@ -20,3 +20,5 @@ provide you with info on where to find it on your camera.
  2. [[file:Canon EOS R1 Menu.txt][Canon EOS R1 Menu.txt]] (right click and download)
  3. [[file:Canon EOS R5 Mark II Supplement.html][Canon EOS R5 Mark II Supplement]]
  4. [[file:Canon EOS R5 Mark II Menu.txt][Canon EOS R5 Mark II Menu.txt]] (right click and download)
+ 5. [[file:html-test.html][Fun results with new HTML5 tags in Org mode]]
+    
