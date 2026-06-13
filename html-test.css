@@ -1,8 +1,8 @@
-summary p {
+summary p {                     /* This is key */
     display: inline;
 }
 
-detail p {
+detail p {                      /* This is key */
     display: inline;
 }
 

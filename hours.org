@@ -68,3 +68,45 @@ CLOCK: [2026-06-11 Thu 16:43]--[2026-06-11 Thu 18:39] =>  1:56
 I have looked into this before but only superficially.  I am going to
 spend some time seriously trying to create a very simple epub document
 first and then see about getting Org to create an epub document.
+
+* Learning org-roam
+:LOGBOOK:
+CLOCK: [2026-06-13 Sat 11:20]--[2026-06-13 Sat 11:26] =>  0:06
+CLOCK: [2026-06-13 Sat 09:48]--[2026-06-13 Sat 11:19] =>  1:31
+:END:
+
+* Experimenting with Org and HTML 5
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+CLOCK: [2026-06-13 Sat 16:45]--[2026-06-13 Sat 18:29] =>  1:44
+CLOCK: [2026-06-13 Sat 16:02]--[2026-06-13 Sat 16:45] =>  0:43
+:END:
+I first added description via ~#+DESCRIPTION: This is a description~
+and looked and it creates a meta tag of name description and the
+content is the description.  Then I tried ~#+HTML_DOCTYPE: xhtml5~ and
+also ~#+HTML_DOCTYPE: html5~ and compared the two.  The ~html~ tag is
+different.  In ~xhtml5~, ~html~ tag has the xmlns, lang, and xml:lang
+attributes (yuck! but... I think that is what EPUB wants.  In ~html5~,
+the ~html~ tag has only the lang attribute.  The rest of the content
+was the same except for time stamps.
+
+Now, lets see about org-html-html5-fancy.  I set it to t via
+customize.  I then added a block for summary and details and that
+worked.  I then noticed that I can set html5 fancy via options so I
+removed the customized variable and did ~#+OPTIONS: html5-fancy:t~ and
+that worked too!  Weee!!!
+
+Pulled down the latest org mode source...
+
+The tags listed in org-html-html5-elements are formatted via
+org-html-special-block.  Unfortunately the content that is passed in
+has already gone through org-html-paragraph and so it has a ~<p>~ tag
+around both the summary and the detail.  However, if I hand edit the
+html file and change ~<p>~ to ~<p style="display:inline;">~ in both
+cases, then the paragraph tags essentially disappear.  Yeah!!! So now
+I want to twiddle with the CSS but I've decided the way I'm doing the
+CSS right now is bad.  The css needs to be a local file that is
+included.  This means changing the project settings, etc.  Here
+goes...
