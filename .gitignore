@@ -1,8 +1,13 @@
 .DS_Store
 *.html
+cam.start.canon
+diff
+old/
 png/
-untracked/
+R1.out
+R5.out
 test.org
+untracked/
 !Canon EOS R1 Suppliment.html
 !Canon EOS R5 Mark II Suppliment.html
 !index.html

@@ -50,6 +50,21 @@ Fun!!
 
 * Lets clean a few things up
 :LOGBOOK:
+CLOCK: [2026-06-13 Sat 08:15]--[2026-06-13 Sat 08:27] =>  0:12
 CLOCK: [2026-06-10 Wed 17:24]--[2026-06-10 Wed 17:34] =>  0:10
 :END:
 Redid the README entirely.
+
+I downloaded all of the web pages for the manuals from Canon for the
+R1 and R5m2 in a separate directory.  I'm going to merge that with
+this so it is easier to keep track of.
+
+* Org export to EPUB
+:LOGBOOK:
+CLOCK: [2026-06-11 Thu 19:22]--[2026-06-11 Thu 21:01] =>  1:39
+CLOCK: [2026-06-11 Thu 18:39]--[2026-06-11 Thu 18:54] =>  0:15
+CLOCK: [2026-06-11 Thu 16:43]--[2026-06-11 Thu 18:39] =>  1:56
+:END:
+I have looked into this before but only superficially.  I am going to
+spend some time seriously trying to create a very simple epub document
+first and then see about getting Org to create an epub document.
