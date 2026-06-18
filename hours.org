@@ -125,7 +125,7 @@ kept a list of all the things I needed to tweak.
 
 * Add color to the menu text
 :LOGBOOK:
-CLOCK: [2026-06-18 Thu 15:43]
+CLOCK: [2026-06-18 Thu 15:43]--[2026-06-18 Thu 18:02] =>  2:19
 :END:
 I want a least a little bit of color when referencing a menu.  I'm not
 sure how far to go on this.
