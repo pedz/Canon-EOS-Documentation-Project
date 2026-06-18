@@ -3,12 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-06-13 Sat 18:34 -->
+<!-- 2026-06-18 Thu 17:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Canon EOS Documentation Project</title>
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
+  /* <![CDATA[ */
   #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
@@ -186,9 +187,14 @@
   textarea { overflow-x: auto; }
   .linenr {
     font-size: smaller;
-    @supports (content: attr(data-linenr)) {
+  }
+  @supports (content: attr(data-linenr)) {
+    .linenr {
       visibility: hidden;
-      &::before { content: attr(data-linenr); visibility: visible; }
+    }
+    .liner::before {
+      content: attr(data-linenr);
+       visibility: visible;
     }
   }
   .code-highlighted { background-color: #ffff00; }
@@ -198,20 +204,10 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
+  /* ]]> */
 </style>
+
 <style>
-img.print_icon {
-    margin: 2px 2px -2px 2px;
-}
-
-span.icon::before {
-    content: "\03c";
-}
-
-span.icon::after {
-    content: "\03e";
-}
-
 kbd {
     display:          inline-block;
     margin:           0 .1em;
@@ -277,11 +273,10 @@ provide you with info on where to find it on your camera.
 <li><a href="Canon EOS R1 Menu.txt">Canon EOS R1 Menu.txt</a> (right click and download)</li>
 <li><a href="Canon EOS R5 Mark II Supplement.html">Canon EOS R5 Mark II Supplement</a></li>
 <li><a href="Canon EOS R5 Mark II Menu.txt">Canon EOS R5 Mark II Menu.txt</a> (right click and download)</li>
-<li><a href="html-test.html">Fun results with new HTML5 tags in Org mode</a></li>
 </ol>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2026-06-13 Sat 18:34</p>
+<p class="date">Created: 2026-06-18 Thu 17:54</p>
 </div>
 </body>
 </html>

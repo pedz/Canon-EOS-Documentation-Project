@@ -3,12 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-06-13 Sat 18:34 -->
+<!-- 2026-06-18 Thu 17:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Canon EOS R5 Mark II Supplement</title>
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
+  /* <![CDATA[ */
   #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
@@ -186,9 +187,14 @@
   textarea { overflow-x: auto; }
   .linenr {
     font-size: smaller;
-    @supports (content: attr(data-linenr)) {
+  }
+  @supports (content: attr(data-linenr)) {
+    .linenr {
       visibility: hidden;
-      &::before { content: attr(data-linenr); visibility: visible; }
+    }
+    .liner::before {
+      content: attr(data-linenr);
+       visibility: visible;
     }
   }
   .code-highlighted { background-color: #ffff00; }
@@ -198,56 +204,9 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
+  /* ]]> */
 </style>
-<style>
-img.print_icon {
-    margin: 2px 2px -2px 2px;
-}
-
-span.icon::before {
-    content: "\03c";
-}
-
-span.icon::after {
-    content: "\03e";
-}
-
-kbd {
-    display:          inline-block;
-    margin:           0 .1em;
-    padding:          .1em .6em;
-    font-family:      -apple-system,BlinkMacSystemFont,"Segoe UI Adjusted","Segoe UI","Liberation Sans",sans-serif;
-    font-size:        11px;
-    line-height:      1.5;
-    color:            hsl(210,8%,15%);
-    text-shadow:      0 1px 0 hsl(0,0%,100%);
-    background-color: hsl(210,8%,90%);
-    border:           1px solid hsl(210,8%,65%);
-    border-radius:    3px;
-    box-shadow:       0 1px 1px hsla(210, 8%, 5%, 0.15), inset 0 1px 0 0 hsl(0, 0%, 100%);
-    overflow-wrap:    break-word;
-}
-
-dt {
-    float:      left;
-    width:      30%;
-    text-align: right;
-    padding:    .25em;
-    clear:      left;
-}
-
-dd {
-    float:   left;
-    width:   60%;
-    padding: .25em 0;
-}
-
-dl:after {
-    content: "";
-    display: table;
-    clear:   both;
-}
-  </style>
+<link rel="stylesheet" href="canon-eos-documentation-project.css"/>
 </head>
 <body>
 <div id="content" class="content">
@@ -256,26 +215,26 @@ dl:after {
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org6c8e88f">1. Introduction</a></li>
-<li><a href="#org58b9379">2. AF Focusing</a>
+<li><a href="#orga217fb7">1. Introduction</a></li>
+<li><a href="#orgea4cb21">2. AF Focusing</a>
 <ul>
-<li><a href="#orgb0e793e">2.1. When an AF area with the lock icon is selected</a></li>
-<li><a href="#org22ef65f">2.2. When an AF area without the lock icon is selected</a></li>
-<li><a href="#org3c4ec7b">2.3. When AF Area is selected</a></li>
-<li><a href="#org2f88ed9">2.4. What about Subject to Detect?</a></li>
+<li><a href="#org6fa4abb">2.1. When an AF area with the lock icon is selected</a></li>
+<li><a href="#org0548afa">2.2. When an AF area without the lock icon is selected</a></li>
+<li><a href="#org8cb06db">2.3. When AF Area is selected</a></li>
+<li><a href="#org46d0e05">2.4. What about Subject to Detect?</a></li>
 </ul>
 </li>
-<li><a href="#org848e6ef">3. AF Selection</a></li>
-<li><a href="#org37dda69">4. Canon Autofocus Button Functions Videos</a></li>
-<li><a href="#org4f4e019">5. Functions available for customization Canon EOS R5 Mark II</a></li>
-<li><a href="#org05a8616">6. Multi-controller</a></li>
-<li><a href="#org9c05070">7. Canon R5 Mark II Menus</a></li>
-<li><a href="#org2164ea9">8. Canon EOS R5 Mark II Useful Links</a></li>
+<li><a href="#org439d5ab">3. AF Selection</a></li>
+<li><a href="#org19b8f7d">4. Canon Autofocus Button Functions Videos</a></li>
+<li><a href="#org8986340">5. Functions available for customization Canon EOS R5 Mark II</a></li>
+<li><a href="#org4d5845f">6. Multi-controller</a></li>
+<li><a href="#org6482880">7. Canon R5 Mark II Menus</a></li>
+<li><a href="#org278f1d4">8. Canon EOS R5 Mark II Useful Links</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6c8e88f" class="outline-2">
-<h2 id="org6c8e88f"><span class="section-number-2">1.</span> Introduction</h2>
+<div id="outline-container-orga217fb7" class="outline-2">
+<h2 id="orga217fb7"><span class="section-number-2">1.</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 This is a documentation supplement for the Canon EOS R5 Mark II.  The objective
@@ -313,8 +272,8 @@ which, as far as I can determine, is not clearly defined.
 </p>
 </div>
 </div>
-<div id="outline-container-org58b9379" class="outline-2">
-<h2 id="org58b9379"><span class="section-number-2">2.</span> AF Focusing</h2>
+<div id="outline-container-orgea4cb21" class="outline-2">
+<h2 id="orgea4cb21"><span class="section-number-2">2.</span> AF Focusing</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The <a href="https://www.youtube.com/@PointsInFocus">Points In Focus</a> YouTube Channel has a very good video about the
@@ -364,8 +323,8 @@ describe what happens the majority of the time but as the video points
 out, "Your Mileage May Vary".
 </p>
 </div>
-<div id="outline-container-orgb0e793e" class="outline-3">
-<h3 id="orgb0e793e"><span class="section-number-3">2.1.</span> When an AF area with the lock icon is selected</h3>
+<div id="outline-container-org6fa4abb" class="outline-3">
+<h3 id="org6fa4abb"><span class="section-number-3">2.1.</span> When an AF area with the lock icon is selected</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 The simple cases.  If the <code>AF area</code> menu item found in tab 1 of the Pink <img src="svg/icon_tab-af.svg" alt="Auto Focus"/> menu is set to
@@ -379,8 +338,8 @@ worry about three of the other settings &ndash; they are off.
 </p>
 </div>
 </div>
-<div id="outline-container-org22ef65f" class="outline-3">
-<h3 id="org22ef65f"><span class="section-number-3">2.2.</span> When an AF area without the lock icon is selected</h3>
+<div id="outline-container-org0548afa" class="outline-3">
+<h3 id="org0548afa"><span class="section-number-3">2.2.</span> When an AF area without the lock icon is selected</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 <code>Spot AF</code> without the lock icon is selected for this
@@ -468,8 +427,8 @@ pan.
 </p>
 </div>
 </div>
-<div id="outline-container-org3c4ec7b" class="outline-3">
-<h3 id="org3c4ec7b"><span class="section-number-3">2.3.</span> When AF Area is selected</h3>
+<div id="outline-container-org8cb06db" class="outline-3">
+<h3 id="org8cb06db"><span class="section-number-3">2.3.</span> When AF Area is selected</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 When the AF area is set to "AF area" and the
@@ -526,8 +485,8 @@ the metering timer.
 </p>
 </div>
 </div>
-<div id="outline-container-org2f88ed9" class="outline-3">
-<h3 id="org2f88ed9"><span class="section-number-3">2.4.</span> What about Subject to Detect?</h3>
+<div id="outline-container-org46d0e05" class="outline-3">
+<h3 id="org46d0e05"><span class="section-number-3">2.4.</span> What about Subject to Detect?</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 It appears as if the <code>Subject to detect</code> menu item found in tab 2 of the Pink <img src="svg/icon_tab-af.svg" alt="Auto Focus"/> menu
@@ -543,8 +502,8 @@ three topics needs to be picked &ndash; which ever is predominant.
 </div>
 </div>
 </div>
-<div id="outline-container-org848e6ef" class="outline-2">
-<h2 id="org848e6ef"><span class="section-number-2">3.</span> AF Selection</h2>
+<div id="outline-container-org439d5ab" class="outline-2">
+<h2 id="org439d5ab"><span class="section-number-2">3.</span> AF Selection</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 First, the <code>AF area selection control</code> menu item found in tab 2 of the Green <img src="svg/icon_Menu_Tab_Assign.svg" alt="Control Customization"/> Control Customization menu item can
@@ -596,8 +555,8 @@ horizontally with the <span class="icon"><img class="print_icon" src="svg/icon_m
 </p>
 </div>
 </div>
-<div id="outline-container-org37dda69" class="outline-2">
-<h2 id="org37dda69"><span class="section-number-2">4.</span> Canon Autofocus Button Functions Videos</h2>
+<div id="outline-container-org19b8f7d" class="outline-2">
+<h2 id="org19b8f7d"><span class="section-number-2">4.</span> Canon Autofocus Button Functions Videos</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 The <a href="https://www.youtube.com/@PointsInFocus">Points In Focus</a> YouTube Channel has three videos talking about the
@@ -613,8 +572,8 @@ useful for many Canon cameras produced in early 2026.
 </ul>
 </div>
 </div>
-<div id="outline-container-org4f4e019" class="outline-2">
-<h2 id="org4f4e019"><span class="section-number-2">5.</span> Functions available for customization Canon EOS R5 Mark II</h2>
+<div id="outline-container-org8986340" class="outline-2">
+<h2 id="org8986340"><span class="section-number-2">5.</span> Functions available for customization Canon EOS R5 Mark II</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Currently this is just the list of icons and brief descriptions for
@@ -642,7 +601,7 @@ implies). This makes the most sense if the shutter button half
 press is set to one of the two settings that has AF start although
 there may be other situations as well.</dd>
 
-<dt><img src="svg/icon_af-frame-button.svg" alt="icon_af-frame-button.svg" class="org-svg" />: AF point selection</dt><dd>The <b>AF point selection</b> function is described in <a href="#org848e6ef">AF Selection</a>.</dd>
+<dt><img src="svg/icon_af-frame-button.svg" alt="icon_af-frame-button.svg" class="org-svg" />: AF point selection</dt><dd>The <b>AF point selection</b> function is described in <a href="#org439d5ab">AF Selection</a>.</dd>
 
 <dt><img src="svg/icon_direct_af-point.svg" alt="icon_direct_af-point.svg" class="org-svg" />: Direct AF point selection</dt><dd>This can only be set on the Multi-controller.  When set this way,
 the eight way movements move the AF area in the direction the
@@ -653,7 +612,7 @@ controller is moved.</dd>
 <dt><img src="svg/icon_point_to_center.svg" alt="icon_point_to_center.svg" class="org-svg" />: Set AF point to center</dt><dd>Pressing a button assigned to this function will move the AF area
 to the center.</dd>
 
-<dt><img src="svg/icon_AF_tracking_start.svg" alt="icon_AF_tracking_start.svg" class="org-svg" />: Start/stop whole area AF tracking</dt><dd>This setting is detailed in the <a href="#org58b9379">AF Focusing</a> section.</dd>
+<dt><img src="svg/icon_AF_tracking_start.svg" alt="icon_AF_tracking_start.svg" class="org-svg" />: Start/stop whole area AF tracking</dt><dd>This setting is detailed in the <a href="#orgea4cb21">AF Focusing</a> section.</dd>
 
 <dt><img src="svg/icon_switch-af-point.svg" alt="icon_switch-af-point.svg" class="org-svg" />: Switch to registered AF point</dt><dd>This feature is fairly well documented in the manual.  It is
 documented <a href="https://cam.start.canon/en/C018/manual/html/UG-04_AF-Drive_0060.html">here</a> for the R1 and <a href="https://cam.start.canon/en/C017/manual/html/UG-04_AF-Drive_0060.html">here</a> for the R5 Mark II.</dd>
@@ -1260,8 +1219,8 @@ eye piece will switch back to the EVF.</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org05a8616" class="outline-2">
-<h2 id="org05a8616"><span class="section-number-2">6.</span> Multi-controller</h2>
+<div id="outline-container-org4d5845f" class="outline-2">
+<h2 id="org4d5845f"><span class="section-number-2">6.</span> Multi-controller</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 When the Multi-controller is set to <b>Direct AF point selection</b>, the
@@ -1291,8 +1250,8 @@ by eye control</b> function and has the same icon.
 </p>
 </div>
 </div>
-<div id="outline-container-org9c05070" class="outline-2">
-<h2 id="org9c05070"><span class="section-number-2">7.</span> Canon R5 Mark II Menus</h2>
+<div id="outline-container-org6482880" class="outline-2">
+<h2 id="org6482880"><span class="section-number-2">7.</span> Canon R5 Mark II Menus</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 This is just a flat listing of all of the menus in the R1.  I have
@@ -1989,8 +1948,8 @@ Firmware Version 1.3.0
 </ul>
 </div>
 </div>
-<div id="outline-container-org2164ea9" class="outline-2">
-<h2 id="org2164ea9"><span class="section-number-2">8.</span> Canon EOS R5 Mark II Useful Links</h2>
+<div id="outline-container-org278f1d4" class="outline-2">
+<h2 id="org278f1d4"><span class="section-number-2">8.</span> Canon EOS R5 Mark II Useful Links</h2>
 <div class="outline-text-2" id="text-8">
 <p>
 These are simply links to Canon's official documentation that I find
@@ -2040,7 +1999,7 @@ documented, please make a request.  I may get to them eventually anyway.</p></di
 </div>
 </div></div>
 <div id="postamble" class="status">
-<p class="date">Created: 2026-06-13 Sat 18:34</p>
+<p class="date">Created: 2026-06-18 Thu 17:54</p>
 </div>
 </body>
 </html>

@@ -110,3 +110,26 @@ I want to twiddle with the CSS but I've decided the way I'm doing the
 CSS right now is bad.  The css needs to be a local file that is
 included.  This means changing the project settings, etc.  Here
 goes...
+
+* Piece together primitive EPUB and use EPUBCheck
+:LOGBOOK:
+CLOCK: [2026-06-15 Mon 14:48]--[2026-06-15 Mon 20:27] =>  5:39
+:END:
+[[https://www.w3.org/publishing/epubcheck/][EPUBCheck]]
+Continuing on with the experiments on HTML 5, I need to add a toc
+entry and then see if I can bundle it up as a zip file that passes the
+EPUBCheck (which I've not used yet).
+
+Well... I got it to pass EPUBCheck but what a pain.  I should have
+kept a list of all the things I needed to tweak.
+
+* Add color to the menu text
+:LOGBOOK:
+CLOCK: [2026-06-18 Thu 15:43]
+:END:
+I want a least a little bit of color when referencing a menu.  I'm not
+sure how far to go on this.
+
+Ok... I tried background color of red and I didn't like it for a
+number of reasons so I quit.  I did add spans to the menu macros so
+that they could be styled if anyone wants to bother.

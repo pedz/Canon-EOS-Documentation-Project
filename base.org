@@ -15,3 +15,4 @@
 #+TITLE:  {{{model}}} Supplement
 #+AUTHOR: Perry Smith
 #+EMAIL:  pedz@easesoftware.com
+#+HTML_HEAD: <link rel="stylesheet" href="canon-eos-documentation-project.css"/>

@@ -1,9 +1,14 @@
+#+TITLE: HTML Test
 #+DESCRIPTION: This is a description
 #+HTML_DOCTYPE: xhtml5
 #+OPTIONS: html5-fancy:t
-#+HTML_HEAD: <link rel="stylesheet" href="html-test.css">
+#+HTML_HEAD: <link rel="stylesheet" href="html-test.css"/>
 
-This is some text ... hello world
+#+TOC:
+
+* One heading
+
+This is some text: hello world !
 
 #+ATTR_HTML: :class detail-class :id my-details
 #+BEGIN_details

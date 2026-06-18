@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns:epub="http://www.idpf.org/2007/ops" xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-06-13 Sat 17:59 -->
+<!-- 2026-06-15 Mon 19:00 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
+<title>HTML Test</title>
 <meta name="author" content="Perry Smith" />
 <meta name="description" content="This is a description" />
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
+  /* <![CDATA[ */
   #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
@@ -186,9 +187,14 @@
   textarea { overflow-x: auto; }
   .linenr {
     font-size: smaller;
-    @supports (content: attr(data-linenr)) {
+  }
+  @supports (content: attr(data-linenr)) {
+    .linenr {
       visibility: hidden;
-      &::before { content: attr(data-linenr); visibility: visible; }
+    }
+    .liner::before {
+      content: attr(data-linenr);
+       visibility: visible;
     }
   }
   .code-highlighted { background-color: #ffff00; }
@@ -198,20 +204,30 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { }
+  /* ]]> */
 </style>
-<link rel="stylesheet" href="html-test.css">
+<link rel="stylesheet" href="html-test.css"/>
 </head>
 <body>
 <div id="content" class="content">
+<header>
+<h1 class="title">HTML Test</h1>
+</header><nav epub:type="toc" id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<ol>
+<li><a href="#org1101536">1. One heading</a></li>
+</ol>
+</nav>
+<div id="outline-container-org1101536" class="outline-2">
+<h2 id="org1101536"><span class="section-number-2">1.</span> One heading</h2>
+<div class="outline-text-2" id="text-1">
 <p>
-This is some text &hellip; hello world
+This is some text: hello world !
 </p>
 
 <details class="detail-class" id="my-details">
 <summary class="summary-class" id="my-summary">
-<p>
 org-html-html5-elements
-</p>
 </summary>
 <p>
 (defconst org-html-html5-elements
@@ -230,12 +246,17 @@ this is after the details.
 This is the Org document to create this:
 </p>
 <div class="org-src-container">
-<pre class="src src-org"><code><span style="color: #ff7f24;">#+DESCRIPTION: This is a description</span>
+<pre class="src src-org"><code><span style="color: #b3b3b3;">#+TITLE:</span> <span style="color: #afeeee; font-weight: bold;">HTML Test</span>
+<span style="color: #ff7f24;">#+DESCRIPTION: This is a description</span>
 <span style="color: #ff7f24;">#+HTML_DOCTYPE: xhtml5</span>
 <span style="color: #ff7f24;">#+OPTIONS: html5-fancy:t</span>
-<span style="color: #ff7f24;">#+HTML_HEAD: &lt;link rel="stylesheet" href="html-test.css"&gt;</span>
+<span style="color: #ff7f24;">#+HTML_HEAD: &lt;link rel="stylesheet" href="html-test.css"/&gt;</span>
 
-This is some text ... hello world
+<span style="color: #ff7f24;">#+TOC:</span>
+
+<span style="color: #87cefa;">* One heading</span>
+
+This is some text: hello world !
 
 <span style="color: #ff7f24;">#+ATTR_HTML: :class detail-class :id my-details</span>
 <span style="color: #ff7f24;">#+BEGIN_details</span>
@@ -264,11 +285,11 @@ And this is the CSS file:
 And this is the CSS file:
 </p>
 <div class="org-src-container">
-<pre class="src src-css"><code><span style="color: #87cefa;">summary p</span> {
+<pre class="src src-css"><code><span style="color: #87cefa;">summary p</span> {                     <span style="color: #ff7f24;">/* </span><span style="color: #ff7f24;">This is key</span><span style="color: #ff7f24;"> */</span>
     <span style="color: #00ffff;">display</span>: inline;
 }
 
-<span style="color: #87cefa;">detail p</span> {
+<span style="color: #87cefa;">detail p</span> {                      <span style="color: #ff7f24;">/* </span><span style="color: #ff7f24;">This is key</span><span style="color: #ff7f24;"> */</span>
     <span style="color: #00ffff;">display</span>: inline;
 }
 
@@ -295,9 +316,11 @@ And this is the CSS file:
 </code></pre>
 </div>
 </div>
+</div>
+</div>
 <div id="postamble" class="status">
 <p class="author">Author: Perry Smith</p>
-<p class="date">Created: 2026-06-13 Sat 17:59</p>
+<p class="date">Created: 2026-06-15 Mon 19:00</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
