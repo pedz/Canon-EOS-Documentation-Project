@@ -60,7 +60,7 @@ Firmware Version 1.3.0
       ‣ VF display format
       ‣ Reverse display
       ‣ Auto pwr off temp.
-  ‣ Pink
+  ‣ Pink AF
     ‣ Tab 1/7 AF operation/area
       ‣ AF operation
       ‣ AF area
@@ -249,7 +249,7 @@ Firmware Version 1.3.0
       ‣ Add IPTC information
     ‣ Tab 6/6 Reset
       ‣ Clear all Custom Func. (C.Fn)
-  ‣ Green
+  ‣ Green Star
     ‣ Tab 1/1 My Menu Management
       ‣ Add My Menu Tab
       ‣ Delete all My Menu tabs
@@ -318,7 +318,7 @@ Firmware Version 1.3.0
       ‣ HDMI display
       ‣ HDMI RAW otuput
       ‣ HDMI output range for C. Log
-  ‣ Pink
+  ‣ Pink AF
     ‣ Tab 1/6 AF operation/area
       ‣ Movie Servo AF
       ‣ AF area
@@ -496,7 +496,7 @@ Firmware Version 1.3.0
       ‣ Add IPTC information
     ‣ Tab 6/6 Reset
       ‣ Clear all Custom Func. (C.Fn)
-  ‣ Green
+  ‣ Green Star
     ‣ Tab 1/1 My Menu Management
       ‣ Add My Menu Tab
       ‣ Delete all My Menu tabs
