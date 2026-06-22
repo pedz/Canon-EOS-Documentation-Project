@@ -93,3 +93,5 @@
 #+MACRO: erase-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_erase.svg" alt="Erase"/></span>@@ Erase button
 # The rating button
 #+MACRO: rating-button @@html:<span class="icon"><img class="print_icon" src="svg/icon_rate.svg" alt="Rating"/>/<img class="print_icon" src="svg/icon_voice-memo.svg" alt="Voice memo"/></span>@@ Rating button
+
+#+MACRO: multi-remote [[https://cam.start.canon/en/S014/manual/html/index.html][EOS Multi Remote Instruction Manual]]

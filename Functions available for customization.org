@@ -714,32 +714,25 @@ detected subject
     user can select {{{menu-setting(On)}}} or {{{menu-setting(Off)}}}.
 
   * [[file:svg/icon_EOS_Multi_Remote_Group_ALL.svg]]: EOS Multi Remote group: All ::
-    I probably could tinker with this but I have no desire.  Perhaps
-    someone will volunteer.
+    {{{multi-remote}}} I have not experimented with EOS Multi Remote.
     
   * [[file:svg/icon_EOS_Multi_Remote_Group_NONE.svg]]: EOS Multi Remote group: None ::
-    I probably could tinker with this but I have no desire.  Perhaps
-    someone will volunteer.
+    {{{multi-remote}}} I have not experimented with EOS Multi Remote.
     
   * [[file:svg/icon_EOS_Multi_Remote_Group_1.svg]]: EOS Multi Remote group: 1 ::
-    I probably could tinker with this but I have no desire.  Perhaps
-    someone will volunteer.
+    {{{multi-remote}}} I have not experimented with EOS Multi Remote.
     
   * [[file:svg/icon_EOS_Multi_Remote_Group_2.svg]]: EOS Multi Remote group: 2 ::
-    I probably could tinker with this but I have no desire.  Perhaps
-    someone will volunteer.
+    {{{multi-remote}}} I have not experimented with EOS Multi Remote.
     
   * [[file:svg/icon_EOS_Multi_Remote_Group_3.svg]]: EOS Multi Remote group: 3 ::
-    I probably could tinker with this but I have no desire.  Perhaps
-    someone will volunteer.
+    {{{multi-remote}}} I have not experimented with EOS Multi Remote.
     
   * [[file:svg/icon_EOS_Multi_Remote_Group_4.svg]]: EOS Multi Remote group: 4 ::
-    I probably could tinker with this but I have no desire.  Perhaps
-    someone will volunteer.
+    {{{multi-remote}}} I have not experimented with EOS Multi Remote.
     
   * [[file:svg/icon_EOS_Multi_Remote_Group_5.svg]]: EOS Multi Remote group: 5 ::
-    I probably could tinker with this but I have no desire.  Perhaps
-    someone will volunteer.
+    {{{multi-remote}}} I have not experimented with EOS Multi Remote.
     
   * [[file:svg/icon_new-folder.svg]]: Create folder ::
     The call_menu(item="Record func+card/folder sel.") has a ~Folder~

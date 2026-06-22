@@ -136,3 +136,10 @@ number of reasons so I quit.  I did add spans to the menu macros so
 that they could be styled if anyone wants to bother.
 
 Tried this again.  I'll see what Michael thinks.
+
+* Change the text for a few of the functions
+:LOGBOOK:
+CLOCK: [2026-06-21 Sun 20:43]--[2026-06-21 Sun 20:54] =>  0:11
+:END:
+The functions involving the EOS Multi Remote stuff will link to the
+page describing that facility.
