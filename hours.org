@@ -143,3 +143,14 @@ CLOCK: [2026-06-21 Sun 20:43]--[2026-06-21 Sun 20:54] =>  0:11
 :END:
 The functions involving the EOS Multi Remote stuff will link to the
 page describing that facility.
+
+* Instead of publishing the text versions ...
+:LOGBOOK:
+CLOCK: [2026-06-23 Tue 17:00]--[2026-06-23 Tue 18:00] =>  1:00
+:END:
+I wrote make-text-versions.sh to create the text versions of the menu
+tables.  The output, I think, is easier to follow on small phone
+screens.
+
+This implies that "Canon EOS R1 Menu.org" and "Canon EOS R5 Mark II
+Menu.org" are no longer needed.

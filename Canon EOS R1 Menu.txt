@@ -1,504 +1,400 @@
-Firmware Version 1.3.0
+The Photo/Movie in the first column refers
+to the position of the Photo/Movie switch
 
-‣ Still Photo Shooting
-  ‣ Red Still Shooting
-    ‣ Tab 1/9 Image quality/size
-      ‣ JPEG/HEIF quality
-      ‣ Img type/size
-      ‣ Cropping/aspect ratio
-    ‣ Tab 2/9 Exposure
-      ‣ Expo. comp. / AEB
-      ‣ ISO speed settings
-      ‣ Anti-flicker shoot.
-      ‣ HF anti-flicker shooting
-      ‣ External Speedlite control
-      ‣ Metering mode
-      ‣ Detect priority AE while AF
-    ‣ Tab 3/9 Color/tone/Dynamic range
-      ‣ Picture Style
-      ‣ Color space
-      ‣ Clarity
-      ‣ HDR shooting (PQ)
-      ‣ Auto Lighting Optimizer
-      ‣ Hightlight tone priority
-    ‣ Tab 4/9 White balance/Quality correction
-      ‣ White balance
-      ‣ Set Custom WB
-      ‣ WB Shift/Brk.
-      ‣ Lens aberration correction
-      ‣ Long exp. noise reduction
-      ‣ High ISO speed NR
-      ‣ Dust Delete Data
-    ‣ Tab 5/9 Various shooting
-      ‣ Multiple exposure
-      ‣ Focus bracketing
-      ‣ Panning Assist
-    ‣ Tab 6/9 Shutter control
-      ‣ Drive mode
-      ‣ Pre-cont. shoot
-      ‣ Interval timer
-      ‣ Bulb timer
-      ‣ Silent shutter function
-      ‣ Shutter mode
-      ‣ Release shutter without card
-    ‣ Tab 7/9 Assist shooting
-      ‣ IS (Image Stabilizer) mode
-      ‣ Customize Quick Controls
-      ‣ Metering timer
-    ‣ Tab 8/9 Assist shooting
-      ‣ Image review
-      ‣ High speed display
-      ‣ Blackout-free display
-      ‣ Viewfinder priority mode
-      ‣ Display simulation
-      ‣ OVF sim. view assist
-      ‣ HDR/C.Log View Assist.
-    ‣ Tab 9/9 Assist shooting
-      ‣ Shooting info. disp.
-      ‣ Display frame rate set.
-      ‣ VF magnification
-      ‣ VF display format
-      ‣ Reverse display
-      ‣ Auto pwr off temp.
-  ‣ Pink AF
-    ‣ Tab 1/7 AF operation/area
-      ‣ AF operation
-      ‣ AF area
-      ‣ Whole area tracking Servo AF
-      ‣ Focus mode
-    ‣ Tab 2/7 Subject detection
-      ‣ Subject to detect
-      ‣ Eye detection
-      ‣ Register people priority
-      ‣ Action Priority
-    ‣ Tab 3/7 Servo AF character.
-      ‣ AUTO
-      ‣ M
-      ‣ SP
-    ‣ Tab 4/7 Customize AF operation
-      ‣ Servo 1st image priority
-      ‣ One-Shot AF release prior.
-      ‣ Preview AF
-      ‣ Lens drive when AF impossible
-      ‣ AF-assist beam firing
-    ‣ Tab 5/7 Customized controls
-      ‣ Limit AF areas
-      ‣ Orientation linked AF point
-      ‣ Limit subject to detect
-      ‣ L/R eye detection
-    ‣ Tab 6/7 MF related
-      ‣ MF peaking settings
-      ‣ Focus guide
-      ‣ Lens electronic MF
-    ‣ Tab 7/7 Various settings/Various settings
-      ‣ Register/recall AF-related settings
-      ‣ AF Setting Guide URL
-  ‣ Blue Playback
-    ‣ Tab 1/5 File operation
-      ‣ Protect images
-      ‣ Erase images
-      ‣ Rotate stills
-      ‣ Change mov rotate info
-      ‣ Rating
-      ‣ Protect when setting the rating
-    ‣ Tab 2/5 File operation
-      ‣ Still Image copy
-      ‣ Print order
-    ‣ Tab 3/5 Image processig
-      ‣ RAW image processing
-      ‣ In-Camera Upscaling
-      ‣ Resize
-      ‣ Cropping
-      ‣ HEIF -> JPEG conversion
-    ‣ Tab 4/5 Playback method
-      ‣ Slide show
-      ‣ Set image search conditions
-      ‣ View from last seen
-      ‣ Magnification
-      ‣ Blur/Out-of-Focus image detection
-    ‣ Tab 5/5 Various settings
-      ‣ Playback information
-      ‣ Highlight alert
-      ‣ AF point disp.
-      ‣ Playback grid
-      ‣ Movie play count
-      ‣ Memo audio quality
-  ‣ Purple Communication Functions
-    ‣ Tab 1/4 Network settings
-      ‣ Network settings
-      ‣ Airplane mode
-      ‣ Bluetooth settings
-      ‣ Camera name
-      ‣ Error details
-      ‣ MAC address
-    ‣ Tab 2/4 Network function
-      ‣ Transfer images to FTP server
-      ‣ Connect to EOS Utility
-      ‣ Upload to image.canon
-      ‣ Sync time between cameras
-      ‣ Connect to smartphoone(tablet)
-      ‣ Live Streaming
-      ‣ Connect to Wireless Remote
-    ‣ Tab 3/4 Network function
-      ‣ Camera Control API
-    ‣ Tab 4/4 Various Settings
-      ‣ GPS settings
-      ‣ Choose USB connection app
-      ‣ Save/load comm. settings on card
-      ‣ Reset communication settings
-  ‣ Yellow Set-up
-    ‣ Tab 1/6 File/card setting
-      ‣ Record func+card/folder sel.
-      ‣ File numbering
-      ‣ Clip Number
-      ‣ File name
-      ‣ Format card
-      ‣ Auto rotate
-      ‣ Add movie rotate info
-    ‣ Tab 2/6 Country/Area/Guidance/Audio settings
-      ‣ Date/Time/Zone
-      ‣ Language
-      ‣ System frequency
-      ‣ Help text size
-      ‣ Beep
-      ‣ Volume
-      ‣ Audio monitor
-    ‣ Tab 3/6 Customize display
-      ‣ Screen brightness
-      ‣ Viewfinder brightness
-      ‣ Screen/viewfinder color tone
-      ‣ Fine-tune VF color tone
-      ‣ Screen/viewfinder display
-      ‣ UI magnification
-      ‣ HDMI resolution
-    ‣ Tab 4/6 Various settings
-      ‣ Shutter at shutdown
-      ‣ Sensor cleaning
-      ‣ Manage password
-      ‣ Power saving
-    ‣ Tab 5/6 Reset/All settings
-      ‣ Reset camera
-      ‣ Custom shooting mode (C1-C3)
-      ‣ Save/load cam settings on card
-    ‣ Tab 6/6 Various settings
-      ‣ Battery info.
-      ‣ Copyright information
-      ‣ System status display
-      ‣ Show log
-      ‣ Manual/software URL
-      ‣ Certification Logo Display
-      ‣ Firmware
-  ‣ Green Control Customization
-    ‣ Tab 1/5 Customized controls when shooting
-      ‣ Customize buttons for shooting
-      ‣ Customize dials/control ring
-      ‣ Dials direction to set Tv/Av
-      ‣ Control ring direction to set Tv/Av
-      ‣ Switch Main dial / Quick control 2 when shooting
-    ‣ Tab 2/5 Customized controls when shooting
-      ‣ Still photo shooting / movie recording switching movie/photo
-      ‣ Smart controller
-      ‣ Touch Shutter
-      ‣ Multi function lock
-    ‣ Tab 3/5 Customized controls when shooting
-      ‣ AF area selection control
-      ‣ Smart controler sensitivity- AF pt select
-      ‣ Focus/control ring
-      ‣ Focus ring rotation
-      ‣ RF lens MF focus ring sensitivity
-    ‣ Tab 4/5 Customized controls when playback
-      ‣ Customize buttons for playback
-      ‣ Image jump with main dial
-      ‣ Img jump v/Hold: Record memo button + Quick control 1
-      ‣ Switch Main dial / Quick control 2 during playback
-    ‣ Tab 5/5 Customized controls/Reset
-      ‣ Eye control
-      ‣ Touch control
-      ‣ Clear all customized controls
-  ‣ Orange Custom Functions
-    ‣ Tab 1/6 Shooting mode/Exposure
-      ‣ Restrict shooting modes
-      ‣ Exposure level increments
-      ‣ ISO speed setting increments
-      ‣ Speed from metering/ISO Auto
-      ‣ Bracketing auto cancel
-      ‣ Bracketing sequence
-      ‣ Number of bracketed shots
-    ‣ Tab 2/6 Exposure
-      ‣ Safety shift
-      ‣ Same expo. for new aperture
-      ‣ AE lock meter. mode after focus
-      ‣ Restrict metering modes
-      ‣ Metering used in manual exp
-      ‣ Set shutter speed range
-      ‣ Set aperture range
-    ‣ Tab 3/6 Exposure
-      ‣ AE Microadjustment
-      ‣ FE Microadjustment
-    ‣ Tab 4/6 Drive
-      ‣ Continuous shooting speed
-      ‣ Limit continuous shot count
-      ‣ Restrict drive modes
-    ‣ Tab 5/6 Various settings
-      ‣ Add cropping information
-      ‣ Shutter release time lag
-      ‣ Default Erase option
-      ‣ Av setting without lens
-      ‣ Release shutter w/o lens
-      ‣ Retract lens on power off
-      ‣ Add IPTC information
-    ‣ Tab 6/6 Reset
-      ‣ Clear all Custom Func. (C.Fn)
-  ‣ Green Star
-    ‣ Tab 1/1 My Menu Management
-      ‣ Add My Menu Tab
-      ‣ Delete all My Menu tabs
-      ‣ Delete all items
-      ‣ Menu display
-
-‣ Movie Recording
-  ‣ Red Movie Shooting
-    ‣ Tab 1/10 Image quality/size
-      ‣ Movie rec. size
-      ‣ High Frame Rate
-      ‣ Main rec. format
-      ‣ Movie cropping
-      ‣ Dual shooting (still&movie)
-    ‣ Tab 2/10 Sound-rec. settings
-      ‣ Sound recording
-      ‣ Audio format
-      ‣ Audio settings
-      ‣ Audio Status
-    ‣ Tab 3/10 Exposure
-      ‣ Exposure comp.
-      ‣ ISO speed settings
-      ‣ HF anti-flicker shooting
-      ‣ Movie AV 1/8-stop incr.
-      ‣ Movie Auto slow shutter
-      ‣ Detect prioirty AE while AF
-    ‣ Tab 4/10 Color/tone/Dynamic range
-      ‣ Custom Picture
-      ‣ Picture Style
-      ‣ Clarity
-      ‣ HDR shooting (PQ)
-      ‣ Auto Lighting Optimize
-      ‣ Highlight tone priority
-    ‣ Tab 5/10 While balance/Quality correction
-      ‣ White balance
-      ‣ Set Custom WB
-      ‣ WB correction
-      ‣ Lens aberration correction
-      ‣ High ISO speed NR
-    ‣ Tab 6/10 Various shooting
-      ‣ Pre-recording set.
-    ‣ Tab 7/10 Shutter control/Assist shooting
-      ‣ Movie self-timer
-      ‣ Tally lamp
-      ‣ IS (Image Stabilizer) mode
-      ‣ Movie Auto level
-      ‣ Customize Quick Controls
-      ‣ Metering timer
-    ‣ Tab 8/10 Assist shooting
-      ‣ Metadata
-      ‣ Time code
-      ‣ Viewfinder priority mode
-      ‣ HDR/C.Log View Assist.
-      ‣ False color set.
-      ‣ Zebra settings
-    ‣ Tab 9/10 Assist shooting
-      ‣ Shooting info. disp.
-      ‣ Quick Ctrl screen
-      ‣ VF magnification
-      ‣ VF display format
-      ‣ Reverse display
-    ‣ Tab 10/10 Assist shooting/HDMI
-      ‣ Auto pwr off temp.
-      ‣ Standby; Low res.
-      ‣ Shutdown warning guidance
-      ‣ HDMI display
-      ‣ HDMI RAW otuput
-      ‣ HDMI output range for C. Log
-  ‣ Pink AF
-    ‣ Tab 1/6 AF operation/area
-      ‣ Movie Servo AF
-      ‣ AF area
-      ‣ Focus mode
-    ‣ Tab 2/6 Subject detection
-      ‣ Subject to detect
-      ‣ Eye detection
-      ‣ Register people priority
-      ‣ Switching tracked subjects
-    ‣ Tab 3/6 Servo AF character.
-      ‣ Movie Servo AF speed
-      ‣ Movie Servo AF track sens.
-    ‣ Tab 4/6 Customize AF operation
-      ‣ Lens drive when AF impossible
-    ‣ Tab 5/6 Customized controls
-      ‣ Limit AF areas
-      ‣ Limit subject to detect
-      ‣ L/R eye detection
-    ‣ Tab 6/6 MF related
-      ‣ MF peaking settings
-      ‣ Focus guide
-      ‣ Lens electronic MF
-  ‣ Blue Playback
-    ‣ Tab 1/5 File operation
-      ‣ Protect images
-      ‣ Erase images
-      ‣ Rotate stills
-      ‣ Change mov rotate info
-      ‣ Rating
-      ‣ Protect when setting the rating
-    ‣ Tab 2/5 File operation
-      ‣ Still Image copy
-      ‣ Print order
-    ‣ Tab 3/5 Image processig
-      ‣ RAW image processing
-      ‣ In-Camera Upscaling
-      ‣ Resize
-      ‣ Cropping
-      ‣ HEIF -> JPEG conversion
-    ‣ Tab 4/5 Playback method
-      ‣ Slide show
-      ‣ Set image search conditions
-      ‣ View from last seen
-      ‣ Magnification
-      ‣ Blur/Out-of-Focus image detection
-    ‣ Tab 5/5 Various settings
-      ‣ Playback information
-      ‣ Highlight alert
-      ‣ AF point disp.
-      ‣ Playback grid
-      ‣ Movie play count
-      ‣ Memo audio quality
-  ‣ Purple Communication Functions
-    ‣ Tab 1/4 Network settings
-      ‣ Network settings
-      ‣ Airplane mode
-      ‣ Bluetooth settings
-      ‣ Camera name
-      ‣ Error details
-      ‣ MAC address
-    ‣ Tab 2/4 Network function
-      ‣ Transfer images to FTP server
-      ‣ Connect to EOS Utility
-      ‣ Upload to image.canon
-      ‣ Sync time between cameras
-      ‣ Connect to smartphoone(tablet)
-      ‣ Live streaming
-      ‣ Connect to Wireless Remote
-    ‣ Tab 3/4 Network function
-      ‣ Xamera Control API
-    ‣ Tab 4/4 Various Settings
-      ‣ GPS settings
-      ‣ Choose USB connection app
-      ‣ Save/load comm. settings on card
-      ‣ Reset communication settings
-  ‣ Yellow Set-up
-    ‣ Tab 1/6 File/card setting
-      ‣ Record func+card/folder sel.
-      ‣ File numbering
-      ‣ Clip Number
-      ‣ File name
-      ‣ Format card
-      ‣ Auto rotate
-      ‣ Add movie rotate info
-    ‣ Tab 2/6 Country/Area/Guidance/Audio settings
-      ‣ Date/Time/Zone
-      ‣ Language
-      ‣ System frequency
-      ‣ Help text size
-      ‣ Beep
-      ‣ Volume
-      ‣ Audio monitor
-    ‣ Tab 3/6 Customize display
-      ‣ Screen brightness
-      ‣ Viewfinder brightness
-      ‣ Screen/viewfinder color tone
-      ‣ Fine-tune VF color tone
-      ‣ Screen/viewfinder display
-      ‣ UI magnification
-      ‣ HDMI resolution
-    ‣ Tab 4/6 Various settings
-      ‣ Shutter at shutdown
-      ‣ Sensor cleaning
-      ‣ Manage password
-      ‣ Power saving
-    ‣ Tab 5/6 Reset/All settings
-      ‣ Reset camera
-      ‣ Custom shooting mode (C1-C3)
-      ‣ Save/load cam settings on card
-    ‣ Tab 6/6 Various settings
-      ‣ Battery info.
-      ‣ Copyright information
-      ‣ System status display
-      ‣ Show log
-      ‣ Manual/software URL
-      ‣ Certification Logo Display
-      ‣ Firmware
-  ‣ Green Control Customization
-    ‣ Tab 1/5 Customized controls when shooting
-      ‣ Customize buttons for shooting
-      ‣ Shutter btn function for movie
-      ‣ Customize dials/control ring
-      ‣ Dials direction to set Tv/Av
-      ‣ Control ring direction to set Tv/Av
-      ‣ Switch Main dial / Quick control 2 when shooting
-    ‣ Tab 2/5 Customized controls when shooting
-      ‣ Still photo shooting / movie recording switching movie/photo
-      ‣ Smart controller
-      ‣ Multi function lock
-    ‣ Tab 3/5 Customized controls when shooting
-      ‣ AF area selection control
-      ‣ Smart controler sensitivity- AF pt select
-      ‣ Focus/control ring
-      ‣ Focus ring rotation
-      ‣ RF lens MF focus ring sensitivity
-    ‣ Tab 4/5 Customized controls when playback
-      ‣ Customize buttons for playback
-      ‣ Image jump with main dial
-      ‣ Img jump v/Hold: Record memo button + Quick control 1
-      ‣ Switch Main dial / Quick control 2 during playback
-    ‣ Tab 5/5 Customized controls/Reset
-      ‣ Touch control
-      ‣ Clear all customized controls
-  ‣ Orange Custom Functions
-    ‣ Tab 1/6 Shooting mode/Exposure
-      ‣ Restrict shooting modes
-      ‣ Exposure level increments
-      ‣ ISO speed setting increments
-      ‣ Speed from metering/ISO Auto
-      ‣ Bracketing auto cancel
-      ‣ Bracketing sequence
-      ‣ Number of bracketed shots
-    ‣ Tab 2/6 Exposure
-      ‣ Safety shift
-      ‣ Same expo. for new aperture
-      ‣ AE lock meter. mode after focus
-      ‣ Restrict metering modes
-      ‣ Metering used in manual exp
-      ‣ Set shutter speed range
-      ‣ Set aperture range
-    ‣ Tab 3/6 Exposure
-      ‣ AE Microadjustment
-      ‣ FE Microadjustment
-    ‣ Tab 4/6 Drive
-      ‣ Continuous shooting speed
-      ‣ Limit continuous shot count
-      ‣ Restrict drive modes
-    ‣ Tab 5/6 Various settings
-      ‣ Add cropping information
-      ‣ Shutter release time lag
-      ‣ Default Erase option
-      ‣ Av setting without lens
-      ‣ Release shutter w/o lens
-      ‣ Retract lens on power off
-      ‣ Add IPTC information
-    ‣ Tab 6/6 Reset
-      ‣ Clear all Custom Func. (C.Fn)
-  ‣ Green Star
-    ‣ Tab 1/1 My Menu Management
-      ‣ Add My Menu Tab
-      ‣ Delete all My Menu tabs
-      ‣ Delete all items
-      ‣ Menu display
+Photo Red Still-1 JPEG/HEIF quality                                            
+Photo Red Still-1 Img type/size                                                
+Photo Red Still-1 Cropping/aspect ratio                                        
+Photo Red Still-2 Expo. comp. / AEB                                            
+Photo Red Still-2 ISO speed settings                                           
+Photo Red Still-2 Anti-flicker shoot.                                          
+Photo Red Still-2 HF anti-flicker shooting                                     
+Photo Red Still-2 External Speedlite control                                   
+Photo Red Still-2 Metering mode                                                
+Photo Red Still-2 Detect priority AE while AF                                  
+Photo Red Still-3 Picture Style                                                
+Photo Red Still-3 Color space                                                  
+Photo Red Still-3 Clarity                                                      
+Photo Red Still-3 HDR shooting (PQ)                                            
+Photo Red Still-3 Auto Lighting Optimizer                                      
+Photo Red Still-3 Hightlight tone priority                                     
+Photo Red Still-4 White balance                                                
+Photo Red Still-4 Set Custom WB                                                
+Photo Red Still-4 WB Shift/Brk.                                                
+Photo Red Still-4 Lens aberration correction                                   
+Photo Red Still-4 Long exp. noise reduction                                    
+Photo Red Still-4 High ISO speed NR                                            
+Photo Red Still-4 Dust Delete Data                                             
+Photo Red Still-5 Multiple exposure                                            
+Photo Red Still-5 Focus bracketing                                             
+Photo Red Still-5 Panning Assist                                               
+Photo Red Still-6 Drive mode                                                   
+Photo Red Still-6 Pre-cont. shoot                                              
+Photo Red Still-6 Interval timer                                               
+Photo Red Still-6 Bulb timer                                                   
+Photo Red Still-6 Silent shutter function                                      
+Photo Red Still-6 Shutter mode                                                 
+Photo Red Still-6 Release shutter without card                                 
+Photo Red Still-7 IS (Image Stabilizer) mode                                   
+Photo Red Still-7 Customize Quick Controls                                     
+Photo Red Still-7 Metering timer                                               
+Photo Red Still-8 Image review                                                 
+Photo Red Still-8 High speed display                                           
+Photo Red Still-8 Blackout-free display                                        
+Photo Red Still-8 Viewfinder priority mode                                     
+Photo Red Still-8 Display simulation                                           
+Photo Red Still-8 OVF sim. view assist                                         
+Photo Red Still-8 HDR/C.Log View Assist.                                       
+Photo Red Still-9 Shooting info. disp.                                         
+Photo Red Still-9 Display frame rate set.                                      
+Photo Red Still-9 VF magnification                                             
+Photo Red Still-9 VF display format                                            
+Photo Red Still-9 Reverse display                                              
+Photo Red Still-9 Auto pwr off temp.                                           
+Photo Pink AF-1 AF operation                                                 
+Photo Pink AF-1 AF area                                                      
+Photo Pink AF-1 Whole area tracking Servo AF                                 
+Photo Pink AF-1 Focus mode                                                   
+Photo Pink AF-2 Subject to detect                                            
+Photo Pink AF-2 Eye detection                                                
+Photo Pink AF-2 Register people priority                                     
+Photo Pink AF-2 Action Priority                                              
+Photo Pink AF-3 AUTO                                                         
+Photo Pink AF-3 M                                                            
+Photo Pink AF-3 SP                                                           
+Photo Pink AF-4 Servo 1st image priority                                     
+Photo Pink AF-4 One-Shot AF release prior.                                   
+Photo Pink AF-4 Preview AF                                                   
+Photo Pink AF-4 Lens drive when AF impossible                                
+Photo Pink AF-4 AF-assist beam firing                                        
+Photo Pink AF-5 Limit AF areas                                               
+Photo Pink AF-5 Orientation linked AF point                                  
+Photo Pink AF-5 Limit subject to detect                                      
+Photo Pink AF-5 L/R eye detection                                            
+Photo Pink AF-6 MF peaking settings                                          
+Photo Pink AF-6 Focus guide                                                  
+Photo Pink AF-6 Lens electronic MF                                           
+Photo Pink AF-7 Register/recall AF-related settings                          
+Photo Pink AF-7 AF Setting Guide URL                                         
+Photo Blue Playback-1 Protect images                                               
+Photo Blue Playback-1 Erase images                                                 
+Photo Blue Playback-1 Rotate stills                                                
+Photo Blue Playback-1 Change mov rotate info                                       
+Photo Blue Playback-1 Rating                                                       
+Photo Blue Playback-1 Protect when setting the rating                              
+Photo Blue Playback-2 Still Image copy                                             
+Photo Blue Playback-2 Print order                                                  
+Photo Blue Playback-3 RAW image processing                                         
+Photo Blue Playback-3 In-Camera Upscaling                                          
+Photo Blue Playback-3 Resize                                                       
+Photo Blue Playback-3 Cropping                                                     
+Photo Blue Playback-3 HEIF -> JPEG conversion                                      
+Photo Blue Playback-4 Slide show                                                   
+Photo Blue Playback-4 Set image search conditions                                  
+Photo Blue Playback-4 View from last seen                                          
+Photo Blue Playback-4 Magnification                                                
+Photo Blue Playback-4 Blur/Out-of-Focus image detection                            
+Photo Blue Playback-5 Playback information                                         
+Photo Blue Playback-5 Highlight alert                                              
+Photo Blue Playback-5 AF point disp.                                               
+Photo Blue Playback-5 Playback grid                                                
+Photo Blue Playback-5 Movie play count                                             
+Photo Blue Playback-5 Memo audio quality                                           
+Photo Purple Comm-1 Network settings                                             
+Photo Purple Comm-1 Airplane mode                                                
+Photo Purple Comm-1 Bluetooth settings                                           
+Photo Purple Comm-1 Camera name                                                  
+Photo Purple Comm-1 Error details                                                
+Photo Purple Comm-1 MAC address                                                  
+Photo Purple Comm-2 Transfer images to FTP server                                
+Photo Purple Comm-2 Connect to EOS Utility                                       
+Photo Purple Comm-2 Upload to image.canon                                        
+Photo Purple Comm-2 Sync time between cameras                                    
+Photo Purple Comm-2 Connect to smartphoone(tablet)                               
+Photo Purple Comm-2 Live Streaming                                               
+Photo Purple Comm-2 Connect to Wireless Remote                                   
+Photo Purple Comm-3 Camera Control API                                           
+Photo Purple Comm-4 GPS settings                                                 
+Photo Purple Comm-4 Choose USB connection app                                    
+Photo Purple Comm-4 Save/load comm. settings on card                             
+Photo Purple Comm-4 Reset communication settings                                 
+Photo Yellow Setup-1 Record func+card/folder sel.                                 
+Photo Yellow Setup-1 File numbering                                               
+Photo Yellow Setup-1 Clip Number                                                  
+Photo Yellow Setup-1 File name                                                    
+Photo Yellow Setup-1 Format card                                                  
+Photo Yellow Setup-1 Auto rotate                                                  
+Photo Yellow Setup-1 Add movie rotate info                                        
+Photo Yellow Setup-2 Date/Time/Zone                                               
+Photo Yellow Setup-2 Language                                                     
+Photo Yellow Setup-2 System frequency                                             
+Photo Yellow Setup-2 Help text size                                               
+Photo Yellow Setup-2 Beep                                                         
+Photo Yellow Setup-2 Volume                                                       
+Photo Yellow Setup-2 Audio monitor                                                
+Photo Yellow Setup-3 Screen brightness                                            
+Photo Yellow Setup-3 Viewfinder brightness                                        
+Photo Yellow Setup-3 Screen/viewfinder color tone                                 
+Photo Yellow Setup-3 Fine-tune VF color tone                                      
+Photo Yellow Setup-3 Screen/viewfinder display                                    
+Photo Yellow Setup-3 UI magnification                                             
+Photo Yellow Setup-3 HDMI resolution                                              
+Photo Yellow Setup-4 Shutter at shutdown                                          
+Photo Yellow Setup-4 Sensor cleaning                                              
+Photo Yellow Setup-4 Manage password                                              
+Photo Yellow Setup-4 Power saving                                                 
+Photo Yellow Setup-5 Reset camera                                                 
+Photo Yellow Setup-5 Custom shooting mode (C1-C3)                                 
+Photo Yellow Setup-5 Save/load cam settings on card                               
+Photo Yellow Setup-6 Battery info.                                                
+Photo Yellow Setup-6 Copyright information                                        
+Photo Yellow Setup-6 System status display                                        
+Photo Yellow Setup-6 Show log                                                     
+Photo Yellow Setup-6 Manual/software URL                                          
+Photo Yellow Setup-6 Certification Logo Display                                   
+Photo Yellow Setup-6 Firmware                                                     
+Photo Green Control-1 Customize buttons for shooting                               
+Photo Green Control-1 Customize dials/control ring                                 
+Photo Green Control-1 Dials direction to set Tv/Av                                 
+Photo Green Control-1 Control ring direction to set Tv/Av                          
+Photo Green Control-1 Switch Main dial / Quick control 2 when shooting             
+Photo Green Control-2 Still photo shooting / movie recording switching movie/photo 
+Photo Green Control-2 Smart controller                                             
+Photo Green Control-2 Touch Shutter                                                
+Photo Green Control-2 Multi function lock                                          
+Photo Green Control-3 AF area selection control                                    
+Photo Green Control-3 Smart controler sensitivity- AF pt select                    
+Photo Green Control-3 Focus/control ring                                           
+Photo Green Control-3 Focus ring rotation                                          
+Photo Green Control-3 RF lens MF focus ring sensitivity                            
+Photo Green Control-4 Customize buttons for playback                               
+Photo Green Control-4 Image jump with main dial                                    
+Photo Green Control-4 Img jump v/Hold: Record memo button + Quick control 1        
+Photo Green Control-4 Switch Main dial / Quick control 2 during playback           
+Photo Green Control-5 Eye control                                                  
+Photo Green Control-5 Touch control                                                
+Photo Green Control-5 Clear all customized controls                                
+Photo Orange Custom-1 Restrict shooting modes                                      
+Photo Orange Custom-1 Exposure level increments                                    
+Photo Orange Custom-1 ISO speed setting increments                                 
+Photo Orange Custom-1 Speed from metering/ISO Auto                                 
+Photo Orange Custom-1 Bracketing auto cancel                                       
+Photo Orange Custom-1 Bracketing sequence                                          
+Photo Orange Custom-1 Number of bracketed shots                                    
+Photo Orange Custom-2 Safety shift                                                 
+Photo Orange Custom-2 Same expo. for new aperture                                  
+Photo Orange Custom-2 AE lock meter. mode after focus                              
+Photo Orange Custom-2 Restrict metering modes                                      
+Photo Orange Custom-2 Metering used in manual exp                                  
+Photo Orange Custom-2 Set shutter speed range                                      
+Photo Orange Custom-2 Set aperture range                                           
+Photo Orange Custom-3 AE Microadjustment                                           
+Photo Orange Custom-3 FE Microadjustment                                           
+Photo Orange Custom-4 Continuous shooting speed                                    
+Photo Orange Custom-4 Limit continuous shot count                                  
+Photo Orange Custom-4 Restrict drive modes                                         
+Photo Orange Custom-5 Add cropping information                                     
+Photo Orange Custom-5 Shutter release time lag                                     
+Photo Orange Custom-5 Default Erase option                                         
+Photo Orange Custom-5 Av setting without lens                                      
+Photo Orange Custom-5 Release shutter w/o lens                                     
+Photo Orange Custom-5 Retract lens on power off                                    
+Photo Orange Custom-5 Add IPTC information                                         
+Photo Orange Custom-6 Clear all Custom Func. (C.Fn)                                
+Photo Green Star-1 Add My Menu Tab                                              
+Photo Green Star-1 Delete all My Menu tabs                                      
+Photo Green Star-1 Delete all items                                             
+Photo Green Star-1 Menu display                                                 
+Movie Red Movie-1 Movie rec. size                                              
+Movie Red Movie-1 High Frame Rate                                              
+Movie Red Movie-1 Main rec. format                                             
+Movie Red Movie-1 Movie cropping                                               
+Movie Red Movie-1 Dual shooting (still&movie)                                  
+Movie Red Movie-2 Sound recording                                              
+Movie Red Movie-2 Audio format                                                 
+Movie Red Movie-2 Audio settings                                               
+Movie Red Movie-2 Audio Status                                                 
+Movie Red Movie-3 Exposure comp.                                               
+Movie Red Movie-3 ISO speed settings                                           
+Movie Red Movie-3 HF anti-flicker shooting                                     
+Movie Red Movie-3 Movie AV 1/8-stop incr.                                      
+Movie Red Movie-3 Movie Auto slow shutter                                      
+Movie Red Movie-3 Detect prioirty AE while AF                                  
+Movie Red Movie-4 Custom Picture                                               
+Movie Red Movie-4 Picture Style                                                
+Movie Red Movie-4 Clarity                                                      
+Movie Red Movie-4 HDR shooting (PQ)                                            
+Movie Red Movie-4 Auto Lighting Optimize                                       
+Movie Red Movie-4 Highlight tone priority                                      
+Movie Red Movie-5 White balance                                                
+Movie Red Movie-5 Set Custom WB                                                
+Movie Red Movie-5 WB correction                                                
+Movie Red Movie-5 Lens aberration correction                                   
+Movie Red Movie-5 High ISO speed NR                                            
+Movie Red Movie-6 Pre-recording set.                                           
+Movie Red Movie-7 Movie self-timer                                             
+Movie Red Movie-7 Tally lamp                                                   
+Movie Red Movie-7 IS (Image Stabilizer) mode                                   
+Movie Red Movie-7 Movie Auto level                                             
+Movie Red Movie-7 Customize Quick Controls                                     
+Movie Red Movie-7 Metering timer                                               
+Movie Red Movie-8 Metadata                                                     
+Movie Red Movie-8 Time code                                                    
+Movie Red Movie-8 Viewfinder priority mode                                     
+Movie Red Movie-8 HDR/C.Log View Assist.                                       
+Movie Red Movie-8 False color set.                                             
+Movie Red Movie-8 Zebra settings                                               
+Movie Red Movie-9 Shooting info. disp.                                         
+Movie Red Movie-9 Quick Ctrl screen                                            
+Movie Red Movie-9 VF magnification                                             
+Movie Red Movie-9 VF display format                                            
+Movie Red Movie-9 Reverse display                                              
+Movie Red Movie-10 Auto pwr off temp.                                           
+Movie Red Movie-10 Standby; Low res.                                            
+Movie Red Movie-10 Shutdown warning guidance                                    
+Movie Red Movie-10 HDMI display                                                 
+Movie Red Movie-10 HDMI RAW otuput                                              
+Movie Red Movie-10 HDMI output range for C. Log                                 
+Movie Pink AF-1 Movie Servo AF                                               
+Movie Pink AF-1 AF area                                                      
+Movie Pink AF-1 Focus mode                                                   
+Movie Pink AF-2 Subject to detect                                            
+Movie Pink AF-2 Eye detection                                                
+Movie Pink AF-2 Register people priority                                     
+Movie Pink AF-2 Switching tracked subjects                                   
+Movie Pink AF-3 Movie Servo AF speed                                         
+Movie Pink AF-3 Movie Servo AF track sens.                                   
+Movie Pink AF-4 Lens drive when AF impossible                                
+Movie Pink AF-5 Limit AF areas                                               
+Movie Pink AF-5 Limit subject to detect                                      
+Movie Pink AF-5 L/R eye detection                                            
+Movie Pink AF-6 MF peaking settings                                          
+Movie Pink AF-6 Focus guide                                                  
+Movie Pink AF-6 Lens electronic MF                                           
+Movie Blue Playback-1 Protect images                                               
+Movie Blue Playback-1 Erase images                                                 
+Movie Blue Playback-1 Rotate stills                                                
+Movie Blue Playback-1 Change mov rotate info                                       
+Movie Blue Playback-1 Rating                                                       
+Movie Blue Playback-1 Protect when setting the rating                              
+Movie Blue Playback-2 Still Image copy                                             
+Movie Blue Playback-2 Print order                                                  
+Movie Blue Playback-3 RAW image processing                                         
+Movie Blue Playback-3 In-Camera Upscaling                                          
+Movie Blue Playback-3 Resize                                                       
+Movie Blue Playback-3 Cropping                                                     
+Movie Blue Playback-3 HEIF -> JPEG conversion                                      
+Movie Blue Playback-4 Slide show                                                   
+Movie Blue Playback-4 Set image search conditions                                  
+Movie Blue Playback-4 View from last seen                                          
+Movie Blue Playback-4 Magnification                                                
+Movie Blue Playback-4 Blur/Out-of-Focus image detection                            
+Movie Blue Playback-5 Playback information                                         
+Movie Blue Playback-5 Highlight alert                                              
+Movie Blue Playback-5 AF point disp.                                               
+Movie Blue Playback-5 Playback grid                                                
+Movie Blue Playback-5 Movie play count                                             
+Movie Blue Playback-5 Memo audio quality                                           
+Movie Purple Comm-1 Network settings                                             
+Movie Purple Comm-1 Airplane mode                                                
+Movie Purple Comm-1 Bluetooth settings                                           
+Movie Purple Comm-1 Camera name                                                  
+Movie Purple Comm-1 Error details                                                
+Movie Purple Comm-1 MAC address                                                  
+Movie Purple Comm-2 Transfer images to FTP server                                
+Movie Purple Comm-2 Connect to EOS Utility                                       
+Movie Purple Comm-2 Upload to image.canon                                        
+Movie Purple Comm-2 Sync time between cameras                                    
+Movie Purple Comm-2 Connect to smartphoone(tablet)                               
+Movie Purple Comm-2 Live streaming                                               
+Movie Purple Comm-2 Connect to Wireless Remote                                   
+Movie Purple Comm-3 Xamera Control API                                           
+Movie Purple Comm-4 GPS settings                                                 
+Movie Purple Comm-4 Choose USB connection app                                    
+Movie Purple Comm-4 Save/load comm. settings on card                             
+Movie Purple Comm-4 Reset communication settings                                 
+Movie Yellow Setup-1 Record func+card/folder sel.                                 
+Movie Yellow Setup-1 File numbering                                               
+Movie Yellow Setup-1 Clip Number                                                  
+Movie Yellow Setup-1 File name                                                    
+Movie Yellow Setup-1 Format card                                                  
+Movie Yellow Setup-1 Auto rotate                                                  
+Movie Yellow Setup-1 Add movie rotate info                                        
+Movie Yellow Setup-2 Date/Time/Zone                                               
+Movie Yellow Setup-2 Language                                                     
+Movie Yellow Setup-2 System frequency                                             
+Movie Yellow Setup-2 Help text size                                               
+Movie Yellow Setup-2 Beep                                                         
+Movie Yellow Setup-2 Volume                                                       
+Movie Yellow Setup-2 Audio monitor                                                
+Movie Yellow Setup-3 Screen brightness                                            
+Movie Yellow Setup-3 Viewfinder brightness                                        
+Movie Yellow Setup-3 Screen/viewfinder color tone                                 
+Movie Yellow Setup-3 Fine-tune VF color tone                                      
+Movie Yellow Setup-3 Screen/viewfinder display                                    
+Movie Yellow Setup-3 UI magnification                                             
+Movie Yellow Setup-3 HDMI resolution                                              
+Movie Yellow Setup-4 Shutter at shutdown                                          
+Movie Yellow Setup-4 Sensor cleaning                                              
+Movie Yellow Setup-4 Manage password                                              
+Movie Yellow Setup-4 Power saving                                                 
+Movie Yellow Setup-5 Reset camera                                                 
+Movie Yellow Setup-5 Custom shooting mode (C1-C3)                                 
+Movie Yellow Setup-5 Save/load cam settings on card                               
+Movie Yellow Setup-6 Battery info.                                                
+Movie Yellow Setup-6 Copyright information                                        
+Movie Yellow Setup-6 System status display                                        
+Movie Yellow Setup-6 Show log                                                     
+Movie Yellow Setup-6 Manual/software URL                                          
+Movie Yellow Setup-6 Certification Logo Display                                   
+Movie Yellow Setup-6 Firmware                                                     
+Movie Green Control-1 Customize buttons for shooting                               
+Movie Green Control-1 Shutter btn function for movie                               
+Movie Green Control-1 Customize dials/control ring                                 
+Movie Green Control-1 Dials direction to set Tv/Av                                 
+Movie Green Control-1 Control ring direction to set Tv/Av                          
+Movie Green Control-1 Switch Main dial / Quick control 2 when shooting             
+Movie Green Control-2 Still photo shooting / movie recording switching movie/photo 
+Movie Green Control-2 Smart controller                                             
+Movie Green Control-2 Multi function lock                                          
+Movie Green Control-3 AF area selection control                                    
+Movie Green Control-3 Smart controler sensitivity- AF pt select                    
+Movie Green Control-3 Focus/control ring                                           
+Movie Green Control-3 Focus ring rotation                                          
+Movie Green Control-3 RF lens MF focus ring sensitivity                            
+Movie Green Control-4 Customize buttons for playback                               
+Movie Green Control-4 Image jump with main dial                                    
+Movie Green Control-4 Img jump v/Hold: Record memo button + Quick control 1        
+Movie Green Control-4 Switch Main dial / Quick control 2 during playback           
+Movie Green Control-5 Touch control                                                
+Movie Green Control-5 Clear all customized controls                                
+Movie Orange Custom-1 Restrict shooting modes                                      
+Movie Orange Custom-1 Exposure level increments                                    
+Movie Orange Custom-1 ISO speed setting increments                                 
+Movie Orange Custom-1 Speed from metering/ISO Auto                                 
+Movie Orange Custom-1 Bracketing auto cancel                                       
+Movie Orange Custom-1 Bracketing sequence                                          
+Movie Orange Custom-1 Number of bracketed shots                                    
+Movie Orange Custom-2 Safety shift                                                 
+Movie Orange Custom-2 Same expo. for new aperture                                  
+Movie Orange Custom-2 AE lock meter. mode after focus                              
+Movie Orange Custom-2 Restrict metering modes                                      
+Movie Orange Custom-2 Metering used in manual exp                                  
+Movie Orange Custom-2 Set shutter speed range                                      
+Movie Orange Custom-2 Set aperture range                                           
+Movie Orange Custom-3 AE Microadjustment                                           
+Movie Orange Custom-3 FE Microadjustment                                           
+Movie Orange Custom-4 Continuous shooting speed                                    
+Movie Orange Custom-4 Limit continuous shot count                                  
+Movie Orange Custom-4 Restrict drive modes                                         
+Movie Orange Custom-5 Add cropping information                                     
+Movie Orange Custom-5 Shutter release time lag                                     
+Movie Orange Custom-5 Default Erase option                                         
+Movie Orange Custom-5 Av setting without lens                                      
+Movie Orange Custom-5 Release shutter w/o lens                                     
+Movie Orange Custom-5 Retract lens on power off                                    
+Movie Orange Custom-5 Add IPTC information                                         
+Movie Orange Custom-6 Clear all Custom Func. (C.Fn)                                
+Movie Green Star-1 Add My Menu Tab                                              
+Movie Green Star-1 Delete all My Menu tabs                                      
+Movie Green Star-1 Delete all items                                             
+Movie Green Star-1 Menu display                                                 
